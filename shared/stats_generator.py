@@ -5,7 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT / "shared"))
-from utils import title_to_folder, normalize_tournament, normalize_pt_team, assign_team_ids
+from utils import title_to_folder, normalize_tournament, normalize_pt_team, assign_team_ids, load_team_ids
 
 
 def _load(name: str, path: Path):
@@ -43,13 +43,13 @@ _PAGE_STYLE = """
   </style>"""
 
 
-def _pt_content(data: dict) -> str:
-    return "\n\n".join(_pt.render_section(g, rows) for g, rows in data.items())
+def _pt_content(data: dict, team_url_map: dict | None = None) -> str:
+    return "\n\n".join(_pt.render_section(g, rows, team_url_map) for g, rows in data.items())
 
 
-def _sc_content(past: list[dict], upcoming: list[dict]) -> str:
-    list_html  = f'<div class="list-view">{_sc.render_table(past)}</div>'
-    cards_html = f'<div class="cards-view" style="display:none">{_sc.render_cards_grid(past)}</div>'
+def _sc_content(past: list[dict], upcoming: list[dict], show_tournament: bool = False, team_url_map: dict | None = None, tourn_url_prefix: str | None = None) -> str:
+    list_html  = f'<div class="list-view">{_sc.render_table(past, show_tournament, team_url_map, tourn_url_prefix)}</div>'
+    cards_html = f'<div class="cards-view" style="display:none">{_sc.render_cards_grid(past, show_tournament, team_url_map, tourn_url_prefix)}</div>'
     past_section = (
         f'<div class="match-section">\n'
         f'  <h2 class="sc-subtitle">Past Matches</h2>\n'
@@ -57,8 +57,8 @@ def _sc_content(past: list[dict], upcoming: list[dict]) -> str:
         f'  {cards_html}\n'
         f'</div>'
     )
-    up_list  = f'<div class="list-view">{_sc.render_upcoming_table(upcoming)}</div>'
-    up_cards = f'<div class="cards-view" style="display:none">{_sc.render_upcoming_cards_grid(upcoming)}</div>'
+    up_list  = f'<div class="list-view">{_sc.render_upcoming_table(upcoming, show_tournament, team_url_map, tourn_url_prefix)}</div>'
+    up_cards = f'<div class="cards-view" style="display:none">{_sc.render_upcoming_cards_grid(upcoming, show_tournament, team_url_map, tourn_url_prefix)}</div>'
     upcoming_section = (
         f'<div class="match-section">\n'
         f'  <h2 class="sc-subtitle">Upcoming Matches</h2>\n'
@@ -102,6 +102,7 @@ def generate_stats(
     sc_upcoming_by_name = _sc.group_by_tournament([{**m, "tournament": normalize_tournament(m["tournament"])} for m in sc_upcoming]) if sc_upcoming else {}
 
     all_names = sorted(set(pt_by_name) | set(sc_by_name) | set(sc_upcoming_by_name))
+    tmap = _team_url_map("teams/")
 
     options = "\n".join(
         f'      <option value="{title_to_folder(t)}">{t}</option>'
@@ -114,13 +115,13 @@ def generate_stats(
         if name in pt_by_name:
             pt_sections.append(
                 f'  <section class="pt-section" id="pt-{slug}" style="display:none">\n'
-                f'    {_pt_content(pt_by_name[name])}\n'
+                f'    {_pt_content(pt_by_name[name], tmap)}\n'
                 f'  </section>'
             )
         if name in sc_by_name or name in sc_upcoming_by_name:
             sc_sections.append(
                 f'  <section class="sc-section" id="sc-{slug}" style="display:none">\n'
-                f'    {_sc_content(sc_by_name.get(name, []), sc_upcoming_by_name.get(name, []))}\n'
+                f'    {_sc_content(sc_by_name.get(name, []), sc_upcoming_by_name.get(name, []), team_url_map=tmap)}\n'
                 f'  </section>'
             )
 
@@ -168,6 +169,7 @@ def generate_per_tournament_stats(
     pt_by_name = {normalize_tournament(t): d for t, d in pt_tournaments}
     sc_by_name = _sc.group_by_tournament([{**m, "tournament": normalize_tournament(m["tournament"])} for m in sc_matches])
     all_names = sorted(set(pt_by_name) | set(sc_by_name) | set(sc_upcoming_by_name))
+    tmap = _team_url_map("../teams/")
 
     out_paths = []
     for name in all_names:
@@ -188,7 +190,7 @@ def generate_per_tournament_stats(
             tab_btns.append(f'<button class="tab-btn {active}" data-tab="points-table">Points Table</button>')
             tab_contents.append(
                 f'  <div class="tab-content {active}" id="tab-points-table">\n'
-                f'    {_pt_content(pt_by_name[name])}\n'
+                f'    {_pt_content(pt_by_name[name], tmap)}\n'
                 f'  </div>'
             )
 
@@ -197,7 +199,7 @@ def generate_per_tournament_stats(
             tab_btns.append(f'<button class="tab-btn {active}" data-tab="scorecards">Matches</button>')
             tab_contents.append(
                 f'  <div class="tab-content {active}" id="tab-scorecards">\n'
-                f'    {_sc_content(sc_by_name.get(name, []), sc_upcoming_by_name.get(name, []))}\n'
+                f'    {_sc_content(sc_by_name.get(name, []), sc_upcoming_by_name.get(name, []), team_url_map=tmap)}\n'
                 f'  </div>'
             )
 
@@ -206,7 +208,7 @@ def generate_per_tournament_stats(
             if show_tabs else ""
         )
 
-        body = f'  <h1>{name}</h1>\n{tabs_html}{"".join(tab_contents)}'
+        body = f'  <a href="../index.html" class="season-link">&larr; Season 2026</a>\n  <h1>{name}</h1>\n{tabs_html}{"".join(tab_contents)}'
         html = _html_page(name, body, "../assets/style.css", "../assets/script.js")
 
         out_path = Path(out_dir) / slug / "stats.html"
@@ -219,6 +221,12 @@ def generate_per_tournament_stats(
 
 
 _TEAMS_TSV = ROOT / "data" / "teams.tsv"
+
+
+def _team_url_map(prefix: str) -> dict:
+    """Build {team_name_lower: relative_url} with the given path prefix."""
+    ids = load_team_ids(_TEAMS_TSV)
+    return {name.lower(): f"{prefix}{tid}/index.html" for name, tid in ids.items()}
 
 
 def generate_per_team_stats(
@@ -242,6 +250,7 @@ def generate_per_team_stats(
         teams.update(filter(None, [m.get("home_team", ""), m.get("away_team", "")]))
 
     team_ids = assign_team_ids(sorted(t for t in teams if t.strip()), _TEAMS_TSV)
+    tmap = _team_url_map("../")
 
     out_paths = []
     for team in sorted(teams):
@@ -279,14 +288,14 @@ def generate_per_team_stats(
             tab_btns.append(f'<button class="tab-btn {active}" data-tab="scorecards">Matches</button>')
             tab_contents.append(
                 f'  <div class="tab-content {active}" id="tab-scorecards">\n'
-                f'    {_sc_content(team_past, team_upcoming)}\n'
+                f'    {_sc_content(team_past, team_upcoming, show_tournament=True, team_url_map=tmap, tourn_url_prefix="../../")}\n'
                 f'  </div>'
             )
 
         if has_pt:
             active = "active" if first else ""
             pt_html = "\n\n".join(
-                f'<h2 class="sc-subtitle">{name}</h2>\n{_pt_content(groups)}'
+                f'<h2 class="sc-subtitle">{name}</h2>\n{_pt_content(groups, tmap)}'
                 for name, groups in team_pt
             )
             tab_btns.append(f'<button class="tab-btn {active}" data-tab="points-table">Points Table</button>')
@@ -302,7 +311,7 @@ def generate_per_team_stats(
             if show_tabs else ""
         )
 
-        body = f'  <h1>{team}</h1>\n{tabs_html}{"".join(tab_contents)}'
+        body = f'  <a href="../../index.html" class="season-link">&larr; Season 2026</a>\n  <h1>{team}</h1>\n{tabs_html}{"".join(tab_contents)}'
         html = _html_page(team, body, "../../assets/style.css", "../../assets/script.js")
 
         out_path = Path(out_dir) / "teams" / team_id / "index.html"

@@ -68,6 +68,17 @@ Past vs upcoming is determined automatically: a schedule entry is **past** once 
 
 Drop new scorecard PDFs into `data/scorecards/<tournament>/` and re-run `python3 build.py`. Matched schedule entries move from Upcoming to Past automatically.
 
+## Deploy to GitHub Pages
+
+```bash
+python3 build.py    # generate output/
+python3 deploy.py   # push output/ → gh-pages branch
+```
+
+First time only — enable Pages in GitHub: Settings → Pages → Branch: `gh-pages`, folder: `/ (root)`.
+
+Site URL: `https://<you>.github.io/swiss-cricket-stats/2026/`
+
 ## Tests
 
 Run after every build:

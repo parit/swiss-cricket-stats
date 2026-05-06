@@ -144,6 +144,25 @@ def test_per_tournament_pages_exist_for_all_dropdown_options():
         assert page.exists(), f"Missing per-tournament page: output/{slug}/stats.html"
 
 
+def test_per_tournament_has_season_back_link():
+    """Per-tournament pages must have a ← Season 2026 link pointing to ../index.html."""
+    html = _read(COMBINED)
+    for slug in _option_values(html):
+        page_html = _read(OUTPUT / slug / "stats.html")
+        assert 'href="../index.html"' in page_html, \
+            f"{slug}: missing season back-link (../index.html)"
+
+
+def test_per_tournament_team_names_are_links():
+    """Team names in per-tournament pages must be <a class=team-link> elements."""
+    html = _read(COMBINED)
+    for slug in _option_values(html):
+        page_html = _read(OUTPUT / slug / "stats.html")
+        if '<tr>' in page_html:  # has PT or SC table rows
+            assert 'class="team-link"' in page_html, \
+                f"{slug}: no team-link found"
+
+
 def test_per_tournament_correct_asset_paths():
     """Per-tournament pages sit one level inside output/ → must use ../assets/."""
     html = _read(COMBINED)
@@ -253,6 +272,40 @@ def test_per_tournament_past_and_upcoming_counts():
 # ---------------------------------------------------------------------------
 # 4. Per-team pages — structure
 # ---------------------------------------------------------------------------
+
+def test_per_team_has_season_back_link():
+    """Per-team pages must have a ← Season 2026 link pointing to ../../index.html."""
+    for name, tid in _load_teams().items():
+        page = OUTPUT / "teams" / tid / "index.html"
+        if not page.exists():
+            continue
+        assert 'href="../../index.html"' in page.read_text(), \
+            f"Team {tid} ({name}): missing season back-link (../../index.html)"
+
+
+def test_per_team_pages_have_team_links():
+    """Team pages must contain <a class=team-link> elements (opponent names are links)."""
+    for name, tid in _load_teams().items():
+        page = OUTPUT / "teams" / tid / "index.html"
+        if not page.exists():
+            continue
+        html = page.read_text()
+        if 'data-teams=' in html:
+            assert 'class="team-link"' in html, \
+                f"Team {tid} ({name}): has match rows but no team-link"
+
+
+def test_per_team_pages_have_tournament_pill_links():
+    """Team pages must have <a class=tourn-pill> linking to tournament pages."""
+    for name, tid in _load_teams().items():
+        page = OUTPUT / "teams" / tid / "index.html"
+        if not page.exists():
+            continue
+        html = page.read_text()
+        if 'tourn-pill' in html:
+            assert 'href="../../' in html and 'stats.html' in html, \
+                f"Team {tid} ({name}): tourn-pill not a valid link"
+
 
 def test_per_team_pages_exist_for_all_registered_teams():
     """Every team in teams.tsv must have output/teams/<id>/index.html."""

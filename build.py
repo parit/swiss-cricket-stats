@@ -25,6 +25,7 @@ def _copy_assets():
     print(f"[build] Assets → {dest.relative_to(ROOT)}")
 
 
+
 def _cleanup_old_files():
     import shutil
     removed = []
