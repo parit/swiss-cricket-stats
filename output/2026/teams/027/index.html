@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GENEVA CC</title>
+  <link rel="stylesheet" href="../../assets/style.css">
+
+  <style>
+    .stats-selector { margin-bottom: 20px; }
+    .stats-selector label { font-weight: 600; margin-right: 8px; font-size: 0.9rem; }
+    .stats-selector select {
+      padding: 8px 12px; font-size: 0.9rem;
+      border: 1px solid #ccc; border-radius: 4px;
+      background: #fff; cursor: pointer; min-width: 280px;
+    }
+  </style>
+</head>
+<body>
+  <h1>GENEVA CC</h1>
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="scorecards">Matches</button><button class="tab-btn " data-tab="points-table">Points Table</button>
+  </div>
+  <div class="tab-content active" id="tab-scorecards">
+    <div class="sc-controls"><div class="view-toggle"><button class="view-btn active" data-view="list">List</button><button class="view-btn" data-view="cards">Cards</button></div><div class="team-filter"><label>Team:</label><select class="sc-team-filter"><option value="">All teams</option></select></div></div>
+<div class="match-section">
+  <h2 class="sc-subtitle">Past Matches</h2>
+  <div class="list-view"><table class="scorecards-table">
+  <thead><tr><th>Date</th><th>Ground</th><th>Batting 1st</th><th>Score</th><th>Batting 2nd</th><th>Score</th><th>Result</th></tr></thead>
+  <tbody>
+<tr data-teams="GENEVA CC|Basel Afghan CC"><td class="dt">18 Apr 2026</td><td>Bout-du-monde, Geneva (Switzerland)</td><td class="team">GENEVA CC</td><td class="score">209/5 (20.0 Ov)</td><td class="team">Basel Afghan CC</td><td class="score">105/10 (10.4 Ov)</td><td class="result">GENEVA CC won by 104 runs</td></tr>
+  </tbody>
+</table></div>
+  <div class="cards-view" style="display:none"><div class="cards-grid">
+<div class="match-card" data-teams="GENEVA CC|Basel Afghan CC"><div class="card-meta"><span>Bout-du-monde, Geneva (Switzerland) &middot; 18 Apr 2026</span><span class="card-badge">Past</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">GENEVA CC</span><span class="card-score winner">209/5 (20.0 Ov)</span></div><div class="card-team-row"><span class="card-team">Basel Afghan CC</span><span class="card-score">105/10 (10.4 Ov)</span></div></div><div class="card-result">GENEVA CC won by 104 runs</div></div>
+</div></div>
+</div>
+<div class="match-section">
+  <h2 class="sc-subtitle">Upcoming Matches</h2>
+  <div class="list-view"><table class="scorecards-table">
+  <thead><tr><th>Date</th><th>Ground</th><th>Team 1</th><th>Team 2</th></tr></thead>
+  <tbody>
+<tr data-teams="Geneva CC|Cossonay CC"><td class="dt">9 May 2026 <span class="match-time">15:30</span></td><td>Bout-du-monde, Geneva (Switzerland)</td><td class="team">Geneva CC</td><td class="team">Cossonay CC</td></tr>
+<tr data-teams="Basel CC|Geneva CC"><td class="dt">10 May 2026 <span class="match-time">11:30</span></td><td>Bachgraben, Basel</td><td class="team">Basel CC</td><td class="team">Geneva CC</td></tr>
+<tr data-teams="Swiss Afghan CC|Geneva CC"><td class="dt">17 May 2026 <span class="match-time">12:00</span></td><td>Bout-du-monde, Geneva (Switzerland)</td><td class="team">Swiss Afghan CC</td><td class="team">Geneva CC</td></tr>
+<tr data-teams="Geneva CC|St. Gallen"><td class="dt">30 May 2026 <span class="match-time">16:00</span></td><td>Bout-du-monde, Geneva (Switzerland)</td><td class="team">Geneva CC</td><td class="team">St. Gallen</td></tr>
+<tr data-teams="Winterthur CC|Geneva CC"><td class="dt">14 Jun 2026 <span class="match-time">15:00</span></td><td>Deutweg, Winterthur</td><td class="team">Winterthur CC</td><td class="team">Geneva CC</td></tr>
+<tr data-teams="Geneva CC|Cossonay CC"><td class="dt">21 Jun 2026 <span class="match-time">11:30</span></td><td>En Marche, Cossonay</td><td class="team">Geneva CC</td><td class="team">Cossonay CC</td></tr>
+<tr data-teams="Geneva CC|Olten CC"><td class="dt">28 Jun 2026 <span class="match-time">11:30</span></td><td>Bout-du-monde, Geneva (Switzerland)</td><td class="team">Geneva CC</td><td class="team">Olten CC</td></tr>
+<tr data-teams="Geneva CC|Nomads-Embrach Cricket Academy"><td class="dt">5 Jul 2026 <span class="match-time">11:30</span></td><td>Bout-du-monde, Geneva (Switzerland)</td><td class="team">Geneva CC</td><td class="team">Nomads-Embrach Cricket Academy</td></tr>
+<tr data-teams="ZURICH NOMADS|Geneva CC"><td class="dt">2 Aug 2026 <span class="match-time">14:00</span></td><td>Embrach Cricket Ground, Zurich</td><td class="team">ZURICH NOMADS</td><td class="team">Geneva CC</td></tr>
+<tr data-teams="Basel CC|Geneva CC"><td class="dt">9 Aug 2026 <span class="match-time">14:00</span></td><td>Bachgraben, Basel</td><td class="team">Basel CC</td><td class="team">Geneva CC</td></tr>
+<tr data-teams="ZURICH NOMADS|Geneva CC"><td class="dt">16 Aug 2026 <span class="match-time">11:30</span></td><td>Embrach Cricket Ground, Zurich</td><td class="team">ZURICH NOMADS</td><td class="team">Geneva CC</td></tr>
+<tr data-teams="Zurich Lions CC|Geneva CC"><td class="dt">30 Aug 2026 <span class="match-time">11:00</span></td><td>Pfaffikon, Zurich</td><td class="team">Zurich Lions CC</td><td class="team">Geneva CC</td></tr>
+<tr data-teams="Geneva CC|Zurich Crickets CC-1"><td class="dt">27 Sep 2026 <span class="match-time">11:30</span></td><td>Bout-du-monde, Geneva (Switzerland)</td><td class="team">Geneva CC</td><td class="team">Zurich Crickets CC-1</td></tr>
+  </tbody>
+</table></div>
+  <div class="cards-view" style="display:none"><div class="cards-grid">
+<div class="match-card" data-teams="Geneva CC|Cossonay CC"><div class="card-meta"><span>Bout-du-monde, Geneva (Switzerland) &middot; 9 May 2026 &middot; 15:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Geneva CC</span></div><div class="card-team-row"><span class="card-team">Cossonay CC</span></div></div></div>
+<div class="match-card" data-teams="Basel CC|Geneva CC"><div class="card-meta"><span>Bachgraben, Basel &middot; 10 May 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Basel CC</span></div><div class="card-team-row"><span class="card-team">Geneva CC</span></div></div></div>
+<div class="match-card" data-teams="Swiss Afghan CC|Geneva CC"><div class="card-meta"><span>Bout-du-monde, Geneva (Switzerland) &middot; 17 May 2026 &middot; 12:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Swiss Afghan CC</span></div><div class="card-team-row"><span class="card-team">Geneva CC</span></div></div></div>
+<div class="match-card" data-teams="Geneva CC|St. Gallen"><div class="card-meta"><span>Bout-du-monde, Geneva (Switzerland) &middot; 30 May 2026 &middot; 16:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Geneva CC</span></div><div class="card-team-row"><span class="card-team">St. Gallen</span></div></div></div>
+<div class="match-card" data-teams="Winterthur CC|Geneva CC"><div class="card-meta"><span>Deutweg, Winterthur &middot; 14 Jun 2026 &middot; 15:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Winterthur CC</span></div><div class="card-team-row"><span class="card-team">Geneva CC</span></div></div></div>
+<div class="match-card" data-teams="Geneva CC|Cossonay CC"><div class="card-meta"><span>En Marche, Cossonay &middot; 21 Jun 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Geneva CC</span></div><div class="card-team-row"><span class="card-team">Cossonay CC</span></div></div></div>
+<div class="match-card" data-teams="Geneva CC|Olten CC"><div class="card-meta"><span>Bout-du-monde, Geneva (Switzerland) &middot; 28 Jun 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Geneva CC</span></div><div class="card-team-row"><span class="card-team">Olten CC</span></div></div></div>
+<div class="match-card" data-teams="Geneva CC|Nomads-Embrach Cricket Academy"><div class="card-meta"><span>Bout-du-monde, Geneva (Switzerland) &middot; 5 Jul 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Geneva CC</span></div><div class="card-team-row"><span class="card-team">Nomads-Embrach Cricket Academy</span></div></div></div>
+<div class="match-card" data-teams="ZURICH NOMADS|Geneva CC"><div class="card-meta"><span>Embrach Cricket Ground, Zurich &middot; 2 Aug 2026 &middot; 14:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">ZURICH NOMADS</span></div><div class="card-team-row"><span class="card-team">Geneva CC</span></div></div></div>
+<div class="match-card" data-teams="Basel CC|Geneva CC"><div class="card-meta"><span>Bachgraben, Basel &middot; 9 Aug 2026 &middot; 14:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Basel CC</span></div><div class="card-team-row"><span class="card-team">Geneva CC</span></div></div></div>
+<div class="match-card" data-teams="ZURICH NOMADS|Geneva CC"><div class="card-meta"><span>Embrach Cricket Ground, Zurich &middot; 16 Aug 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">ZURICH NOMADS</span></div><div class="card-team-row"><span class="card-team">Geneva CC</span></div></div></div>
+<div class="match-card" data-teams="Zurich Lions CC|Geneva CC"><div class="card-meta"><span>Pfaffikon, Zurich &middot; 30 Aug 2026 &middot; 11:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Zurich Lions CC</span></div><div class="card-team-row"><span class="card-team">Geneva CC</span></div></div></div>
+<div class="match-card" data-teams="Geneva CC|Zurich Crickets CC-1"><div class="card-meta"><span>Bout-du-monde, Geneva (Switzerland) &middot; 27 Sep 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Geneva CC</span></div><div class="card-team-row"><span class="card-team">Zurich Crickets CC-1</span></div></div></div>
+</div></div>
+</div>
+  </div>  <div class="tab-content " id="tab-points-table">
+    <h2 class="sc-subtitle">CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026</h2>
+<section>
+  <h2>Group A (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">Basel Cricket Club</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">COSSONAY CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">GENEVA CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Nomads Embrach</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>()</td><td>0</td></tr>
+    <tr><td class="team">Olten CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Swiss Afghan CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Zurich Crickets CC 1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Zurich Lions CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>()</td><td>0</td></tr>
+    <tr><td class="team">ZURICH NOMADS</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+
+<h2 class="sc-subtitle">PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026</h2>
+<section>
+  <h2>Group A (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">ZURICH NOMADS</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">6.250</td><td>10</td></tr>
+    <tr><td class="team">GENEVA CC</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">5.200</td><td>10</td></tr>
+    <tr><td class="team">Basel Cricket Club</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">1.800</td><td>10</td></tr>
+    <tr><td class="team">COSSONAY CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">St Gallen CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Winterthur CC</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td class="neg">-4.025</td><td>0</td></tr>
+    <tr><td class="team">Basel Afghan CC</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-5.200</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+
+<section>
+  <h2>Group B (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">Olten CC</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">4.750</td><td>10</td></tr>
+    <tr><td class="team">Aargau Avengers</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-2.275</td><td>10</td></tr>
+    <tr><td class="team">Zurich Lions CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Power WCC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Nomads Embrach</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Zurich Crickets CC 1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Swiss Afghan CC</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-0.200</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+  </div>
+  <script src="../../assets/script.js"></script>
+</body>
+</html>

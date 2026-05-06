@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berne CC</title>
+  <link rel="stylesheet" href="../../assets/style.css">
+
+  <style>
+    .stats-selector { margin-bottom: 20px; }
+    .stats-selector label { font-weight: 600; margin-right: 8px; font-size: 0.9rem; }
+    .stats-selector select {
+      padding: 8px 12px; font-size: 0.9rem;
+      border: 1px solid #ccc; border-radius: 4px;
+      background: #fff; cursor: pointer; min-width: 280px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Berne CC</h1>
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="scorecards">Matches</button><button class="tab-btn " data-tab="points-table">Points Table</button>
+  </div>
+  <div class="tab-content active" id="tab-scorecards">
+    <div class="sc-controls"><div class="view-toggle"><button class="view-btn active" data-view="list">List</button><button class="view-btn" data-view="cards">Cards</button></div><div class="team-filter"><label>Team:</label><select class="sc-team-filter"><option value="">All teams</option></select></div></div>
+<div class="match-section">
+  <h2 class="sc-subtitle">Past Matches</h2>
+  <div class="list-view"><table class="scorecards-table">
+  <thead><tr><th>Date</th><th>Ground</th><th>Batting 1st</th><th>Score</th><th>Batting 2nd</th><th>Score</th><th>Result</th></tr></thead>
+  <tbody>
+<tr data-teams="Aargau Crazy Cricketers|Berne CC"><td class="dt">26 Apr 2026</td><td>Schnau, Bern</td><td class="team">Aargau Crazy Cricketers</td><td class="score">67/8 (16.0 Ov)</td><td class="team">Berne CC</td><td class="score">69/1 (7.1 Ov)</td><td class="result">Berne CC won by 9 wickets</td></tr>
+  </tbody>
+</table></div>
+  <div class="cards-view" style="display:none"><div class="cards-grid">
+<div class="match-card" data-teams="Aargau Crazy Cricketers|Berne CC"><div class="card-meta"><span>Schnau, Bern &middot; 26 Apr 2026</span><span class="card-badge">Past</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Aargau Crazy Cricketers</span><span class="card-score">67/8 (16.0 Ov)</span></div><div class="card-team-row"><span class="card-team">Berne CC</span><span class="card-score winner">69/1 (7.1 Ov)</span></div></div><div class="card-result">Berne CC won by 9 wickets</div></div>
+</div></div>
+</div>
+<div class="match-section">
+  <h2 class="sc-subtitle">Upcoming Matches</h2>
+  <div class="list-view"><table class="scorecards-table">
+  <thead><tr><th>Date</th><th>Ground</th><th>Team 1</th><th>Team 2</th></tr></thead>
+  <tbody>
+<tr data-teams="Berne CC|Basel CC Colts"><td class="dt">10 May 2026 <span class="match-time">11:00</span></td><td>Schonau, Bern</td><td class="team">Berne CC</td><td class="team">Basel CC Colts</td></tr>
+<tr data-teams="Berne CC|Basel Dragons JCC"><td class="dt">10 May 2026 <span class="match-time">15:00</span></td><td>Schonau, Bern</td><td class="team">Berne CC</td><td class="team">Basel Dragons JCC</td></tr>
+<tr data-teams="Berne CC|Basel Afghan CC"><td class="dt">17 May 2026 <span class="match-time">11:00</span></td><td>Schonau, Bern</td><td class="team">Berne CC</td><td class="team">Basel Afghan CC</td></tr>
+<tr data-teams="Novartis CC|Berne CC"><td class="dt">24 May 2026 <span class="match-time">11:00</span></td><td>Bachgraben, Basel</td><td class="team">Novartis CC</td><td class="team">Berne CC</td></tr>
+<tr data-teams="Berne CC|Cricket Club Wettingen-2"><td class="dt">31 May 2026 <span class="match-time">12:00</span></td><td>Schonau, Bern</td><td class="team">Berne CC</td><td class="team">Cricket Club Wettingen-2</td></tr>
+<tr data-teams="A1 Sports Club|Berne CC"><td class="dt">31 May 2026 <span class="match-time">15:30</span></td><td>Schonau, Bern</td><td class="team">A1 Sports Club</td><td class="team">Berne CC</td></tr>
+<tr data-teams="Power Winterthur CC|Berne CC"><td class="dt">7 Jun 2026 <span class="match-time">11:00</span></td><td>Deutweg, Winterthur</td><td class="team">Power Winterthur CC</td><td class="team">Berne CC</td></tr>
+<tr data-teams="Berne CC|Zurich Mavericks Adliswil CC"><td class="dt">14 Jun 2026 <span class="match-time">11:00</span></td><td>Schonau, Bern</td><td class="team">Berne CC</td><td class="team">Zurich Mavericks Adliswil CC</td></tr>
+<tr data-teams="Berne CC|Geneva International CC"><td class="dt">21 Jun 2026 <span class="match-time">11:00</span></td><td>Schonau, Bern</td><td class="team">Berne CC</td><td class="team">Geneva International CC</td></tr>
+<tr data-teams="Winterthur CC|Berne CC"><td class="dt">5 Jul 2026 <span class="match-time">11:00</span></td><td>Deutweg, Winterthur</td><td class="team">Winterthur CC</td><td class="team">Berne CC</td></tr>
+<tr data-teams="Zug Cricket Club|Berne CC"><td class="dt">19 Jul 2026 <span class="match-time">11:30</span></td><td>Hedingen, Zurich</td><td class="team">Zug Cricket Club</td><td class="team">Berne CC</td></tr>
+<tr data-teams="Berne CC|Cern CC"><td class="dt">6 Sep 2026 <span class="match-time">11:00</span></td><td>Schonau, Bern</td><td class="team">Berne CC</td><td class="team">Cern CC</td></tr>
+<tr data-teams="CVZ|Berne CC"><td class="dt">4 Oct 2026 <span class="match-time">10:00</span></td><td>Hunnenberg, Zug</td><td class="team">CVZ</td><td class="team">Berne CC</td></tr>
+  </tbody>
+</table></div>
+  <div class="cards-view" style="display:none"><div class="cards-grid">
+<div class="match-card" data-teams="Berne CC|Basel CC Colts"><div class="card-meta"><span>Schonau, Bern &middot; 10 May 2026 &middot; 11:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Berne CC</span></div><div class="card-team-row"><span class="card-team">Basel CC Colts</span></div></div></div>
+<div class="match-card" data-teams="Berne CC|Basel Dragons JCC"><div class="card-meta"><span>Schonau, Bern &middot; 10 May 2026 &middot; 15:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Berne CC</span></div><div class="card-team-row"><span class="card-team">Basel Dragons JCC</span></div></div></div>
+<div class="match-card" data-teams="Berne CC|Basel Afghan CC"><div class="card-meta"><span>Schonau, Bern &middot; 17 May 2026 &middot; 11:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Berne CC</span></div><div class="card-team-row"><span class="card-team">Basel Afghan CC</span></div></div></div>
+<div class="match-card" data-teams="Novartis CC|Berne CC"><div class="card-meta"><span>Bachgraben, Basel &middot; 24 May 2026 &middot; 11:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Novartis CC</span></div><div class="card-team-row"><span class="card-team">Berne CC</span></div></div></div>
+<div class="match-card" data-teams="Berne CC|Cricket Club Wettingen-2"><div class="card-meta"><span>Schonau, Bern &middot; 31 May 2026 &middot; 12:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Berne CC</span></div><div class="card-team-row"><span class="card-team">Cricket Club Wettingen-2</span></div></div></div>
+<div class="match-card" data-teams="A1 Sports Club|Berne CC"><div class="card-meta"><span>Schonau, Bern &middot; 31 May 2026 &middot; 15:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">A1 Sports Club</span></div><div class="card-team-row"><span class="card-team">Berne CC</span></div></div></div>
+<div class="match-card" data-teams="Power Winterthur CC|Berne CC"><div class="card-meta"><span>Deutweg, Winterthur &middot; 7 Jun 2026 &middot; 11:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Power Winterthur CC</span></div><div class="card-team-row"><span class="card-team">Berne CC</span></div></div></div>
+<div class="match-card" data-teams="Berne CC|Zurich Mavericks Adliswil CC"><div class="card-meta"><span>Schonau, Bern &middot; 14 Jun 2026 &middot; 11:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Berne CC</span></div><div class="card-team-row"><span class="card-team">Zurich Mavericks Adliswil CC</span></div></div></div>
+<div class="match-card" data-teams="Berne CC|Geneva International CC"><div class="card-meta"><span>Schonau, Bern &middot; 21 Jun 2026 &middot; 11:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Berne CC</span></div><div class="card-team-row"><span class="card-team">Geneva International CC</span></div></div></div>
+<div class="match-card" data-teams="Winterthur CC|Berne CC"><div class="card-meta"><span>Deutweg, Winterthur &middot; 5 Jul 2026 &middot; 11:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Winterthur CC</span></div><div class="card-team-row"><span class="card-team">Berne CC</span></div></div></div>
+<div class="match-card" data-teams="Zug Cricket Club|Berne CC"><div class="card-meta"><span>Hedingen, Zurich &middot; 19 Jul 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Zug Cricket Club</span></div><div class="card-team-row"><span class="card-team">Berne CC</span></div></div></div>
+<div class="match-card" data-teams="Berne CC|Cern CC"><div class="card-meta"><span>Schonau, Bern &middot; 6 Sep 2026 &middot; 11:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Berne CC</span></div><div class="card-team-row"><span class="card-team">Cern CC</span></div></div></div>
+<div class="match-card" data-teams="CVZ|Berne CC"><div class="card-meta"><span>Hunnenberg, Zug &middot; 4 Oct 2026 &middot; 10:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">CVZ</span></div><div class="card-team-row"><span class="card-team">Berne CC</span></div></div></div>
+</div></div>
+</div>
+  </div>  <div class="tab-content " id="tab-points-table">
+    <h2 class="sc-subtitle">CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026</h2>
+<section>
+  <h2>Group A (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">Basel Afghan CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Berne CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">CERN CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">CVZ</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Geneva International CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Power WCC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Winterthur CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Zug Cricket Club</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Zurich Mavericks Adliswil CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+
+<h2 class="sc-subtitle">CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026</h2>
+<section>
+  <h2>Group A (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">Solothurn CC</td><td>3</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">1.914</td><td>30</td></tr>
+    <tr><td class="team">Olten Gosgen CC</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">18.250</td><td>10</td></tr>
+    <tr><td class="team">Basel Dragons JCC 2</td><td>4</td><td>1</td><td>3</td><td>0</td><td>0</td><td>0</td><td class="neg">-0.318</td><td>10</td></tr>
+    <tr><td class="team">Luzern Cricket Club</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-0.553</td><td>10</td></tr>
+    <tr><td class="team">CVZ</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-0.575</td><td>10</td></tr>
+    <tr><td class="team">Cricket Club Wettingen-1</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td class="neg">-1.000</td><td>0</td></tr>
+    <tr><td class="team">Sports Club Roche Cricket</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-18.250</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+
+<section>
+  <h2>Group B (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">At Sports Club</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">7.050</td><td>10</td></tr>
+    <tr><td class="team">Berne CC</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">6.278</td><td>10</td></tr>
+    <tr><td class="team">Basel Dragons JCC</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">2.050</td><td>10</td></tr>
+    <tr><td class="team">Novartis CC</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="pos">1.000</td><td>10</td></tr>
+    <tr><td class="team">Basel CC- Colts</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Aargau Crazy Cricketers</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td class="neg">-4.638</td><td>0</td></tr>
+    <tr><td class="team">Cricket Club Wettingen-2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-7.050</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+
+<section>
+  <h2>Group C (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">Zurich Mavericks Adliswil CC</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">6.425</td><td>20</td></tr>
+    <tr><td class="team">Zurich Crickets CC-2</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-3.940</td><td>10</td></tr>
+    <tr><td class="team">Zurich Super Lions CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Basel CC Juniors</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Nomads Falcons</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-0.378</td><td>0</td></tr>
+    <tr><td class="team">Pakhtoon Zalmi CC</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-4.700</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+
+<section>
+  <h2>Group D (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">Geneva XI Stars</td><td>3</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">3.835</td><td>30</td></tr>
+    <tr><td class="team">Geneva International CC-2</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-2.203</td><td>10</td></tr>
+    <tr><td class="team">Geneva CC-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">CERN CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Cossonay CC-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Geneva Eagles Cricket Club</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-0.650</td><td>0</td></tr>
+    <tr><td class="team">Geneva Sri Lanka CC</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-0.700</td><td>0</td></tr>
+    <tr><td class="team">Geneva International CC</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>-4,000</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+  </div>
+  <script src="../../assets/script.js"></script>
+</body>
+</html>

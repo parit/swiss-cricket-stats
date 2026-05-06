@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A1 Sports Club</title>
+  <link rel="stylesheet" href="../../assets/style.css">
+
+  <style>
+    .stats-selector { margin-bottom: 20px; }
+    .stats-selector label { font-weight: 600; margin-right: 8px; font-size: 0.9rem; }
+    .stats-selector select {
+      padding: 8px 12px; font-size: 0.9rem;
+      border: 1px solid #ccc; border-radius: 4px;
+      background: #fff; cursor: pointer; min-width: 280px;
+    }
+  </style>
+</head>
+<body>
+  <h1>A1 Sports Club</h1>
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="scorecards">Matches</button><button class="tab-btn " data-tab="points-table">Points Table</button>
+  </div>
+  <div class="tab-content active" id="tab-scorecards">
+    <div class="sc-controls"><div class="view-toggle"><button class="view-btn active" data-view="list">List</button><button class="view-btn" data-view="cards">Cards</button></div><div class="team-filter"><label>Team:</label><select class="sc-team-filter"><option value="">All teams</option></select></div></div>
+<div class="match-section">
+  <h2 class="sc-subtitle">Past Matches</h2>
+  <div class="list-view"><table class="scorecards-table">
+  <thead><tr><th>Date</th><th>Ground</th><th>Batting 1st</th><th>Score</th><th>Batting 2nd</th><th>Score</th><th>Result</th></tr></thead>
+  <tbody>
+<tr data-teams="A1 Sports Club|Novartis CC"><td class="dt">12 Apr 2026</td><td>Bachgraben, Basel</td><td class="team">A1 Sports Club</td><td class="score">102/10 (27.3 Ov)</td><td class="team">Novartis CC</td><td class="score">105/5 (24.4 Ov)</td><td class="result">Novartis CC won by 5 wickets</td></tr>
+<tr data-teams="A1 Sports Club|Cricket Club Wettingen-2"><td class="dt">3 May 2026</td><td>Kreuzzleg, Aargau</td><td class="team">A1 Sports Club</td><td class="score">202/5 (20.0 Ov)</td><td class="team">Cricket Club Wettingen-2</td><td class="score">61/10 (19.3 Ov)</td><td class="result">A1 Sports Club won by 141 runs</td></tr>
+  </tbody>
+</table></div>
+  <div class="cards-view" style="display:none"><div class="cards-grid">
+<div class="match-card" data-teams="A1 Sports Club|Novartis CC"><div class="card-meta"><span>Bachgraben, Basel &middot; 12 Apr 2026</span><span class="card-badge">Past</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">A1 Sports Club</span><span class="card-score">102/10 (27.3 Ov)</span></div><div class="card-team-row"><span class="card-team">Novartis CC</span><span class="card-score winner">105/5 (24.4 Ov)</span></div></div><div class="card-result">Novartis CC won by 5 wickets</div></div>
+<div class="match-card" data-teams="A1 Sports Club|Cricket Club Wettingen-2"><div class="card-meta"><span>Kreuzzleg, Aargau &middot; 3 May 2026</span><span class="card-badge">Past</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">A1 Sports Club</span><span class="card-score winner">202/5 (20.0 Ov)</span></div><div class="card-team-row"><span class="card-team">Cricket Club Wettingen-2</span><span class="card-score">61/10 (19.3 Ov)</span></div></div><div class="card-result">A1 Sports Club won by 141 runs</div></div>
+</div></div>
+</div>
+<div class="match-section">
+  <h2 class="sc-subtitle">Upcoming Matches</h2>
+  <div class="list-view"><table class="scorecards-table">
+  <thead><tr><th>Date</th><th>Ground</th><th>Team 1</th><th>Team 2</th></tr></thead>
+  <tbody>
+<tr data-teams="A1 Sports Club|Aargau Crazy Cricketers"><td class="dt">17 May 2026 <span class="match-time">10:30</span></td><td>Chopfli Athletic Field, Geneva</td><td class="team">A1 Sports Club</td><td class="team">Aargau Crazy Cricketers</td></tr>
+<tr data-teams="A1 Sports Club|Berne CC"><td class="dt">31 May 2026 <span class="match-time">15:30</span></td><td>Schonau, Bern</td><td class="team">A1 Sports Club</td><td class="team">Berne CC</td></tr>
+<tr data-teams="Basel Dragons JCC|A1 Sports Club"><td class="dt">6 Jun 2026 <span class="match-time">11:00</span></td><td>Baumlihof, Basel</td><td class="team">Basel Dragons JCC</td><td class="team">A1 Sports Club</td></tr>
+<tr data-teams="Geneva International CC-2|A1 Sports Club"><td class="dt">14 Jun 2026 <span class="match-time">12:00</span></td><td>Bout-du-monde, Geneva (Switzerland)</td><td class="team">Geneva International CC-2</td><td class="team">A1 Sports Club</td></tr>
+<tr data-teams="A1 Sports Club|Novartis CC"><td class="dt">21 Jun 2026 <span class="match-time">14:00</span></td><td>Bachgraben, Basel</td><td class="team">A1 Sports Club</td><td class="team">Novartis CC</td></tr>
+<tr data-teams="Basel CC Colts|A1 Sports Club"><td class="dt">28 Jun 2026 <span class="match-time">10:00</span></td><td>Bachgraben, Basel</td><td class="team">Basel CC Colts</td><td class="team">A1 Sports Club</td></tr>
+<tr data-teams="Geneva CC-2|A1 Sports Club"><td class="dt">26 Jul 2026 <span class="match-time">12:00</span></td><td>Bout-du-monde, Geneva (Switzerland)</td><td class="team">Geneva CC-2</td><td class="team">A1 Sports Club</td></tr>
+<tr data-teams="A1 Sports Club|Geneva Sri Lanka CC"><td class="dt">16 Aug 2026 <span class="match-time">11:30</span></td><td>Chopfli Athletic Field, Geneva</td><td class="team">A1 Sports Club</td><td class="team">Geneva Sri Lanka CC</td></tr>
+<tr data-teams="Geneva Eagles Cricket Club|A1 Sports Club"><td class="dt">23 Aug 2026 <span class="match-time">12:30</span></td><td>Unknown</td><td class="team">Geneva Eagles Cricket Club</td><td class="team">A1 Sports Club</td></tr>
+<tr data-teams="A1 Sports Club|Basel CC Colts"><td class="dt">6 Sep 2026 <span class="match-time">10:30</span></td><td>Chopfli Athletic Field, Geneva</td><td class="team">A1 Sports Club</td><td class="team">Basel CC Colts</td></tr>
+<tr data-teams="A1 Sports Club|Geneva XI Stars"><td class="dt">13 Sep 2026 <span class="match-time">11:30</span></td><td>Chopfli Athletic Field, Geneva</td><td class="team">A1 Sports Club</td><td class="team">Geneva XI Stars</td></tr>
+<tr data-teams="A1 Sports Club|Basel Dragons JCC"><td class="dt">20 Sep 2026 <span class="match-time">10:30</span></td><td>Baumlihof, Basel</td><td class="team">A1 Sports Club</td><td class="team">Basel Dragons JCC</td></tr>
+  </tbody>
+</table></div>
+  <div class="cards-view" style="display:none"><div class="cards-grid">
+<div class="match-card" data-teams="A1 Sports Club|Aargau Crazy Cricketers"><div class="card-meta"><span>Chopfli Athletic Field, Geneva &middot; 17 May 2026 &middot; 10:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">A1 Sports Club</span></div><div class="card-team-row"><span class="card-team">Aargau Crazy Cricketers</span></div></div></div>
+<div class="match-card" data-teams="A1 Sports Club|Berne CC"><div class="card-meta"><span>Schonau, Bern &middot; 31 May 2026 &middot; 15:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">A1 Sports Club</span></div><div class="card-team-row"><span class="card-team">Berne CC</span></div></div></div>
+<div class="match-card" data-teams="Basel Dragons JCC|A1 Sports Club"><div class="card-meta"><span>Baumlihof, Basel &middot; 6 Jun 2026 &middot; 11:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Basel Dragons JCC</span></div><div class="card-team-row"><span class="card-team">A1 Sports Club</span></div></div></div>
+<div class="match-card" data-teams="Geneva International CC-2|A1 Sports Club"><div class="card-meta"><span>Bout-du-monde, Geneva (Switzerland) &middot; 14 Jun 2026 &middot; 12:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Geneva International CC-2</span></div><div class="card-team-row"><span class="card-team">A1 Sports Club</span></div></div></div>
+<div class="match-card" data-teams="A1 Sports Club|Novartis CC"><div class="card-meta"><span>Bachgraben, Basel &middot; 21 Jun 2026 &middot; 14:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">A1 Sports Club</span></div><div class="card-team-row"><span class="card-team">Novartis CC</span></div></div></div>
+<div class="match-card" data-teams="Basel CC Colts|A1 Sports Club"><div class="card-meta"><span>Bachgraben, Basel &middot; 28 Jun 2026 &middot; 10:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Basel CC Colts</span></div><div class="card-team-row"><span class="card-team">A1 Sports Club</span></div></div></div>
+<div class="match-card" data-teams="Geneva CC-2|A1 Sports Club"><div class="card-meta"><span>Bout-du-monde, Geneva (Switzerland) &middot; 26 Jul 2026 &middot; 12:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Geneva CC-2</span></div><div class="card-team-row"><span class="card-team">A1 Sports Club</span></div></div></div>
+<div class="match-card" data-teams="A1 Sports Club|Geneva Sri Lanka CC"><div class="card-meta"><span>Chopfli Athletic Field, Geneva &middot; 16 Aug 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">A1 Sports Club</span></div><div class="card-team-row"><span class="card-team">Geneva Sri Lanka CC</span></div></div></div>
+<div class="match-card" data-teams="Geneva Eagles Cricket Club|A1 Sports Club"><div class="card-meta"><span>Unknown &middot; 23 Aug 2026 &middot; 12:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Geneva Eagles Cricket Club</span></div><div class="card-team-row"><span class="card-team">A1 Sports Club</span></div></div></div>
+<div class="match-card" data-teams="A1 Sports Club|Basel CC Colts"><div class="card-meta"><span>Chopfli Athletic Field, Geneva &middot; 6 Sep 2026 &middot; 10:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">A1 Sports Club</span></div><div class="card-team-row"><span class="card-team">Basel CC Colts</span></div></div></div>
+<div class="match-card" data-teams="A1 Sports Club|Geneva XI Stars"><div class="card-meta"><span>Chopfli Athletic Field, Geneva &middot; 13 Sep 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">A1 Sports Club</span></div><div class="card-team-row"><span class="card-team">Geneva XI Stars</span></div></div></div>
+<div class="match-card" data-teams="A1 Sports Club|Basel Dragons JCC"><div class="card-meta"><span>Baumlihof, Basel &middot; 20 Sep 2026 &middot; 10:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">A1 Sports Club</span></div><div class="card-team-row"><span class="card-team">Basel Dragons JCC</span></div></div></div>
+</div></div>
+</div>
+  </div>  <div class="tab-content " id="tab-points-table">
+    <h2 class="sc-subtitle">CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026</h2>
+<section>
+  <h2>Group A (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">Basel Dragons JCC</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">2.686</td><td>10</td></tr>
+    <tr><td class="team">Novartis CC</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">1.707</td><td>10</td></tr>
+    <tr><td class="team">Geneva CC-2</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="pos">0.631</td><td>10</td></tr>
+    <tr><td class="team">Basel CC- Colts</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-0.367</td><td>10</td></tr>
+    <tr><td class="team">Geneva International CC-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Geneva XI Stars</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Geneva Sri Lanka CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">A1 Sports Club</td><td>1</td><td>0</td><td>1</td><td>)</td><td>0</td><td>0</td><td class="neg">-1.707</td><td>0</td></tr>
+    <tr><td class="team">Geneva Eagles Cricket Club</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-2.500</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+
+<section>
+  <h2>Group B (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">Luzern Cricket Club</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">0.181</td><td>10</td></tr>
+    <tr><td class="team">Pakhtoon Zalmi CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Olten Gosgen CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Aargau Crazy Cricketers</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Zurich Super Lions CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Aargau Avengers</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Cricket Club Wettingen-1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Solothurn CC</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-0.181</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+
+<h2 class="sc-subtitle">CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026</h2>
+<section>
+  <h2>Group A (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">Solothurn CC</td><td>3</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">1.914</td><td>30</td></tr>
+    <tr><td class="team">Olten Gosgen CC</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">18.250</td><td>10</td></tr>
+    <tr><td class="team">Basel Dragons JCC 2</td><td>4</td><td>1</td><td>3</td><td>0</td><td>0</td><td>0</td><td class="neg">-0.318</td><td>10</td></tr>
+    <tr><td class="team">Luzern Cricket Club</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-0.553</td><td>10</td></tr>
+    <tr><td class="team">CVZ</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-0.575</td><td>10</td></tr>
+    <tr><td class="team">Cricket Club Wettingen-1</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td class="neg">-1.000</td><td>0</td></tr>
+    <tr><td class="team">Sports Club Roche Cricket</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-18.250</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+
+<section>
+  <h2>Group B (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">At Sports Club</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">7.050</td><td>10</td></tr>
+    <tr><td class="team">Berne CC</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">6.278</td><td>10</td></tr>
+    <tr><td class="team">Basel Dragons JCC</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">2.050</td><td>10</td></tr>
+    <tr><td class="team">Novartis CC</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="pos">1.000</td><td>10</td></tr>
+    <tr><td class="team">Basel CC- Colts</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Aargau Crazy Cricketers</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td class="neg">-4.638</td><td>0</td></tr>
+    <tr><td class="team">Cricket Club Wettingen-2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-7.050</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+
+<section>
+  <h2>Group C (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">Zurich Mavericks Adliswil CC</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">6.425</td><td>20</td></tr>
+    <tr><td class="team">Zurich Crickets CC-2</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-3.940</td><td>10</td></tr>
+    <tr><td class="team">Zurich Super Lions CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Basel CC Juniors</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Nomads Falcons</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-0.378</td><td>0</td></tr>
+    <tr><td class="team">Pakhtoon Zalmi CC</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-4.700</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+
+<section>
+  <h2>Group D (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">Geneva XI Stars</td><td>3</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">3.835</td><td>30</td></tr>
+    <tr><td class="team">Geneva International CC-2</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-2.203</td><td>10</td></tr>
+    <tr><td class="team">Geneva CC-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">CERN CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Cossonay CC-2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Geneva Eagles Cricket Club</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-0.650</td><td>0</td></tr>
+    <tr><td class="team">Geneva Sri Lanka CC</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-0.700</td><td>0</td></tr>
+    <tr><td class="team">Geneva International CC</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>-4,000</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+  </div>
+  <script src="../../assets/script.js"></script>
+</body>
+</html>

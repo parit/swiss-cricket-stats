@@ -1,0 +1,3152 @@
+[
+  {
+    "id": 1,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-04-04",
+    "time": "12:00",
+    "ground": "Deutweg, Winterthur",
+    "home_team": "Nomads-Embrach Cricket Academy",
+    "away_team": "Zurich Crickets U19"
+  },
+  {
+    "id": 2,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-04-11",
+    "time": "11:00",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons A U19",
+    "away_team": "Swiss Afghan U19"
+  },
+  {
+    "id": 3,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-04-12",
+    "time": "11:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Novartis CC",
+    "away_team": "A1 Sports Club"
+  },
+  {
+    "id": 4,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-04-12",
+    "time": "09:00",
+    "ground": "Luzern Cricket Ground, Luzern",
+    "home_team": "Solothurn CC",
+    "away_team": "Luzern Cricket Club"
+  },
+  {
+    "id": 5,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-04-12",
+    "time": "13:00",
+    "ground": "Luzern Cricket Ground, Luzern",
+    "home_team": "Luzern Cricket Club",
+    "away_team": "Basel Dragons JCC 2"
+  },
+  {
+    "id": 6,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-04-18",
+    "time": "12:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel CC Colts",
+    "away_team": "Geneva CC-2"
+  },
+  {
+    "id": 7,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-04-18",
+    "time": "16:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva CC",
+    "away_team": "Basel Afghan CC"
+  },
+  {
+    "id": 8,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-04-18",
+    "time": "14:00",
+    "ground": "Kantonsschule Solothurn, Solothurn",
+    "home_team": "Solothurn CC",
+    "away_team": "CVZ"
+  },
+  {
+    "id": 9,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-04-19",
+    "time": "14:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel CC",
+    "away_team": "Winterthur CC"
+  },
+  {
+    "id": 10,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-04-19",
+    "time": "11:00",
+    "ground": "Brugg, Aargau",
+    "home_team": "Aargau Avengers",
+    "away_team": "Swiss Afghan CC"
+  },
+  {
+    "id": 11,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-04-19",
+    "time": "14:00",
+    "ground": "Brugg, Aargau",
+    "home_team": "Aargau Crazy Cricketers",
+    "away_team": "Novartis CC"
+  },
+  {
+    "id": 12,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-04-25",
+    "time": "11:00",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons B U19",
+    "away_team": "CH U19 NATI"
+  },
+  {
+    "id": 13,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-04-26",
+    "time": "11:30",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel CC Colts",
+    "away_team": "Basel Dragons JCC"
+  },
+  {
+    "id": 14,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-04-26",
+    "time": "12:00",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons JCC 2",
+    "away_team": "Cricket Club Wettingen-1"
+  },
+  {
+    "id": 15,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-04-26",
+    "time": "12:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva CC-2",
+    "away_team": "Geneva Eagles Cricket Club"
+  },
+  {
+    "id": 16,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-04-26",
+    "time": "09:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Pakhtoon Zalmi CC",
+    "away_team": "Zurich Mavericks Adliswil CC"
+  },
+  {
+    "id": 17,
+    "tournament": "CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)",
+    "date": "2026-04-26",
+    "time": "12:30",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Embrach Thunder",
+    "away_team": "CVZ-Women"
+  },
+  {
+    "id": 18,
+    "tournament": "CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL T10)",
+    "date": "2026-04-26",
+    "time": "16:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Embrach Thunder",
+    "away_team": "CVZ-Women"
+  },
+  {
+    "id": 19,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-04-26",
+    "time": "10:00",
+    "ground": "Luzern Cricket Ground, Luzern",
+    "home_team": "Luzern Cricket Club",
+    "away_team": "Solothurn CC"
+  },
+  {
+    "id": 20,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-04-26",
+    "time": "12:00",
+    "ground": "Schonau, Bern",
+    "home_team": "Aargau Crazy Cricketers",
+    "away_team": "Berne CC"
+  },
+  {
+    "id": 21,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-01",
+    "time": "09:30",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Nomads Falcons",
+    "away_team": "Zurich Crickets CC-2"
+  },
+  {
+    "id": 22,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-05-01",
+    "time": "12:15",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Nomads-Embrach Cricket Academy",
+    "away_team": "CH U19 NATI"
+  },
+  {
+    "id": 23,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-02",
+    "time": "14:30",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons JCC 2",
+    "away_team": "Zug Cricket Club"
+  },
+  {
+    "id": 24,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-02",
+    "time": "10:00",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons JCC 2",
+    "away_team": "Solothurn CC"
+  },
+  {
+    "id": 25,
+    "tournament": "CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)",
+    "date": "2026-05-02",
+    "time": "10:00",
+    "ground": "Birsfelden, Basel",
+    "home_team": "CS Girls A1 Stars",
+    "away_team": "A1SC- Women"
+  },
+  {
+    "id": 26,
+    "tournament": "CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL T10)",
+    "date": "2026-05-02",
+    "time": "14:00",
+    "ground": "Birsfelden, Basel",
+    "home_team": "CS Girls A1 Stars",
+    "away_team": "A1SC- Women"
+  },
+  {
+    "id": 27,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-02",
+    "time": "15:30",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva Sri Lanka CC",
+    "away_team": "Geneva XI Stars"
+  },
+  {
+    "id": 28,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-02",
+    "time": "11:00",
+    "ground": "Obergosgen, Solothurn",
+    "home_team": "Olten Gosgen CC",
+    "away_team": "Sports Club Roche Cricket"
+  },
+  {
+    "id": 29,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-05-02",
+    "time": "15:00",
+    "ground": "Obergosgen, Solothurn",
+    "home_team": "Olten CC",
+    "away_team": "Aargau Avengers"
+  },
+  {
+    "id": 30,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-03",
+    "time": "11:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Novartis CC",
+    "away_team": "Basel Dragons JCC"
+  },
+  {
+    "id": 31,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-05-03",
+    "time": "11:00",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Nomads-Embrach Cricket Academy",
+    "away_team": "Basel Dragons B U19"
+  },
+  {
+    "id": 32,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-03",
+    "time": "09:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva International CC-2",
+    "away_team": "Geneva Eagles Cricket Club"
+  },
+  {
+    "id": 33,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-03",
+    "time": "12:15",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva International CC-2",
+    "away_team": "Geneva XI Stars"
+  },
+  {
+    "id": 34,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-03",
+    "time": "15:30",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva International CC",
+    "away_team": "Geneva XI Stars"
+  },
+  {
+    "id": 35,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-05-03",
+    "time": "12:00",
+    "ground": "Deutweg, Winterthur",
+    "home_team": "Winterthur CC",
+    "away_team": "ZURICH NOMADS"
+  },
+  {
+    "id": 36,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-03",
+    "time": "10:00",
+    "ground": "Kreuzzleg, Aargau",
+    "home_team": "Cricket Club Wettingen-1",
+    "away_team": "CVZ"
+  },
+  {
+    "id": 37,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-03",
+    "time": "13:30",
+    "ground": "Kreuzzleg, Aargau",
+    "home_team": "Cricket Club Wettingen-2",
+    "away_team": "A1 Sports Club"
+  },
+  {
+    "id": 38,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-05-03",
+    "time": "11:30",
+    "ground": "Onex, Geneva",
+    "home_team": "Geneva XI Stars - U19",
+    "away_team": "Cossonay Juniors U19"
+  },
+  {
+    "id": 39,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-03",
+    "time": "14:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Mavericks Adliswil CC",
+    "away_team": "Zurich Crickets CC-2"
+  },
+  {
+    "id": 40,
+    "tournament": "CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)",
+    "date": "2026-05-09",
+    "time": "10:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel Supernovas",
+    "away_team": "A1SC- Women"
+  },
+  {
+    "id": 41,
+    "tournament": "CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL T10)",
+    "date": "2026-05-09",
+    "time": "14:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel Supernovas",
+    "away_team": "A1SC- Women"
+  },
+  {
+    "id": 42,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-09",
+    "time": "11:00",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons JCC",
+    "away_team": "Aargau Crazy Cricketers"
+  },
+  {
+    "id": 43,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-05-09",
+    "time": "15:30",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva CC",
+    "away_team": "Cossonay CC"
+  },
+  {
+    "id": 44,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-05-09",
+    "time": "10:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets U19",
+    "away_team": "Basel Dragons B U19"
+  },
+  {
+    "id": 45,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-09",
+    "time": "14:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets CC-2",
+    "away_team": "Pakhtoon Zalmi CC"
+  },
+  {
+    "id": 46,
+    "tournament": "CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)",
+    "date": "2026-05-09",
+    "time": "10:00",
+    "ground": "Birsfelden, Basel",
+    "home_team": "Embrach Thunder",
+    "away_team": "CS Girls A1 Stars"
+  },
+  {
+    "id": 47,
+    "tournament": "CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL T10)",
+    "date": "2026-05-09",
+    "time": "14:00",
+    "ground": "Birsfelden, Basel",
+    "home_team": "Embrach Thunder",
+    "away_team": "CS Girls A1 Stars"
+  },
+  {
+    "id": 48,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-05-09",
+    "time": "11:00",
+    "ground": "Obergosgen, Solothurn",
+    "home_team": "Olten CC",
+    "away_team": "Zurich Lions CC"
+  },
+  {
+    "id": 49,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-05-09",
+    "time": "15:00",
+    "ground": "Obergosgen, Solothurn",
+    "home_team": "Olten CC",
+    "away_team": "Swiss Afghan CC"
+  },
+  {
+    "id": 50,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-05-10",
+    "time": "11:30",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel CC",
+    "away_team": "Geneva CC"
+  },
+  {
+    "id": 51,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-10",
+    "time": "11:00",
+    "ground": "Chopfli Athletic Field, Geneva",
+    "home_team": "Sports Club Roche Cricket",
+    "away_team": "Luzern Cricket Club"
+  },
+  {
+    "id": 52,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-10",
+    "time": "11:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva Sri Lanka CC",
+    "away_team": "Cern CC"
+  },
+  {
+    "id": 53,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-10",
+    "time": "15:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva Sri Lanka CC",
+    "away_team": "Geneva International CC-2"
+  },
+  {
+    "id": 54,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-05-10",
+    "time": "11:00",
+    "ground": "Deutweg, Winterthur",
+    "home_team": "Power Winterthur CC",
+    "away_team": "Olten CC"
+  },
+  {
+    "id": 55,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-05-10",
+    "time": "14:30",
+    "ground": "Deutweg, Winterthur",
+    "home_team": "Swiss Afghan CC",
+    "away_team": "Power Winterthur CC"
+  },
+  {
+    "id": 56,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-05-10",
+    "time": "10:30",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay Juniors U19",
+    "away_team": "Nomads-Embrach Cricket Academy"
+  },
+  {
+    "id": 57,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-05-10",
+    "time": "15:00",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay Juniors U19",
+    "away_team": "Zurich Crickets U19"
+  },
+  {
+    "id": 58,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-10",
+    "time": "11:00",
+    "ground": "Hedingen, Zurich",
+    "home_team": "Zug Cricket Club",
+    "away_team": "Cricket Club Wettingen-1"
+  },
+  {
+    "id": 59,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-10",
+    "time": "15:00",
+    "ground": "Hedingen, Zurich",
+    "home_team": "Zug Cricket Club",
+    "away_team": "Solothurn CC"
+  },
+  {
+    "id": 60,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-10",
+    "time": "09:00",
+    "ground": "Hunnenberg, Zug",
+    "home_team": "CVZ",
+    "away_team": "Olten Gosgen CC"
+  },
+  {
+    "id": 61,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-10",
+    "time": "14:00",
+    "ground": "Hunnenberg, Zug",
+    "home_team": "CVZ",
+    "away_team": "Basel Dragons JCC 2"
+  },
+  {
+    "id": 62,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-10",
+    "time": "12:00",
+    "ground": "Onex, Geneva",
+    "home_team": "Geneva XI Stars",
+    "away_team": "Geneva CC-2"
+  },
+  {
+    "id": 63,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-10",
+    "time": "11:00",
+    "ground": "Schonau, Bern",
+    "home_team": "Berne CC",
+    "away_team": "Basel CC Colts"
+  },
+  {
+    "id": 64,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-10",
+    "time": "15:00",
+    "ground": "Schonau, Bern",
+    "home_team": "Berne CC",
+    "away_team": "Basel Dragons JCC"
+  },
+  {
+    "id": 65,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-10",
+    "time": "12:30",
+    "ground": "Tufi, Zurich",
+    "home_team": "Zurich Mavericks Adliswil CC",
+    "away_team": "Zurich SuperLions"
+  },
+  {
+    "id": 66,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-05-14",
+    "time": "11:30",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets U19",
+    "away_team": "CH U19 NATI"
+  },
+  {
+    "id": 67,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-05-15",
+    "time": "11:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel Dragons A U19",
+    "away_team": "CH U19 NATI"
+  },
+  {
+    "id": 68,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-05-15",
+    "time": "10:30",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets U19",
+    "away_team": "Nomads-Embrach Cricket Academy"
+  },
+  {
+    "id": 69,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-16",
+    "time": "12:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva International CC-2",
+    "away_team": "Geneva International CC"
+  },
+  {
+    "id": 70,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-16",
+    "time": "16:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva International CC",
+    "away_team": "Geneva CC-2"
+  },
+  {
+    "id": 71,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-05-16",
+    "time": "09:00",
+    "ground": "Kantonsschule Solothurn, Solothurn",
+    "home_team": "Solothurn CC",
+    "away_team": "Pakhtoon Zalmi CC"
+  },
+  {
+    "id": 72,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-05-16",
+    "time": "15:00",
+    "ground": "Kantonsschule Solothurn, Solothurn",
+    "home_team": "Basel Afghan CC",
+    "away_team": "Basel CC"
+  },
+  {
+    "id": 73,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-16",
+    "time": "13:00",
+    "ground": "Obergosgen, Solothurn",
+    "home_team": "Olten Gosgen CC",
+    "away_team": "Basel Dragons JCC 2"
+  },
+  {
+    "id": 74,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-05-17",
+    "time": "12:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Geneva Eagles Cricket Club",
+    "away_team": "Novartis CC"
+  },
+  {
+    "id": 75,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-17",
+    "time": "11:00",
+    "ground": "Birsfelden, Basel",
+    "home_team": "Sports Club Roche Cricket",
+    "away_team": "CVZ"
+  },
+  {
+    "id": 76,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-05-17",
+    "time": "12:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Swiss Afghan CC",
+    "away_team": "Geneva CC"
+  },
+  {
+    "id": 77,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-17",
+    "time": "10:30",
+    "ground": "Chopfli Athletic Field, Geneva",
+    "home_team": "A1 Sports Club",
+    "away_team": "Aargau Crazy Cricketers"
+  },
+  {
+    "id": 78,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-05-17",
+    "time": "11:00",
+    "ground": "Deutweg, Winterthur",
+    "home_team": "Winterthur CC",
+    "away_team": "Zug Cricket Club"
+  },
+  {
+    "id": 79,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-05-17",
+    "time": "11:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Lions CC",
+    "away_team": "Nomads-Embrach Cricket Academy"
+  },
+  {
+    "id": 80,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-05-17",
+    "time": "15:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Nomads-Embrach Cricket Academy",
+    "away_team": "Swiss Afghan U19"
+  },
+  {
+    "id": 81,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-17",
+    "time": "12:30",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay CC-2",
+    "away_team": "Geneva Sri Lanka CC"
+  },
+  {
+    "id": 82,
+    "tournament": "CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL T10)",
+    "date": "2026-05-17",
+    "time": "10:00",
+    "ground": "Hunnenberg, Zug",
+    "home_team": "CVZ-Women",
+    "away_team": "A1SC- Women"
+  },
+  {
+    "id": 83,
+    "tournament": "CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)",
+    "date": "2026-05-17",
+    "time": "13:00",
+    "ground": "Hunnenberg, Zug",
+    "home_team": "CVZ-Women",
+    "away_team": "A1SC- Women"
+  },
+  {
+    "id": 84,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-17",
+    "time": "10:00",
+    "ground": "Kreuzzleg, Aargau",
+    "home_team": "Cricket Club Wettingen-1",
+    "away_team": "Solothurn CC"
+  },
+  {
+    "id": 85,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-17",
+    "time": "12:00",
+    "ground": "Onex, Geneva",
+    "home_team": "Geneva XI Stars",
+    "away_team": "Cern CC"
+  },
+  {
+    "id": 86,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-17",
+    "time": "12:00",
+    "ground": "Pfaffikon, Zurich",
+    "home_team": "Zurich SuperLions",
+    "away_team": "Basel Juniors"
+  },
+  {
+    "id": 87,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-05-17",
+    "time": "11:00",
+    "ground": "Schonau, Bern",
+    "home_team": "Berne CC",
+    "away_team": "Basel Afghan CC"
+  },
+  {
+    "id": 88,
+    "tournament": "CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)",
+    "date": "2026-05-23",
+    "time": "10:00",
+    "ground": "Chopfli Athletic Field, Geneva",
+    "home_team": "A1SC- Women",
+    "away_team": "Embrach Thunder"
+  },
+  {
+    "id": 89,
+    "tournament": "CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL T10)",
+    "date": "2026-05-23",
+    "time": "14:00",
+    "ground": "Chopfli Athletic Field, Geneva",
+    "home_team": "A1SC- Women",
+    "away_team": "Embrach Thunder"
+  },
+  {
+    "id": 90,
+    "tournament": "CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)",
+    "date": "2026-05-23",
+    "time": "TBD",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay CC-Women",
+    "away_team": "CS Girls A1 Stars"
+  },
+  {
+    "id": 91,
+    "tournament": "CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL T10)",
+    "date": "2026-05-23",
+    "time": "TBD",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay CC-Women",
+    "away_team": "CS Girls A1 Stars"
+  },
+  {
+    "id": 92,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-23",
+    "time": "11:00",
+    "ground": "Obergosgen, Solothurn",
+    "home_team": "Olten Gosgen CC",
+    "away_team": "Solothurn CC"
+  },
+  {
+    "id": 93,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-23",
+    "time": "15:00",
+    "ground": "Obergosgen, Solothurn",
+    "home_team": "Olten Gosgen CC",
+    "away_team": "Zug Cricket Club"
+  },
+  {
+    "id": 94,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-24",
+    "time": "11:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Novartis CC",
+    "away_team": "Berne CC"
+  },
+  {
+    "id": 95,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-05-24",
+    "time": "11:30",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva International CC",
+    "away_team": "Basel Afghan CC"
+  },
+  {
+    "id": 96,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-05-24",
+    "time": "10:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Nomads-Embrach Cricket Academy",
+    "away_team": "Aargau Avengers"
+  },
+  {
+    "id": 97,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-05-24",
+    "time": "14:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Swiss Afghan CC",
+    "away_team": "Zurich Crickets CC-1"
+  },
+  {
+    "id": 98,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-24",
+    "time": "12:30",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay CC-2",
+    "away_team": "Geneva CC-2"
+  },
+  {
+    "id": 99,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-24",
+    "time": "12:00",
+    "ground": "En Prevessin, Geneva",
+    "home_team": "Cern CC",
+    "away_team": "Geneva International CC-2"
+  },
+  {
+    "id": 100,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-24",
+    "time": "10:00",
+    "ground": "Kreuzzleg, Aargau",
+    "home_team": "Cricket Club Wettingen-1",
+    "away_team": "Sports Club Roche Cricket"
+  },
+  {
+    "id": 101,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-24",
+    "time": "13:30",
+    "ground": "Kreuzzleg, Aargau",
+    "home_team": "Cricket Club Wettingen-2",
+    "away_team": "Basel Dragons JCC"
+  },
+  {
+    "id": 102,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-05-24",
+    "time": "12:00",
+    "ground": "Onex, Geneva",
+    "home_team": "Geneva XI Stars - U19",
+    "away_team": "CH U19 NATI"
+  },
+  {
+    "id": 103,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-24",
+    "time": "12:30",
+    "ground": "Unknown",
+    "home_team": "Geneva Eagles Cricket Club",
+    "away_team": "Geneva Sri Lanka CC"
+  },
+  {
+    "id": 104,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-24",
+    "time": "12:00",
+    "ground": "Pfaffikon, Zurich",
+    "home_team": "Zurich SuperLions",
+    "away_team": "Zurich Crickets CC-2"
+  },
+  {
+    "id": 105,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-05-25",
+    "time": "11:00",
+    "ground": "Deutweg, Winterthur",
+    "home_team": "Power Winterthur CC",
+    "away_team": "Zurich Lions CC"
+  },
+  {
+    "id": 106,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-05-25",
+    "time": "14:30",
+    "ground": "Deutweg, Winterthur",
+    "home_team": "Power Winterthur CC",
+    "away_team": "Aargau Avengers"
+  },
+  {
+    "id": 107,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-05-25",
+    "time": "11:30",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets U19",
+    "away_team": "Basel Dragons A U19"
+  },
+  {
+    "id": 108,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-05-30",
+    "time": "10:30",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Cossonay Juniors U19",
+    "away_team": "Basel Dragons A U19"
+  },
+  {
+    "id": 109,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-05-30",
+    "time": "16:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva CC",
+    "away_team": "St. Gallen"
+  },
+  {
+    "id": 110,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-30",
+    "time": "14:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets CC-2",
+    "away_team": "Basel Juniors"
+  },
+  {
+    "id": 111,
+    "tournament": "CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)",
+    "date": "2026-05-30",
+    "time": "10:30",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay CC-Women",
+    "away_team": "Basel Supernovas"
+  },
+  {
+    "id": 112,
+    "tournament": "CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL T10)",
+    "date": "2026-05-30",
+    "time": "14:00",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay CC-Women",
+    "away_team": "Basel Supernovas"
+  },
+  {
+    "id": 113,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-05-30",
+    "time": "12:00",
+    "ground": "Obergosgen, Solothurn",
+    "home_team": "Olten Gosgen CC",
+    "away_team": "Aargau Avengers"
+  },
+  {
+    "id": 114,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-05-31",
+    "time": "11:30",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Novartis CC",
+    "away_team": "Geneva CC-2"
+  },
+  {
+    "id": 115,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-05-31",
+    "time": "12:00",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons JCC",
+    "away_team": "Geneva International CC-2"
+  },
+  {
+    "id": 116,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-05-31",
+    "time": "11:00",
+    "ground": "Deutweg, Winterthur",
+    "home_team": "Winterthur CC",
+    "away_team": "Power Winterthur CC"
+  },
+  {
+    "id": 117,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-05-31",
+    "time": "09:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets CC-1",
+    "away_team": "Nomads-Embrach Cricket Academy"
+  },
+  {
+    "id": 118,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-05-31",
+    "time": "11:30",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Swiss Afghan CC",
+    "away_team": "ZURICH NOMADS"
+  },
+  {
+    "id": 119,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-05-31",
+    "time": "11:30",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay CC",
+    "away_team": "Basel CC"
+  },
+  {
+    "id": 120,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-05-31",
+    "time": "15:00",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay CC",
+    "away_team": "Basel Afghan CC"
+  },
+  {
+    "id": 121,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-31",
+    "time": "12:00",
+    "ground": "En Prevessin, Geneva",
+    "home_team": "Cern CC",
+    "away_team": "Geneva International CC"
+  },
+  {
+    "id": 122,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-31",
+    "time": "15:30",
+    "ground": "En Prevessin, Geneva",
+    "home_team": "Cern CC",
+    "away_team": "Geneva Eagles Cricket Club"
+  },
+  {
+    "id": 123,
+    "tournament": "CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL T10)",
+    "date": "2026-05-31",
+    "time": "10:00",
+    "ground": "Hunnenberg, Zug",
+    "home_team": "CVZ-Women",
+    "away_team": "Cossonay CC-Women"
+  },
+  {
+    "id": 124,
+    "tournament": "CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)",
+    "date": "2026-05-31",
+    "time": "13:00",
+    "ground": "Hunnenberg, Zug",
+    "home_team": "CVZ-Women",
+    "away_team": "Cossonay CC-Women"
+  },
+  {
+    "id": 125,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-31",
+    "time": "10:00",
+    "ground": "Luzern Cricket Ground, Luzern",
+    "home_team": "Luzern Cricket Club",
+    "away_team": "Cricket Club Wettingen-1"
+  },
+  {
+    "id": 126,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-31",
+    "time": "14:00",
+    "ground": "Luzern Cricket Ground, Luzern",
+    "home_team": "Luzern Cricket Club",
+    "away_team": "Olten Gosgen CC"
+  },
+  {
+    "id": 127,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-31",
+    "time": "11:30",
+    "ground": "Onex, Geneva",
+    "home_team": "Geneva XI Stars",
+    "away_team": "Cossonay CC-2"
+  },
+  {
+    "id": 128,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-05-31",
+    "time": "15:00",
+    "ground": "Onex, Geneva",
+    "home_team": "Geneva XI Stars - U19",
+    "away_team": "Swiss Afghan U19"
+  },
+  {
+    "id": 129,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-31",
+    "time": "12:00",
+    "ground": "Pfaffikon, Zurich",
+    "home_team": "Zurich SuperLions",
+    "away_team": "Nomads Falcons"
+  },
+  {
+    "id": 130,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-31",
+    "time": "12:00",
+    "ground": "Schonau, Bern",
+    "home_team": "Berne CC",
+    "away_team": "Cricket Club Wettingen-2"
+  },
+  {
+    "id": 131,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-31",
+    "time": "15:30",
+    "ground": "Schonau, Bern",
+    "home_team": "A1 Sports Club",
+    "away_team": "Berne CC"
+  },
+  {
+    "id": 132,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-06",
+    "time": "11:00",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons JCC",
+    "away_team": "A1 Sports Club"
+  },
+  {
+    "id": 133,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-06-06",
+    "time": "14:30",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons A U19",
+    "away_team": "Basel Dragons B U19"
+  },
+  {
+    "id": 134,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-06",
+    "time": "11:00",
+    "ground": "Brugg, Aargau",
+    "home_team": "Aargau Crazy Cricketers",
+    "away_team": "Cricket Club Wettingen-2"
+  },
+  {
+    "id": 135,
+    "tournament": "CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)",
+    "date": "2026-06-06",
+    "time": "TBD",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay CC-Women",
+    "away_team": "Embrach Thunder"
+  },
+  {
+    "id": 136,
+    "tournament": "CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL T10)",
+    "date": "2026-06-06",
+    "time": "TBD",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay CC-Women",
+    "away_team": "Embrach Thunder"
+  },
+  {
+    "id": 137,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-06-06",
+    "time": "12:00",
+    "ground": "Kantonsschule Solothurn, Solothurn",
+    "home_team": "Basel Afghan CC",
+    "away_team": "Zurich Mavericks Adliswil CC"
+  },
+  {
+    "id": 138,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-06-07",
+    "time": "11:30",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Novartis CC",
+    "away_team": "Geneva XI Stars"
+  },
+  {
+    "id": 139,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-07",
+    "time": "12:00",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons JCC 2",
+    "away_team": "Sports Club Roche Cricket"
+  },
+  {
+    "id": 140,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-06-07",
+    "time": "14:30",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Swiss Afghan U19",
+    "away_team": "Basel Dragons B U19"
+  },
+  {
+    "id": 141,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-06-07",
+    "time": "12:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva CC-2",
+    "away_team": "Basel Dragons JCC"
+  },
+  {
+    "id": 142,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-06-07",
+    "time": "11:00",
+    "ground": "Brugg, Aargau",
+    "home_team": "Aargau Avengers",
+    "away_team": "Zurich Lions CC"
+  },
+  {
+    "id": 143,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-06-07",
+    "time": "11:00",
+    "ground": "Deutweg, Winterthur",
+    "home_team": "Power Winterthur CC",
+    "away_team": "Berne CC"
+  },
+  {
+    "id": 144,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-06-07",
+    "time": "13:00",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay CC",
+    "away_team": "St. Gallen"
+  },
+  {
+    "id": 145,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-07",
+    "time": "12:00",
+    "ground": "En Prevessin, Geneva",
+    "home_team": "Cern CC",
+    "away_team": "Cossonay CC-2"
+  },
+  {
+    "id": 146,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-06-07",
+    "time": "10:00",
+    "ground": "Hunnenberg, Zug",
+    "home_team": "CVZ",
+    "away_team": "Winterthur CC"
+  },
+  {
+    "id": 147,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-07",
+    "time": "13:30",
+    "ground": "Kreuzzleg, Aargau",
+    "home_team": "Cricket Club Wettingen-1",
+    "away_team": "Olten Gosgen CC"
+  },
+  {
+    "id": 148,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-07",
+    "time": "17:00",
+    "ground": "Kreuzzleg, Aargau",
+    "home_team": "Cricket Club Wettingen-2",
+    "away_team": "Basel CC Colts"
+  },
+  {
+    "id": 149,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-06-07",
+    "time": "12:00",
+    "ground": "Pfaffikon, Zurich",
+    "home_team": "Zurich SuperLions",
+    "away_team": "Solothurn CC"
+  },
+  {
+    "id": 150,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-13",
+    "time": "11:30",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva Sri Lanka CC",
+    "away_team": "Geneva International CC"
+  },
+  {
+    "id": 151,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-06-13",
+    "time": "10:30",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets CC-1",
+    "away_team": "Olten CC"
+  },
+  {
+    "id": 152,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-06-13",
+    "time": "14:30",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Nomads-Embrach Cricket Academy",
+    "away_team": "Olten CC"
+  },
+  {
+    "id": 153,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL U17 20 overs)",
+    "date": "2026-06-13",
+    "time": "14:30",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets U17",
+    "away_team": "Geneva XI Stars U17"
+  },
+  {
+    "id": 154,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-06-13",
+    "time": "14:00",
+    "ground": "Kantonsschule Solothurn, Solothurn",
+    "home_team": "Basel Afghan CC",
+    "away_team": "CVZ"
+  },
+  {
+    "id": 155,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-06-13",
+    "time": "12:00",
+    "ground": "Obergosgen, Solothurn",
+    "home_team": "Olten Gosgen CC",
+    "away_team": "Solothurn CC"
+  },
+  {
+    "id": 156,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-06-13",
+    "time": "11:30",
+    "ground": "",
+    "home_team": "Swiss Afghan U19",
+    "away_team": "Cossonay Juniors U19"
+  },
+  {
+    "id": 157,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-14",
+    "time": "10:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Nomads Falcons",
+    "away_team": "Basel Juniors"
+  },
+  {
+    "id": 158,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-06-14",
+    "time": "11:00",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons JCC",
+    "away_team": "Novartis CC"
+  },
+  {
+    "id": 159,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-14",
+    "time": "11:00",
+    "ground": "Birsfelden, Basel",
+    "home_team": "Sports Club Roche Cricket",
+    "away_team": "Zug Cricket Club"
+  },
+  {
+    "id": 160,
+    "tournament": "CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)",
+    "date": "2026-06-14",
+    "time": "10:00",
+    "ground": "Birsfelden, Basel",
+    "home_team": "A1SC- Women",
+    "away_team": "Cossonay CC-Women"
+  },
+  {
+    "id": 161,
+    "tournament": "CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL T10)",
+    "date": "2026-06-14",
+    "time": "14:00",
+    "ground": "Birsfelden, Basel",
+    "home_team": "A1SC- Women",
+    "away_team": "Cossonay CC-Women"
+  },
+  {
+    "id": 162,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-06-14",
+    "time": "12:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva International CC-2",
+    "away_team": "A1 Sports Club"
+  },
+  {
+    "id": 163,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-06-14",
+    "time": "12:00",
+    "ground": "Deutweg, Winterthur",
+    "home_team": "Winterthur CC",
+    "away_team": "Cossonay CC"
+  },
+  {
+    "id": 164,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-06-14",
+    "time": "15:00",
+    "ground": "Deutweg, Winterthur",
+    "home_team": "Winterthur CC",
+    "away_team": "Geneva CC"
+  },
+  {
+    "id": 165,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-06-14",
+    "time": "10:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Nomads-Embrach Cricket Academy",
+    "away_team": "Power Winterthur CC"
+  },
+  {
+    "id": 166,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-06-14",
+    "time": "15:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "ZURICH NOMADS",
+    "away_team": "Basel Afghan CC"
+  },
+  {
+    "id": 167,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-06-14",
+    "time": "13:30",
+    "ground": "Kreuzzleg, Aargau",
+    "home_team": "Cricket Club Wettingen-1",
+    "away_team": "Aargau Avengers"
+  },
+  {
+    "id": 168,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-06-14",
+    "time": "10:00",
+    "ground": "Luzern Cricket Ground, Luzern",
+    "home_team": "Luzern Cricket Club",
+    "away_team": "Aargau Crazy Cricketers"
+  },
+  {
+    "id": 169,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-06-14",
+    "time": "12:00",
+    "ground": "Onex, Geneva",
+    "home_team": "Geneva XI Stars",
+    "away_team": "Geneva Eagles Cricket Club"
+  },
+  {
+    "id": 170,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-06-14",
+    "time": "11:00",
+    "ground": "Pfaffikon, Zurich",
+    "home_team": "Zurich Lions CC",
+    "away_team": "Zurich Crickets CC-1"
+  },
+  {
+    "id": 171,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-06-14",
+    "time": "11:00",
+    "ground": "Schonau, Bern",
+    "home_team": "Berne CC",
+    "away_team": "Zurich Mavericks Adliswil CC"
+  },
+  {
+    "id": 172,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-20",
+    "time": "10:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel Juniors",
+    "away_team": "Zurich Mavericks Adliswil CC"
+  },
+  {
+    "id": 173,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-20",
+    "time": "14:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel CC Colts",
+    "away_team": "Aargau Crazy Cricketers"
+  },
+  {
+    "id": 174,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-06-20",
+    "time": "11:30",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Swiss Afghan U19",
+    "away_team": "Basel Dragons B U19"
+  },
+  {
+    "id": 175,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL U17 50 overs)",
+    "date": "2026-06-20",
+    "time": "12:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets U17",
+    "away_team": "Geneva XI Stars U17"
+  },
+  {
+    "id": 176,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-06-20",
+    "time": "12:00",
+    "ground": "Kantonsschule Solothurn, Solothurn",
+    "home_team": "Basel Afghan CC",
+    "away_team": "Cern CC"
+  },
+  {
+    "id": 177,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-21",
+    "time": "10:30",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Novartis CC",
+    "away_team": "Cricket Club Wettingen-2"
+  },
+  {
+    "id": 178,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-21",
+    "time": "14:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "A1 Sports Club",
+    "away_team": "Novartis CC"
+  },
+  {
+    "id": 179,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-06-21",
+    "time": "12:30",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva Sri Lanka CC",
+    "away_team": "Basel Dragons JCC"
+  },
+  {
+    "id": 180,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-21",
+    "time": "09:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Pakhtoon Zalmi CC",
+    "away_team": "Nomads Falcons"
+  },
+  {
+    "id": 181,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-06-21",
+    "time": "11:30",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "ZURICH NOMADS",
+    "away_team": "Zurich Crickets CC-1"
+  },
+  {
+    "id": 182,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-06-21",
+    "time": "11:30",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Geneva CC",
+    "away_team": "Cossonay CC"
+  },
+  {
+    "id": 183,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-21",
+    "time": "11:00",
+    "ground": "Hedingen, Zurich",
+    "home_team": "Zug Cricket Club",
+    "away_team": "Luzern Cricket Club"
+  },
+  {
+    "id": 184,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-21",
+    "time": "15:00",
+    "ground": "Hedingen, Zurich",
+    "home_team": "Zug Cricket Club",
+    "away_team": "CVZ"
+  },
+  {
+    "id": 185,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-06-21",
+    "time": "13:30",
+    "ground": "Kreuzzleg, Aargau",
+    "home_team": "Swiss Afghan CC",
+    "away_team": "Basel CC"
+  },
+  {
+    "id": 186,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-06-21",
+    "time": "11:00",
+    "ground": "Obergosgen, Solothurn",
+    "home_team": "Olten CC",
+    "away_team": "Zurich Lions CC"
+  },
+  {
+    "id": 187,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-21",
+    "time": "12:30",
+    "ground": "Unknown",
+    "home_team": "Geneva Eagles Cricket Club",
+    "away_team": "Geneva CC-2"
+  },
+  {
+    "id": 188,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-06-21",
+    "time": "12:00",
+    "ground": "Pfaffikon, Zurich",
+    "home_team": "Zurich SuperLions",
+    "away_team": "Aargau Avengers"
+  },
+  {
+    "id": 189,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-06-21",
+    "time": "11:00",
+    "ground": "Schonau, Bern",
+    "home_team": "Berne CC",
+    "away_team": "Geneva International CC"
+  },
+  {
+    "id": 190,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-27",
+    "time": "10:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel CC Colts",
+    "away_team": "Novartis CC"
+  },
+  {
+    "id": 191,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-06-27",
+    "time": "10:30",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons A U19",
+    "away_team": "Nomads-Embrach Cricket Academy"
+  },
+  {
+    "id": 192,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-06-27",
+    "time": "14:30",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons B U19",
+    "away_team": "Nomads-Embrach Cricket Academy"
+  },
+  {
+    "id": 193,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-27",
+    "time": "15:30",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva CC-2",
+    "away_team": "Geneva Sri Lanka CC"
+  },
+  {
+    "id": 194,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-06-27",
+    "time": "11:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets CC-1",
+    "away_team": "Power Winterthur CC"
+  },
+  {
+    "id": 195,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-06-27",
+    "time": "11:00",
+    "ground": "Kantonsschule Solothurn, Solothurn",
+    "home_team": "Solothurn CC",
+    "away_team": "Aargau Avengers"
+  },
+  {
+    "id": 196,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-06-27",
+    "time": "12:00",
+    "ground": "Obergosgen, Solothurn",
+    "home_team": "Olten Gosgen CC",
+    "away_team": "Luzern Cricket Club"
+  },
+  {
+    "id": 197,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-28",
+    "time": "10:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel CC Colts",
+    "away_team": "A1 Sports Club"
+  },
+  {
+    "id": 198,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-06-28",
+    "time": "14:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel CC",
+    "away_team": "ZURICH NOMADS"
+  },
+  {
+    "id": 199,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-06-28",
+    "time": "12:00",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons JCC",
+    "away_team": "Geneva XI Stars"
+  },
+  {
+    "id": 200,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-28",
+    "time": "11:00",
+    "ground": "Birsfelden, Basel",
+    "home_team": "Sports Club Roche Cricket",
+    "away_team": "Solothurn CC"
+  },
+  {
+    "id": 201,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-06-28",
+    "time": "11:30",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva CC",
+    "away_team": "Olten CC"
+  },
+  {
+    "id": 202,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-06-28",
+    "time": "11:30",
+    "ground": "Deutweg, Winterthur",
+    "home_team": "Power Winterthur CC",
+    "away_team": "Geneva International CC"
+  },
+  {
+    "id": 203,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-06-28",
+    "time": "12:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "CH U19 NATI",
+    "away_team": "Swiss Afghan U19"
+  },
+  {
+    "id": 204,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-06-28",
+    "time": "12:30",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay CC-2",
+    "away_team": "Geneva Eagles Cricket Club"
+  },
+  {
+    "id": 205,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-06-28",
+    "time": "12:00",
+    "ground": "Grundenmoos, St. Gallen",
+    "home_team": "St. Gallen",
+    "away_team": "Winterthur CC"
+  },
+  {
+    "id": 206,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-06-28",
+    "time": "09:30",
+    "ground": "Hedingen, Zurich",
+    "home_team": "Zurich Lions CC",
+    "away_team": "Swiss Afghan CC"
+  },
+  {
+    "id": 207,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-06-28",
+    "time": "12:30",
+    "ground": "Hedingen, Zurich",
+    "home_team": "Zug Cricket Club",
+    "away_team": "CVZ"
+  },
+  {
+    "id": 208,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-06-28",
+    "time": "10:00",
+    "ground": "Kreuzzleg, Aargau",
+    "home_team": "Cricket Club Wettingen-1",
+    "away_team": "Aargau Crazy Cricketers"
+  },
+  {
+    "id": 209,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-06-28",
+    "time": "10:00",
+    "ground": "Luzern Cricket Ground, Luzern",
+    "home_team": "Luzern Cricket Club",
+    "away_team": "Zurich SuperLions"
+  },
+  {
+    "id": 210,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL U17 50 overs)",
+    "date": "2026-06-28",
+    "time": "12:00",
+    "ground": "Onex, Geneva",
+    "home_team": "Geneva XI Stars U17",
+    "away_team": "Zurich Crickets U17"
+  },
+  {
+    "id": 211,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-07-04",
+    "time": "12:30",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva Sri Lanka CC",
+    "away_team": "Geneva XI Stars"
+  },
+  {
+    "id": 212,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-07-04",
+    "time": "12:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets U19",
+    "away_team": "Swiss Afghan U19"
+  },
+  {
+    "id": 213,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-07-04",
+    "time": "10:00",
+    "ground": "Kantonsschule Solothurn, Solothurn",
+    "home_team": "Solothurn CC",
+    "away_team": "Cricket Club Wettingen-1"
+  },
+  {
+    "id": 214,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-07-04",
+    "time": "11:30",
+    "ground": "Obergosgen, Solothurn",
+    "home_team": "Pakhtoon Zalmi CC",
+    "away_team": "Olten Gosgen CC"
+  },
+  {
+    "id": 215,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-07-05",
+    "time": "11:00",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons A U19",
+    "away_team": "Geneva XI Stars - U19"
+  },
+  {
+    "id": 216,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-07-05",
+    "time": "11:30",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva CC",
+    "away_team": "Nomads-Embrach Cricket Academy"
+  },
+  {
+    "id": 217,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-07-05",
+    "time": "11:00",
+    "ground": "Deutweg, Winterthur",
+    "home_team": "Winterthur CC",
+    "away_team": "Berne CC"
+  },
+  {
+    "id": 218,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-07-05",
+    "time": "11:30",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "ZURICH NOMADS",
+    "away_team": "Zurich Lions CC"
+  },
+  {
+    "id": 219,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-07-05",
+    "time": "11:30",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay CC",
+    "away_team": "Zurich Crickets CC-1"
+  },
+  {
+    "id": 220,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-07-05",
+    "time": "15:30",
+    "ground": "Grundenmoos, St. Gallen",
+    "home_team": "St. Gallen",
+    "away_team": "Basel CC"
+  },
+  {
+    "id": 221,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-07-05",
+    "time": "10:00",
+    "ground": "Luzern Cricket Ground, Luzern",
+    "home_team": "Pakhtoon Zalmi CC",
+    "away_team": "Luzern Cricket Club"
+  },
+  {
+    "id": 222,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-07-05",
+    "time": "11:00",
+    "ground": "Obergosgen, Solothurn",
+    "home_team": "Olten CC",
+    "away_team": "Swiss Afghan CC"
+  },
+  {
+    "id": 223,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-07-05",
+    "time": "12:00",
+    "ground": "Onex, Geneva",
+    "home_team": "Geneva XI Stars",
+    "away_team": "Geneva International CC-2"
+  },
+  {
+    "id": 224,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-07-05",
+    "time": "12:00",
+    "ground": "Pfaffikon, Zurich",
+    "home_team": "Zurich SuperLions",
+    "away_team": "Aargau Crazy Cricketers"
+  },
+  {
+    "id": 225,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-07-05",
+    "time": "11:00",
+    "ground": "Staad, St. Gallen",
+    "home_team": "Basel Afghan CC",
+    "away_team": "St. Gallen"
+  },
+  {
+    "id": 226,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-07-05",
+    "time": "11:00",
+    "ground": "Tufi, Zurich",
+    "home_team": "Zurich Mavericks Adliswil CC",
+    "away_team": "Zug Cricket Club"
+  },
+  {
+    "id": 227,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-07-11",
+    "time": "11:00",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons JCC",
+    "away_team": "Basel CC Colts"
+  },
+  {
+    "id": 228,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-07-11",
+    "time": "11:30",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva CC-2",
+    "away_team": "Cern CC"
+  },
+  {
+    "id": 229,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-07-11",
+    "time": "16:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva CC-2",
+    "away_team": "Geneva International CC-2"
+  },
+  {
+    "id": 230,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-07-11",
+    "time": "12:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets CC-1",
+    "away_team": "Zurich Lions CC"
+  },
+  {
+    "id": 231,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-07-11",
+    "time": "09:00",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay Juniors U19",
+    "away_team": "CH U19 NATI"
+  },
+  {
+    "id": 232,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-07-11",
+    "time": "09:00",
+    "ground": "Kantonsschule Solothurn, Solothurn",
+    "home_team": "Basel Afghan CC",
+    "away_team": "Winterthur CC"
+  },
+  {
+    "id": 233,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-07-11",
+    "time": "12:00",
+    "ground": "Obergosgen, Solothurn",
+    "home_team": "Olten Gosgen CC",
+    "away_team": "Zurich SuperLions"
+  },
+  {
+    "id": 234,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-07-12",
+    "time": "11:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel CC",
+    "away_team": "Nomads-Embrach Cricket Academy"
+  },
+  {
+    "id": 235,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-07-12",
+    "time": "12:00",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons JCC",
+    "away_team": "Geneva Eagles Cricket Club"
+  },
+  {
+    "id": 236,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-07-12",
+    "time": "12:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva International CC",
+    "away_team": "Zurich Mavericks Adliswil CC"
+  },
+  {
+    "id": 237,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-07-12",
+    "time": "11:00",
+    "ground": "Deutweg, Winterthur",
+    "home_team": "Power Winterthur CC",
+    "away_team": "Basel Afghan CC"
+  },
+  {
+    "id": 238,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-07-12",
+    "time": "09:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Pakhtoon Zalmi CC",
+    "away_team": "Zurich SuperLions"
+  },
+  {
+    "id": 239,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-07-12",
+    "time": "12:30",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Swiss Afghan U19",
+    "away_team": "Nomads-Embrach Cricket Academy"
+  },
+  {
+    "id": 240,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-07-12",
+    "time": "11:30",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay CC",
+    "away_team": "Swiss Afghan CC"
+  },
+  {
+    "id": 241,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-07-12",
+    "time": "11:00",
+    "ground": "Grundenmoos, St. Gallen",
+    "home_team": "St. Gallen",
+    "away_team": "ZURICH NOMADS"
+  },
+  {
+    "id": 242,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-07-12",
+    "time": "12:00",
+    "ground": "Onex, Geneva",
+    "home_team": "Geneva XI Stars - U19",
+    "away_team": "Cossonay Juniors U19"
+  },
+  {
+    "id": 243,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-07-18",
+    "time": "11:30",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva International CC",
+    "away_team": "Cossonay CC-2"
+  },
+  {
+    "id": 244,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-07-18",
+    "time": "15:30",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva International CC-2",
+    "away_team": "Cossonay CC-2"
+  },
+  {
+    "id": 245,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-07-19",
+    "time": "12:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva Eagles Cricket Club",
+    "away_team": "Geneva Sri Lanka CC"
+  },
+  {
+    "id": 246,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-07-19",
+    "time": "10:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Swiss Afghan CC",
+    "away_team": "Nomads-Embrach Cricket Academy"
+  },
+  {
+    "id": 247,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-07-19",
+    "time": "15:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "ZURICH NOMADS",
+    "away_team": "Cossonay CC"
+  },
+  {
+    "id": 248,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-07-19",
+    "time": "11:30",
+    "ground": "Hedingen, Zurich",
+    "home_team": "Zug Cricket Club",
+    "away_team": "Berne CC"
+  },
+  {
+    "id": 249,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-07-19",
+    "time": "11:00",
+    "ground": "Obergosgen, Solothurn",
+    "home_team": "Olten CC",
+    "away_team": "Zurich Crickets CC-1"
+  },
+  {
+    "id": 250,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-07-19",
+    "time": "11:00",
+    "ground": "Tufi, Zurich",
+    "home_team": "Zurich Mavericks Adliswil CC",
+    "away_team": "Winterthur CC"
+  },
+  {
+    "id": 251,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-07-25",
+    "time": "12:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets CC-1",
+    "away_team": "Basel CC"
+  },
+  {
+    "id": 252,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-07-26",
+    "time": "12:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Geneva Eagles Cricket Club",
+    "away_team": "Basel CC Colts"
+  },
+  {
+    "id": 253,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-07-26",
+    "time": "12:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva CC-2",
+    "away_team": "A1 Sports Club"
+  },
+  {
+    "id": 254,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-07-26",
+    "time": "11:00",
+    "ground": "Deutweg, Winterthur",
+    "home_team": "Winterthur CC",
+    "away_team": "Cern CC"
+  },
+  {
+    "id": 255,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-07-26",
+    "time": "09:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Nomads Falcons",
+    "away_team": "Zurich Mavericks Adliswil CC"
+  },
+  {
+    "id": 256,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-07-26",
+    "time": "11:30",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Zurich Lions CC",
+    "away_team": "Cossonay CC"
+  },
+  {
+    "id": 257,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-07-26",
+    "time": "11:30",
+    "ground": "Onex, Geneva",
+    "home_team": "Geneva XI Stars - U19",
+    "away_team": "Swiss Afghan U19"
+  },
+  {
+    "id": 258,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-08-01",
+    "time": "12:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets CC-1",
+    "away_team": "Nomads-Embrach Cricket Academy"
+  },
+  {
+    "id": 259,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-08-02",
+    "time": "11:30",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Novartis CC",
+    "away_team": "Geneva International CC-2"
+  },
+  {
+    "id": 260,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-08-02",
+    "time": "12:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva International CC",
+    "away_team": "Zug Cricket Club"
+  },
+  {
+    "id": 261,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-08-02",
+    "time": "14:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "ZURICH NOMADS",
+    "away_team": "Geneva CC"
+  },
+  {
+    "id": 262,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-08-02",
+    "time": "12:00",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay CC",
+    "away_team": "Basel CC"
+  },
+  {
+    "id": 263,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-08-02",
+    "time": "11:00",
+    "ground": "Kantonsschule Solothurn, Solothurn",
+    "home_team": "Basel Afghan CC",
+    "away_team": "Winterthur CC"
+  },
+  {
+    "id": 264,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-08-02",
+    "time": "12:30",
+    "ground": "Unknown",
+    "home_team": "Geneva Eagles Cricket Club",
+    "away_team": "Geneva XI Stars"
+  },
+  {
+    "id": 265,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-08-02",
+    "time": "11:00",
+    "ground": "Pfaffikon, Zurich",
+    "home_team": "Zurich Lions CC",
+    "away_team": "Swiss Afghan CC"
+  },
+  {
+    "id": 266,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-08-08",
+    "time": "11:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel CC Colts",
+    "away_team": "Novartis CC"
+  },
+  {
+    "id": 267,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-08-08",
+    "time": "12:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva International CC",
+    "away_team": "Winterthur CC"
+  },
+  {
+    "id": 268,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-08-09",
+    "time": "10:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel Juniors",
+    "away_team": "Pakhtoon Zalmi CC"
+  },
+  {
+    "id": 269,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-08-09",
+    "time": "14:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel CC",
+    "away_team": "Geneva CC"
+  },
+  {
+    "id": 270,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-08-09",
+    "time": "11:30",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay CC",
+    "away_team": "ZURICH NOMADS"
+  },
+  {
+    "id": 271,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-08-09",
+    "time": "12:00",
+    "ground": "En Prevessin, Geneva",
+    "home_team": "Cern CC",
+    "away_team": "Zug Cricket Club"
+  },
+  {
+    "id": 272,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-08-09",
+    "time": "13:30",
+    "ground": "Kreuzzleg, Aargau",
+    "home_team": "Cricket Club Wettingen-1",
+    "away_team": "Zurich SuperLions"
+  },
+  {
+    "id": 273,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-08-09",
+    "time": "12:00",
+    "ground": "Onex, Geneva",
+    "home_team": "Geneva XI Stars",
+    "away_team": "Geneva CC-2"
+  },
+  {
+    "id": 274,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-08-09",
+    "time": "12:30",
+    "ground": "Unknown",
+    "home_team": "Geneva Eagles Cricket Club",
+    "away_team": "Geneva International CC"
+  },
+  {
+    "id": 275,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-08-09",
+    "time": "11:00",
+    "ground": "Tufi, Zurich",
+    "home_team": "Zurich Mavericks Adliswil CC",
+    "away_team": "CVZ"
+  },
+  {
+    "id": 276,
+    "tournament": "CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)",
+    "date": "2026-08-15",
+    "time": "TBD",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel Supernovas",
+    "away_team": "CS Girls A1 Stars"
+  },
+  {
+    "id": 277,
+    "tournament": "CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL T10)",
+    "date": "2026-08-15",
+    "time": "TBD",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel Supernovas",
+    "away_team": "CS Girls A1 Stars"
+  },
+  {
+    "id": 278,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-08-15",
+    "time": "11:00",
+    "ground": "Brugg, Aargau",
+    "home_team": "Aargau Crazy Cricketers",
+    "away_team": "Pakhtoon Zalmi CC"
+  },
+  {
+    "id": 279,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-08-15",
+    "time": "12:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets CC-1",
+    "away_team": "Swiss Afghan CC"
+  },
+  {
+    "id": 280,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-08-15",
+    "time": "13:00",
+    "ground": "Hunnenberg, Zug",
+    "home_team": "CVZ",
+    "away_team": "Geneva International CC"
+  },
+  {
+    "id": 281,
+    "tournament": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+    "date": "2026-08-16",
+    "time": "11:00",
+    "ground": "Brugg, Aargau",
+    "home_team": "Aargau Avengers",
+    "away_team": "Zurich Crickets CC-1"
+  },
+  {
+    "id": 282,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-08-16",
+    "time": "11:30",
+    "ground": "Chopfli Athletic Field, Geneva",
+    "home_team": "A1 Sports Club",
+    "away_team": "Geneva Sri Lanka CC"
+  },
+  {
+    "id": 283,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-08-16",
+    "time": "11:30",
+    "ground": "Deutweg, Winterthur",
+    "home_team": "Power Winterthur CC",
+    "away_team": "Cern CC"
+  },
+  {
+    "id": 284,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-08-16",
+    "time": "11:30",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "ZURICH NOMADS",
+    "away_team": "Geneva CC"
+  },
+  {
+    "id": 285,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-08-16",
+    "time": "09:00",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay Juniors U19",
+    "away_team": "Swiss Afghan U19"
+  },
+  {
+    "id": 286,
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-08-16",
+    "time": "13:30",
+    "ground": "Hunnenberg, Zug",
+    "home_team": "CVZ",
+    "away_team": "Luzern Cricket Club"
+  },
+  {
+    "id": 287,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-08-16",
+    "time": "10:00",
+    "ground": "Kreuzzleg, Aargau",
+    "home_team": "Cricket Club Wettingen-1",
+    "away_team": "Olten Gosgen CC"
+  },
+  {
+    "id": 288,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-08-16",
+    "time": "12:30",
+    "ground": "Unknown",
+    "home_team": "Geneva Eagles Cricket Club",
+    "away_team": "Geneva International CC-2"
+  },
+  {
+    "id": 289,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-08-16",
+    "time": "12:00",
+    "ground": "Pfaffikon, Zurich",
+    "home_team": "Pakhtoon Zalmi CC",
+    "away_team": "Zurich SuperLions"
+  },
+  {
+    "id": 290,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-08-22",
+    "time": "10:00",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons B U19",
+    "away_team": "Zurich Crickets U19"
+  },
+  {
+    "id": 291,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-08-23",
+    "time": "12:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel CC",
+    "away_team": "Olten CC"
+  },
+  {
+    "id": 292,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-08-23",
+    "time": "11:00",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons A U19",
+    "away_team": "Basel Dragons B U19"
+  },
+  {
+    "id": 293,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-08-23",
+    "time": "12:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva International CC-2",
+    "away_team": "Geneva Sri Lanka CC"
+  },
+  {
+    "id": 294,
+    "tournament": "CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)",
+    "date": "2026-08-23",
+    "time": "TBD",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Embrach Thunder",
+    "away_team": "Basel Supernovas"
+  },
+  {
+    "id": 295,
+    "tournament": "CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL T10)",
+    "date": "2026-08-23",
+    "time": "TBD",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Embrach Thunder",
+    "away_team": "Basel Supernovas"
+  },
+  {
+    "id": 296,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-08-23",
+    "time": "12:00",
+    "ground": "En Prevessin, Geneva",
+    "home_team": "Cern CC",
+    "away_team": "CVZ"
+  },
+  {
+    "id": 297,
+    "tournament": "CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)",
+    "date": "2026-08-23",
+    "time": "TBD",
+    "ground": "-",
+    "home_team": "CS Girls A1 Stars",
+    "away_team": "CVZ-Women"
+  },
+  {
+    "id": 298,
+    "tournament": "CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL T10)",
+    "date": "2026-08-23",
+    "time": "TBD",
+    "ground": "-",
+    "home_team": "CS Girls A1 Stars",
+    "away_team": "CVZ-Women"
+  },
+  {
+    "id": 299,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-08-23",
+    "time": "10:00",
+    "ground": "Kreuzzleg, Aargau",
+    "home_team": "Pakhtoon Zalmi CC",
+    "away_team": "Cricket Club Wettingen-1"
+  },
+  {
+    "id": 300,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-08-23",
+    "time": "11:00",
+    "ground": "Onex, Geneva",
+    "home_team": "Geneva XI Stars - U19",
+    "away_team": "Nomads-Embrach Cricket Academy"
+  },
+  {
+    "id": 301,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-08-23",
+    "time": "12:30",
+    "ground": "Unknown",
+    "home_team": "Geneva Eagles Cricket Club",
+    "away_team": "A1 Sports Club"
+  },
+  {
+    "id": 302,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-08-29",
+    "time": "11:00",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons B U19",
+    "away_team": "Geneva XI Stars - U19"
+  },
+  {
+    "id": 303,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-08-29",
+    "time": "12:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Swiss Afghan U19",
+    "away_team": "Zurich Crickets U19"
+  },
+  {
+    "id": 304,
+    "tournament": "CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL T10)",
+    "date": "2026-08-29",
+    "time": "10:00",
+    "ground": "Hunnenberg, Zug",
+    "home_team": "CVZ-Women",
+    "away_team": "Basel Supernovas"
+  },
+  {
+    "id": 305,
+    "tournament": "CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)",
+    "date": "2026-08-29",
+    "time": "13:00",
+    "ground": "Hunnenberg, Zug",
+    "home_team": "CVZ-Women",
+    "away_team": "Basel Supernovas"
+  },
+  {
+    "id": 306,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-08-30",
+    "time": "11:30",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva Sri Lanka CC",
+    "away_team": "Novartis CC"
+  },
+  {
+    "id": 307,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-08-30",
+    "time": "11:30",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Swiss Afghan CC",
+    "away_team": "Nomads-Embrach Cricket Academy"
+  },
+  {
+    "id": 308,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-08-30",
+    "time": "12:00",
+    "ground": "En Prevessin, Geneva",
+    "home_team": "Cern CC",
+    "away_team": "Zurich Mavericks Adliswil CC"
+  },
+  {
+    "id": 309,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-08-30",
+    "time": "10:00",
+    "ground": "Hunnenberg, Zug",
+    "home_team": "CVZ",
+    "away_team": "Power Winterthur CC"
+  },
+  {
+    "id": 310,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-08-30",
+    "time": "10:00",
+    "ground": "Luzern Cricket Ground, Luzern",
+    "home_team": "Luzern Cricket Club",
+    "away_team": "Cricket Club Wettingen-1"
+  },
+  {
+    "id": 311,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-08-30",
+    "time": "11:00",
+    "ground": "Obergosgen, Solothurn",
+    "home_team": "Olten CC",
+    "away_team": "Cossonay CC"
+  },
+  {
+    "id": 312,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-08-30",
+    "time": "12:00",
+    "ground": "Onex, Geneva",
+    "home_team": "Geneva XI Stars",
+    "away_team": "Basel CC Colts"
+  },
+  {
+    "id": 313,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-08-30",
+    "time": "11:00",
+    "ground": "Pfaffikon, Zurich",
+    "home_team": "Zurich Lions CC",
+    "away_team": "Geneva CC"
+  },
+  {
+    "id": 314,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-09-05",
+    "time": "11:00",
+    "ground": "Brugg, Aargau",
+    "home_team": "Aargau Crazy Cricketers",
+    "away_team": "Olten Gosgen CC"
+  },
+  {
+    "id": 315,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL U17 50 overs)",
+    "date": "2026-09-05",
+    "time": "12:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets U19",
+    "away_team": "Cossonay Juniors U19"
+  },
+  {
+    "id": 316,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-09-06",
+    "time": "12:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva CC-2",
+    "away_team": "Geneva Sri Lanka CC"
+  },
+  {
+    "id": 317,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-09-06",
+    "time": "11:00",
+    "ground": "Brugg, Aargau",
+    "home_team": "Aargau Avengers",
+    "away_team": "Pakhtoon Zalmi CC"
+  },
+  {
+    "id": 318,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-09-06",
+    "time": "10:30",
+    "ground": "Chopfli Athletic Field, Geneva",
+    "home_team": "A1 Sports Club",
+    "away_team": "Basel CC Colts"
+  },
+  {
+    "id": 319,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-09-06",
+    "time": "11:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Nomads-Embrach Cricket Academy",
+    "away_team": "Zurich Lions CC"
+  },
+  {
+    "id": 320,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-09-06",
+    "time": "11:30",
+    "ground": "Onex, Geneva",
+    "home_team": "Geneva XI Stars - U19",
+    "away_team": "Basel Dragons A U19"
+  },
+  {
+    "id": 321,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-09-06",
+    "time": "15:00",
+    "ground": "Onex, Geneva",
+    "home_team": "Geneva XI Stars - U19",
+    "away_team": "Basel Dragons B U19"
+  },
+  {
+    "id": 322,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-09-06",
+    "time": "11:00",
+    "ground": "Schonau, Bern",
+    "home_team": "Berne CC",
+    "away_team": "Cern CC"
+  },
+  {
+    "id": 323,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-09-12",
+    "time": "11:30",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Zurich Lions CC",
+    "away_team": "Basel CC"
+  },
+  {
+    "id": 324,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-09-12",
+    "time": "10:30",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons A U19",
+    "away_team": "Cossonay Juniors U19"
+  },
+  {
+    "id": 325,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-09-12",
+    "time": "14:30",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons B U19",
+    "away_team": "Cossonay Juniors U19"
+  },
+  {
+    "id": 326,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-09-12",
+    "time": "11:00",
+    "ground": "Brugg, Aargau",
+    "home_team": "Aargau Crazy Cricketers",
+    "away_team": "Solothurn CC"
+  },
+  {
+    "id": 327,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-09-13",
+    "time": "12:00",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel CC Colts",
+    "away_team": "Geneva Sri Lanka CC"
+  },
+  {
+    "id": 328,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-09-13",
+    "time": "10:30",
+    "ground": "Baumlihof, Basel",
+    "home_team": "Basel Dragons A U19",
+    "away_team": "Zurich Crickets U19"
+  },
+  {
+    "id": 329,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-09-13",
+    "time": "12:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva International CC-2",
+    "away_team": "Geneva CC-2"
+  },
+  {
+    "id": 330,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-09-13",
+    "time": "11:00",
+    "ground": "Brugg, Aargau",
+    "home_team": "Aargau Avengers",
+    "away_team": "Luzern Cricket Club"
+  },
+  {
+    "id": 331,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-09-13",
+    "time": "11:30",
+    "ground": "Chopfli Athletic Field, Geneva",
+    "home_team": "A1 Sports Club",
+    "away_team": "Geneva XI Stars"
+  },
+  {
+    "id": 332,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-09-13",
+    "time": "11:00",
+    "ground": "Deutweg, Winterthur",
+    "home_team": "Zurich Mavericks Adliswil CC",
+    "away_team": "Power Winterthur CC"
+  },
+  {
+    "id": 333,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-09-13",
+    "time": "11:30",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Nomads-Embrach Cricket Academy",
+    "away_team": "Cossonay CC"
+  },
+  {
+    "id": 334,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL U17 20 overs)",
+    "date": "2026-09-13",
+    "time": "12:00",
+    "ground": "Onex, Geneva",
+    "home_team": "Geneva XI Stars U17",
+    "away_team": "Zurich Crickets U17"
+  },
+  {
+    "id": 335,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-09-19",
+    "time": "12:00",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva International CC-2",
+    "away_team": "Basel CC Colts"
+  },
+  {
+    "id": 336,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-09-19",
+    "time": "12:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets U19",
+    "away_team": "Geneva XI Stars - U19"
+  },
+  {
+    "id": 337,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-09-19",
+    "time": "11:00",
+    "ground": "En Marche, Cossonay",
+    "home_team": "Cossonay Juniors U19",
+    "away_team": "Basel Dragons B U19"
+  },
+  {
+    "id": 338,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-09-20",
+    "time": "11:30",
+    "ground": "Bachgraben, Basel",
+    "home_team": "Basel CC",
+    "away_team": "ZURICH NOMADS"
+  },
+  {
+    "id": 339,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-09-20",
+    "time": "10:30",
+    "ground": "Baumlihof, Basel",
+    "home_team": "A1 Sports Club",
+    "away_team": "Basel Dragons JCC"
+  },
+  {
+    "id": 340,
+    "tournament": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+    "date": "2026-09-20",
+    "time": "11:00",
+    "ground": "Brugg, Aargau",
+    "home_team": "Aargau Avengers",
+    "away_team": "Aargau Crazy Cricketers"
+  },
+  {
+    "id": 341,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-09-20",
+    "time": "11:30",
+    "ground": "Hedingen, Zurich",
+    "home_team": "Zug Cricket Club",
+    "away_team": "Power Winterthur CC"
+  },
+  {
+    "id": 342,
+    "tournament": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+    "date": "2026-09-20",
+    "time": "12:00",
+    "ground": "Onex, Geneva",
+    "home_team": "Geneva XI Stars - U19",
+    "away_team": "Zurich Crickets U19"
+  },
+  {
+    "id": 343,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-09-20",
+    "time": "12:00",
+    "ground": "En Prevessin, Geneva",
+    "home_team": "Cern CC",
+    "away_team": "Geneva International CC"
+  },
+  {
+    "id": 344,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-09-27",
+    "time": "11:30",
+    "ground": "Bout-du-monde, Geneva (Switzerland)",
+    "home_team": "Geneva CC",
+    "away_team": "Zurich Crickets CC-1"
+  },
+  {
+    "id": 345,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-09-27",
+    "time": "11:30",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "ZURICH NOMADS",
+    "away_team": "Olten CC"
+  },
+  {
+    "id": 346,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-09-27",
+    "time": "11:30",
+    "ground": "Hedingen, Zurich",
+    "home_team": "Zug Cricket Club",
+    "away_team": "Basel Afghan CC"
+  },
+  {
+    "id": 347,
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-09-29",
+    "time": "12:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Zurich Crickets U19",
+    "away_team": "Geneva XI Stars - U19"
+  },
+  {
+    "id": 348,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-10-04",
+    "time": "11:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Nomads-Embrach Cricket Academy",
+    "away_team": "Olten CC"
+  },
+  {
+    "id": 349,
+    "tournament": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+    "date": "2026-10-04",
+    "time": "10:00",
+    "ground": "Hunnenberg, Zug",
+    "home_team": "CVZ",
+    "away_team": "Berne CC"
+  },
+  {
+    "id": 350,
+    "tournament": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+    "date": "2026-10-11",
+    "time": "10:00",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "home_team": "Nomads-Embrach Cricket Academy",
+    "away_team": "ZURICH NOMADS"
+  }
+]

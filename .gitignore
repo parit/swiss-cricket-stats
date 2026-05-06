@@ -1,0 +1,19 @@
+# PDF source files (schedule.json and teams.tsv within data/ are committed)
+data/points_table/
+data/scorecards/*/
+data/dashboard-*.pdf
+
+# Claude project files
+CLAUDE.md
+architecture.md
+conversation.md
+docs/
+
+# Intermediate / debug
+tmp/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env

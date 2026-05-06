@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swiss Afghan CC</title>
+  <link rel="stylesheet" href="../../assets/style.css">
+
+  <style>
+    .stats-selector { margin-bottom: 20px; }
+    .stats-selector label { font-weight: 600; margin-right: 8px; font-size: 0.9rem; }
+    .stats-selector select {
+      padding: 8px 12px; font-size: 0.9rem;
+      border: 1px solid #ccc; border-radius: 4px;
+      background: #fff; cursor: pointer; min-width: 280px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Swiss Afghan CC</h1>
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="scorecards">Matches</button><button class="tab-btn " data-tab="points-table">Points Table</button>
+  </div>
+  <div class="tab-content active" id="tab-scorecards">
+    <div class="sc-controls"><div class="view-toggle"><button class="view-btn active" data-view="list">List</button><button class="view-btn" data-view="cards">Cards</button></div><div class="team-filter"><label>Team:</label><select class="sc-team-filter"><option value="">All teams</option></select></div></div>
+<div class="match-section">
+  <h2 class="sc-subtitle">Past Matches</h2>
+  <div class="list-view"><table class="scorecards-table">
+  <thead><tr><th>Date</th><th>Ground</th><th>Batting 1st</th><th>Score</th><th>Batting 2nd</th><th>Score</th><th>Result</th></tr></thead>
+  <tbody>
+<tr data-teams="Swiss Afghan CC|Aargau Avengers"><td class="dt">19 Apr 2026</td><td>Brugg, Aargau</td><td class="team">Swiss Afghan CC</td><td class="score">95/10 (19.1 Ov)</td><td class="team">Aargau Avengers</td><td class="score">99/2 (13.1 Ov)</td><td class="result">Aargau Avengers won by 8 wickets</td></tr>
+  </tbody>
+</table></div>
+  <div class="cards-view" style="display:none"><div class="cards-grid">
+<div class="match-card" data-teams="Swiss Afghan CC|Aargau Avengers"><div class="card-meta"><span>Brugg, Aargau &middot; 19 Apr 2026</span><span class="card-badge">Past</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Swiss Afghan CC</span><span class="card-score">95/10 (19.1 Ov)</span></div><div class="card-team-row"><span class="card-team">Aargau Avengers</span><span class="card-score winner">99/2 (13.1 Ov)</span></div></div><div class="card-result">Aargau Avengers won by 8 wickets</div></div>
+</div></div>
+</div>
+<div class="match-section">
+  <h2 class="sc-subtitle">Upcoming Matches</h2>
+  <div class="list-view"><table class="scorecards-table">
+  <thead><tr><th>Date</th><th>Ground</th><th>Team 1</th><th>Team 2</th></tr></thead>
+  <tbody>
+<tr data-teams="Olten CC|Swiss Afghan CC"><td class="dt">9 May 2026 <span class="match-time">15:00</span></td><td>Obergosgen, Solothurn</td><td class="team">Olten CC</td><td class="team">Swiss Afghan CC</td></tr>
+<tr data-teams="Swiss Afghan CC|Power Winterthur CC"><td class="dt">10 May 2026 <span class="match-time">14:30</span></td><td>Deutweg, Winterthur</td><td class="team">Swiss Afghan CC</td><td class="team">Power Winterthur CC</td></tr>
+<tr data-teams="Swiss Afghan CC|Geneva CC"><td class="dt">17 May 2026 <span class="match-time">12:00</span></td><td>Bout-du-monde, Geneva (Switzerland)</td><td class="team">Swiss Afghan CC</td><td class="team">Geneva CC</td></tr>
+<tr data-teams="Swiss Afghan CC|Zurich Crickets CC-1"><td class="dt">24 May 2026 <span class="match-time">14:00</span></td><td>Embrach Cricket Ground, Zurich</td><td class="team">Swiss Afghan CC</td><td class="team">Zurich Crickets CC-1</td></tr>
+<tr data-teams="Swiss Afghan CC|ZURICH NOMADS"><td class="dt">31 May 2026 <span class="match-time">11:30</span></td><td>Embrach Cricket Ground, Zurich</td><td class="team">Swiss Afghan CC</td><td class="team">ZURICH NOMADS</td></tr>
+<tr data-teams="Swiss Afghan CC|Basel CC"><td class="dt">21 Jun 2026 <span class="match-time">13:30</span></td><td>Kreuzzleg, Aargau</td><td class="team">Swiss Afghan CC</td><td class="team">Basel CC</td></tr>
+<tr data-teams="Zurich Lions CC|Swiss Afghan CC"><td class="dt">28 Jun 2026 <span class="match-time">09:30</span></td><td>Hedingen, Zurich</td><td class="team">Zurich Lions CC</td><td class="team">Swiss Afghan CC</td></tr>
+<tr data-teams="Olten CC|Swiss Afghan CC"><td class="dt">5 Jul 2026 <span class="match-time">11:00</span></td><td>Obergosgen, Solothurn</td><td class="team">Olten CC</td><td class="team">Swiss Afghan CC</td></tr>
+<tr data-teams="Cossonay CC|Swiss Afghan CC"><td class="dt">12 Jul 2026 <span class="match-time">11:30</span></td><td>En Marche, Cossonay</td><td class="team">Cossonay CC</td><td class="team">Swiss Afghan CC</td></tr>
+<tr data-teams="Swiss Afghan CC|Nomads-Embrach Cricket Academy"><td class="dt">19 Jul 2026 <span class="match-time">10:00</span></td><td>Embrach Cricket Ground, Zurich</td><td class="team">Swiss Afghan CC</td><td class="team">Nomads-Embrach Cricket Academy</td></tr>
+<tr data-teams="Zurich Lions CC|Swiss Afghan CC"><td class="dt">2 Aug 2026 <span class="match-time">11:00</span></td><td>Pfaffikon, Zurich</td><td class="team">Zurich Lions CC</td><td class="team">Swiss Afghan CC</td></tr>
+<tr data-teams="Zurich Crickets CC-1|Swiss Afghan CC"><td class="dt">15 Aug 2026 <span class="match-time">12:00</span></td><td>Embrach Cricket Ground, Zurich</td><td class="team">Zurich Crickets CC-1</td><td class="team">Swiss Afghan CC</td></tr>
+<tr data-teams="Swiss Afghan CC|Nomads-Embrach Cricket Academy"><td class="dt">30 Aug 2026 <span class="match-time">11:30</span></td><td>Embrach Cricket Ground, Zurich</td><td class="team">Swiss Afghan CC</td><td class="team">Nomads-Embrach Cricket Academy</td></tr>
+  </tbody>
+</table></div>
+  <div class="cards-view" style="display:none"><div class="cards-grid">
+<div class="match-card" data-teams="Olten CC|Swiss Afghan CC"><div class="card-meta"><span>Obergosgen, Solothurn &middot; 9 May 2026 &middot; 15:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Olten CC</span></div><div class="card-team-row"><span class="card-team">Swiss Afghan CC</span></div></div></div>
+<div class="match-card" data-teams="Swiss Afghan CC|Power Winterthur CC"><div class="card-meta"><span>Deutweg, Winterthur &middot; 10 May 2026 &middot; 14:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Swiss Afghan CC</span></div><div class="card-team-row"><span class="card-team">Power Winterthur CC</span></div></div></div>
+<div class="match-card" data-teams="Swiss Afghan CC|Geneva CC"><div class="card-meta"><span>Bout-du-monde, Geneva (Switzerland) &middot; 17 May 2026 &middot; 12:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Swiss Afghan CC</span></div><div class="card-team-row"><span class="card-team">Geneva CC</span></div></div></div>
+<div class="match-card" data-teams="Swiss Afghan CC|Zurich Crickets CC-1"><div class="card-meta"><span>Embrach Cricket Ground, Zurich &middot; 24 May 2026 &middot; 14:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Swiss Afghan CC</span></div><div class="card-team-row"><span class="card-team">Zurich Crickets CC-1</span></div></div></div>
+<div class="match-card" data-teams="Swiss Afghan CC|ZURICH NOMADS"><div class="card-meta"><span>Embrach Cricket Ground, Zurich &middot; 31 May 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Swiss Afghan CC</span></div><div class="card-team-row"><span class="card-team">ZURICH NOMADS</span></div></div></div>
+<div class="match-card" data-teams="Swiss Afghan CC|Basel CC"><div class="card-meta"><span>Kreuzzleg, Aargau &middot; 21 Jun 2026 &middot; 13:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Swiss Afghan CC</span></div><div class="card-team-row"><span class="card-team">Basel CC</span></div></div></div>
+<div class="match-card" data-teams="Zurich Lions CC|Swiss Afghan CC"><div class="card-meta"><span>Hedingen, Zurich &middot; 28 Jun 2026 &middot; 09:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Zurich Lions CC</span></div><div class="card-team-row"><span class="card-team">Swiss Afghan CC</span></div></div></div>
+<div class="match-card" data-teams="Olten CC|Swiss Afghan CC"><div class="card-meta"><span>Obergosgen, Solothurn &middot; 5 Jul 2026 &middot; 11:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Olten CC</span></div><div class="card-team-row"><span class="card-team">Swiss Afghan CC</span></div></div></div>
+<div class="match-card" data-teams="Cossonay CC|Swiss Afghan CC"><div class="card-meta"><span>En Marche, Cossonay &middot; 12 Jul 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Cossonay CC</span></div><div class="card-team-row"><span class="card-team">Swiss Afghan CC</span></div></div></div>
+<div class="match-card" data-teams="Swiss Afghan CC|Nomads-Embrach Cricket Academy"><div class="card-meta"><span>Embrach Cricket Ground, Zurich &middot; 19 Jul 2026 &middot; 10:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Swiss Afghan CC</span></div><div class="card-team-row"><span class="card-team">Nomads-Embrach Cricket Academy</span></div></div></div>
+<div class="match-card" data-teams="Zurich Lions CC|Swiss Afghan CC"><div class="card-meta"><span>Pfaffikon, Zurich &middot; 2 Aug 2026 &middot; 11:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Zurich Lions CC</span></div><div class="card-team-row"><span class="card-team">Swiss Afghan CC</span></div></div></div>
+<div class="match-card" data-teams="Zurich Crickets CC-1|Swiss Afghan CC"><div class="card-meta"><span>Embrach Cricket Ground, Zurich &middot; 15 Aug 2026 &middot; 12:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Zurich Crickets CC-1</span></div><div class="card-team-row"><span class="card-team">Swiss Afghan CC</span></div></div></div>
+<div class="match-card" data-teams="Swiss Afghan CC|Nomads-Embrach Cricket Academy"><div class="card-meta"><span>Embrach Cricket Ground, Zurich &middot; 30 Aug 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Swiss Afghan CC</span></div><div class="card-team-row"><span class="card-team">Nomads-Embrach Cricket Academy</span></div></div></div>
+</div></div>
+</div>
+  </div>  <div class="tab-content " id="tab-points-table">
+    <h2 class="sc-subtitle">CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026</h2>
+<section>
+  <h2>Group A (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">Basel Cricket Club</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">COSSONAY CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">GENEVA CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Nomads Embrach</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>()</td><td>0</td></tr>
+    <tr><td class="team">Olten CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Swiss Afghan CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Zurich Crickets CC 1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Zurich Lions CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>()</td><td>0</td></tr>
+    <tr><td class="team">ZURICH NOMADS</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+
+<h2 class="sc-subtitle">PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026</h2>
+<section>
+  <h2>Group A (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">ZURICH NOMADS</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">6.250</td><td>10</td></tr>
+    <tr><td class="team">GENEVA CC</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">5.200</td><td>10</td></tr>
+    <tr><td class="team">Basel Cricket Club</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">1.800</td><td>10</td></tr>
+    <tr><td class="team">COSSONAY CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">St Gallen CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Winterthur CC</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td class="neg">-4.025</td><td>0</td></tr>
+    <tr><td class="team">Basel Afghan CC</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-5.200</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+
+<section>
+  <h2>Group B (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">Olten CC</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">4.750</td><td>10</td></tr>
+    <tr><td class="team">Aargau Avengers</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-2.275</td><td>10</td></tr>
+    <tr><td class="team">Zurich Lions CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Power WCC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Nomads Embrach</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Zurich Crickets CC 1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Swiss Afghan CC</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-0.200</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+  </div>
+  <script src="../../assets/script.js"></script>
+</body>
+</html>

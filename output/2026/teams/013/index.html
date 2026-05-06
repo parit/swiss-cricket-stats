@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basel Supernovas</title>
+  <link rel="stylesheet" href="../../assets/style.css">
+
+  <style>
+    .stats-selector { margin-bottom: 20px; }
+    .stats-selector label { font-weight: 600; margin-right: 8px; font-size: 0.9rem; }
+    .stats-selector select {
+      padding: 8px 12px; font-size: 0.9rem;
+      border: 1px solid #ccc; border-radius: 4px;
+      background: #fff; cursor: pointer; min-width: 280px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Basel Supernovas</h1>
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="scorecards">Matches</button><button class="tab-btn " data-tab="points-table">Points Table</button>
+  </div>
+  <div class="tab-content active" id="tab-scorecards">
+    <div class="sc-controls"><div class="view-toggle"><button class="view-btn active" data-view="list">List</button><button class="view-btn" data-view="cards">Cards</button></div><div class="team-filter"><label>Team:</label><select class="sc-team-filter"><option value="">All teams</option></select></div></div>
+<div class="match-section">
+  <h2 class="sc-subtitle">Past Matches</h2>
+  <div class="list-view"><table class="scorecards-table">
+  <thead><tr><th>Date</th><th>Ground</th><th>Batting 1st</th><th>Score</th><th>Batting 2nd</th><th>Score</th><th>Result</th></tr></thead>
+  <tbody>
+
+  </tbody>
+</table></div>
+  <div class="cards-view" style="display:none"><div class="cards-grid">
+
+</div></div>
+</div>
+<div class="match-section">
+  <h2 class="sc-subtitle">Upcoming Matches</h2>
+  <div class="list-view"><table class="scorecards-table">
+  <thead><tr><th>Date</th><th>Ground</th><th>Team 1</th><th>Team 2</th></tr></thead>
+  <tbody>
+<tr data-teams="Basel Supernovas|A1SC- Women"><td class="dt">9 May 2026 <span class="match-time">10:00</span></td><td>Bachgraben, Basel</td><td class="team">Basel Supernovas</td><td class="team">A1SC- Women</td></tr>
+<tr data-teams="Basel Supernovas|A1SC- Women"><td class="dt">9 May 2026 <span class="match-time">14:00</span></td><td>Bachgraben, Basel</td><td class="team">Basel Supernovas</td><td class="team">A1SC- Women</td></tr>
+<tr data-teams="Cossonay CC-Women|Basel Supernovas"><td class="dt">30 May 2026 <span class="match-time">10:30</span></td><td>En Marche, Cossonay</td><td class="team">Cossonay CC-Women</td><td class="team">Basel Supernovas</td></tr>
+<tr data-teams="Cossonay CC-Women|Basel Supernovas"><td class="dt">30 May 2026 <span class="match-time">14:00</span></td><td>En Marche, Cossonay</td><td class="team">Cossonay CC-Women</td><td class="team">Basel Supernovas</td></tr>
+<tr data-teams="Basel Supernovas|CS Girls A1 Stars"><td class="dt">15 Aug 2026</td><td>Bachgraben, Basel</td><td class="team">Basel Supernovas</td><td class="team">CS Girls A1 Stars</td></tr>
+<tr data-teams="Basel Supernovas|CS Girls A1 Stars"><td class="dt">15 Aug 2026</td><td>Bachgraben, Basel</td><td class="team">Basel Supernovas</td><td class="team">CS Girls A1 Stars</td></tr>
+<tr data-teams="Embrach Thunder|Basel Supernovas"><td class="dt">23 Aug 2026</td><td>Embrach Cricket Ground, Zurich</td><td class="team">Embrach Thunder</td><td class="team">Basel Supernovas</td></tr>
+<tr data-teams="Embrach Thunder|Basel Supernovas"><td class="dt">23 Aug 2026</td><td>Embrach Cricket Ground, Zurich</td><td class="team">Embrach Thunder</td><td class="team">Basel Supernovas</td></tr>
+<tr data-teams="CVZ-Women|Basel Supernovas"><td class="dt">29 Aug 2026 <span class="match-time">10:00</span></td><td>Hunnenberg, Zug</td><td class="team">CVZ-Women</td><td class="team">Basel Supernovas</td></tr>
+<tr data-teams="CVZ-Women|Basel Supernovas"><td class="dt">29 Aug 2026 <span class="match-time">13:00</span></td><td>Hunnenberg, Zug</td><td class="team">CVZ-Women</td><td class="team">Basel Supernovas</td></tr>
+  </tbody>
+</table></div>
+  <div class="cards-view" style="display:none"><div class="cards-grid">
+<div class="match-card" data-teams="Basel Supernovas|A1SC- Women"><div class="card-meta"><span>Bachgraben, Basel &middot; 9 May 2026 &middot; 10:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Basel Supernovas</span></div><div class="card-team-row"><span class="card-team">A1SC- Women</span></div></div></div>
+<div class="match-card" data-teams="Basel Supernovas|A1SC- Women"><div class="card-meta"><span>Bachgraben, Basel &middot; 9 May 2026 &middot; 14:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Basel Supernovas</span></div><div class="card-team-row"><span class="card-team">A1SC- Women</span></div></div></div>
+<div class="match-card" data-teams="Cossonay CC-Women|Basel Supernovas"><div class="card-meta"><span>En Marche, Cossonay &middot; 30 May 2026 &middot; 10:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Cossonay CC-Women</span></div><div class="card-team-row"><span class="card-team">Basel Supernovas</span></div></div></div>
+<div class="match-card" data-teams="Cossonay CC-Women|Basel Supernovas"><div class="card-meta"><span>En Marche, Cossonay &middot; 30 May 2026 &middot; 14:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Cossonay CC-Women</span></div><div class="card-team-row"><span class="card-team">Basel Supernovas</span></div></div></div>
+<div class="match-card" data-teams="Basel Supernovas|CS Girls A1 Stars"><div class="card-meta"><span>Bachgraben, Basel &middot; 15 Aug 2026</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Basel Supernovas</span></div><div class="card-team-row"><span class="card-team">CS Girls A1 Stars</span></div></div></div>
+<div class="match-card" data-teams="Basel Supernovas|CS Girls A1 Stars"><div class="card-meta"><span>Bachgraben, Basel &middot; 15 Aug 2026</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Basel Supernovas</span></div><div class="card-team-row"><span class="card-team">CS Girls A1 Stars</span></div></div></div>
+<div class="match-card" data-teams="Embrach Thunder|Basel Supernovas"><div class="card-meta"><span>Embrach Cricket Ground, Zurich &middot; 23 Aug 2026</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Embrach Thunder</span></div><div class="card-team-row"><span class="card-team">Basel Supernovas</span></div></div></div>
+<div class="match-card" data-teams="Embrach Thunder|Basel Supernovas"><div class="card-meta"><span>Embrach Cricket Ground, Zurich &middot; 23 Aug 2026</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Embrach Thunder</span></div><div class="card-team-row"><span class="card-team">Basel Supernovas</span></div></div></div>
+<div class="match-card" data-teams="CVZ-Women|Basel Supernovas"><div class="card-meta"><span>Hunnenberg, Zug &middot; 29 Aug 2026 &middot; 10:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">CVZ-Women</span></div><div class="card-team-row"><span class="card-team">Basel Supernovas</span></div></div></div>
+<div class="match-card" data-teams="CVZ-Women|Basel Supernovas"><div class="card-meta"><span>Hunnenberg, Zug &middot; 29 Aug 2026 &middot; 13:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">CVZ-Women</span></div><div class="card-team-row"><span class="card-team">Basel Supernovas</span></div></div></div>
+</div></div>
+</div>
+  </div>  <div class="tab-content " id="tab-points-table">
+    <h2 class="sc-subtitle">CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL T10)</h2>
+<section>
+  <h2>Group A (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">CVZ-Women</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">3.700</td><td>2</td></tr>
+    <tr><td class="team">A1SC- Women</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">2.973</td><td>2</td></tr>
+    <tr><td class="team">Basel Supernovas</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Cossonay CC-Women</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">CS Girls A1 Stars</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-2.973</td><td>0</td></tr>
+    <tr><td class="team">Embrach Thunder</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-3.700</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+
+<h2 class="sc-subtitle">CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)</h2>
+<section>
+  <h2>Group A (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">CVZ-Women</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">7.009</td><td>2</td></tr>
+    <tr><td class="team">A1SC- Women</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">3.800</td><td>2</td></tr>
+    <tr><td class="team">Basel Supernovas</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Cossonay CC-Women</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">CS Girls A1 Stars</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-3.800</td><td>0</td></tr>
+    <tr><td class="team">Embrach Thunder</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-7.009</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+  </div>
+  <script src="../../assets/script.js"></script>
+</body>
+</html>

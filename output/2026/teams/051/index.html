@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZURICH NOMADS</title>
+  <link rel="stylesheet" href="../../assets/style.css">
+
+  <style>
+    .stats-selector { margin-bottom: 20px; }
+    .stats-selector label { font-weight: 600; margin-right: 8px; font-size: 0.9rem; }
+    .stats-selector select {
+      padding: 8px 12px; font-size: 0.9rem;
+      border: 1px solid #ccc; border-radius: 4px;
+      background: #fff; cursor: pointer; min-width: 280px;
+    }
+  </style>
+</head>
+<body>
+  <h1>ZURICH NOMADS</h1>
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="scorecards">Matches</button><button class="tab-btn " data-tab="points-table">Points Table</button>
+  </div>
+  <div class="tab-content active" id="tab-scorecards">
+    <div class="sc-controls"><div class="view-toggle"><button class="view-btn active" data-view="list">List</button><button class="view-btn" data-view="cards">Cards</button></div><div class="team-filter"><label>Team:</label><select class="sc-team-filter"><option value="">All teams</option></select></div></div>
+<div class="match-section">
+  <h2 class="sc-subtitle">Past Matches</h2>
+  <div class="list-view"><table class="scorecards-table">
+  <thead><tr><th>Date</th><th>Ground</th><th>Batting 1st</th><th>Score</th><th>Batting 2nd</th><th>Score</th><th>Result</th></tr></thead>
+  <tbody>
+<tr data-teams="ZURICH NOMADS|Winterthur CC"><td class="dt">3 May 2026</td><td>Deutweg, Winterthur</td><td class="team">ZURICH NOMADS</td><td class="score">272/5 (20.0 Ov)</td><td class="team">Winterthur CC</td><td class="score">147/10 (16.4 Ov)</td><td class="result">ZURICH NOMADS won by 125 runs</td></tr>
+  </tbody>
+</table></div>
+  <div class="cards-view" style="display:none"><div class="cards-grid">
+<div class="match-card" data-teams="ZURICH NOMADS|Winterthur CC"><div class="card-meta"><span>Deutweg, Winterthur &middot; 3 May 2026</span><span class="card-badge">Past</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">ZURICH NOMADS</span><span class="card-score winner">272/5 (20.0 Ov)</span></div><div class="card-team-row"><span class="card-team">Winterthur CC</span><span class="card-score">147/10 (16.4 Ov)</span></div></div><div class="card-result">ZURICH NOMADS won by 125 runs</div></div>
+</div></div>
+</div>
+<div class="match-section">
+  <h2 class="sc-subtitle">Upcoming Matches</h2>
+  <div class="list-view"><table class="scorecards-table">
+  <thead><tr><th>Date</th><th>Ground</th><th>Team 1</th><th>Team 2</th></tr></thead>
+  <tbody>
+<tr data-teams="Swiss Afghan CC|ZURICH NOMADS"><td class="dt">31 May 2026 <span class="match-time">11:30</span></td><td>Embrach Cricket Ground, Zurich</td><td class="team">Swiss Afghan CC</td><td class="team">ZURICH NOMADS</td></tr>
+<tr data-teams="ZURICH NOMADS|Basel Afghan CC"><td class="dt">14 Jun 2026 <span class="match-time">15:00</span></td><td>Embrach Cricket Ground, Zurich</td><td class="team">ZURICH NOMADS</td><td class="team">Basel Afghan CC</td></tr>
+<tr data-teams="ZURICH NOMADS|Zurich Crickets CC-1"><td class="dt">21 Jun 2026 <span class="match-time">11:30</span></td><td>Embrach Cricket Ground, Zurich</td><td class="team">ZURICH NOMADS</td><td class="team">Zurich Crickets CC-1</td></tr>
+<tr data-teams="Basel CC|ZURICH NOMADS"><td class="dt">28 Jun 2026 <span class="match-time">14:00</span></td><td>Bachgraben, Basel</td><td class="team">Basel CC</td><td class="team">ZURICH NOMADS</td></tr>
+<tr data-teams="ZURICH NOMADS|Zurich Lions CC"><td class="dt">5 Jul 2026 <span class="match-time">11:30</span></td><td>Embrach Cricket Ground, Zurich</td><td class="team">ZURICH NOMADS</td><td class="team">Zurich Lions CC</td></tr>
+<tr data-teams="St. Gallen|ZURICH NOMADS"><td class="dt">12 Jul 2026 <span class="match-time">11:00</span></td><td>Grundenmoos, St. Gallen</td><td class="team">St. Gallen</td><td class="team">ZURICH NOMADS</td></tr>
+<tr data-teams="ZURICH NOMADS|Cossonay CC"><td class="dt">19 Jul 2026 <span class="match-time">15:00</span></td><td>Embrach Cricket Ground, Zurich</td><td class="team">ZURICH NOMADS</td><td class="team">Cossonay CC</td></tr>
+<tr data-teams="ZURICH NOMADS|Geneva CC"><td class="dt">2 Aug 2026 <span class="match-time">14:00</span></td><td>Embrach Cricket Ground, Zurich</td><td class="team">ZURICH NOMADS</td><td class="team">Geneva CC</td></tr>
+<tr data-teams="Cossonay CC|ZURICH NOMADS"><td class="dt">9 Aug 2026 <span class="match-time">11:30</span></td><td>En Marche, Cossonay</td><td class="team">Cossonay CC</td><td class="team">ZURICH NOMADS</td></tr>
+<tr data-teams="ZURICH NOMADS|Geneva CC"><td class="dt">16 Aug 2026 <span class="match-time">11:30</span></td><td>Embrach Cricket Ground, Zurich</td><td class="team">ZURICH NOMADS</td><td class="team">Geneva CC</td></tr>
+<tr data-teams="Basel CC|ZURICH NOMADS"><td class="dt">20 Sep 2026 <span class="match-time">11:30</span></td><td>Bachgraben, Basel</td><td class="team">Basel CC</td><td class="team">ZURICH NOMADS</td></tr>
+<tr data-teams="ZURICH NOMADS|Olten CC"><td class="dt">27 Sep 2026 <span class="match-time">11:30</span></td><td>Embrach Cricket Ground, Zurich</td><td class="team">ZURICH NOMADS</td><td class="team">Olten CC</td></tr>
+<tr data-teams="Nomads-Embrach Cricket Academy|ZURICH NOMADS"><td class="dt">11 Oct 2026 <span class="match-time">10:00</span></td><td>Embrach Cricket Ground, Zurich</td><td class="team">Nomads-Embrach Cricket Academy</td><td class="team">ZURICH NOMADS</td></tr>
+  </tbody>
+</table></div>
+  <div class="cards-view" style="display:none"><div class="cards-grid">
+<div class="match-card" data-teams="Swiss Afghan CC|ZURICH NOMADS"><div class="card-meta"><span>Embrach Cricket Ground, Zurich &middot; 31 May 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Swiss Afghan CC</span></div><div class="card-team-row"><span class="card-team">ZURICH NOMADS</span></div></div></div>
+<div class="match-card" data-teams="ZURICH NOMADS|Basel Afghan CC"><div class="card-meta"><span>Embrach Cricket Ground, Zurich &middot; 14 Jun 2026 &middot; 15:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">ZURICH NOMADS</span></div><div class="card-team-row"><span class="card-team">Basel Afghan CC</span></div></div></div>
+<div class="match-card" data-teams="ZURICH NOMADS|Zurich Crickets CC-1"><div class="card-meta"><span>Embrach Cricket Ground, Zurich &middot; 21 Jun 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">ZURICH NOMADS</span></div><div class="card-team-row"><span class="card-team">Zurich Crickets CC-1</span></div></div></div>
+<div class="match-card" data-teams="Basel CC|ZURICH NOMADS"><div class="card-meta"><span>Bachgraben, Basel &middot; 28 Jun 2026 &middot; 14:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Basel CC</span></div><div class="card-team-row"><span class="card-team">ZURICH NOMADS</span></div></div></div>
+<div class="match-card" data-teams="ZURICH NOMADS|Zurich Lions CC"><div class="card-meta"><span>Embrach Cricket Ground, Zurich &middot; 5 Jul 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">ZURICH NOMADS</span></div><div class="card-team-row"><span class="card-team">Zurich Lions CC</span></div></div></div>
+<div class="match-card" data-teams="St. Gallen|ZURICH NOMADS"><div class="card-meta"><span>Grundenmoos, St. Gallen &middot; 12 Jul 2026 &middot; 11:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">St. Gallen</span></div><div class="card-team-row"><span class="card-team">ZURICH NOMADS</span></div></div></div>
+<div class="match-card" data-teams="ZURICH NOMADS|Cossonay CC"><div class="card-meta"><span>Embrach Cricket Ground, Zurich &middot; 19 Jul 2026 &middot; 15:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">ZURICH NOMADS</span></div><div class="card-team-row"><span class="card-team">Cossonay CC</span></div></div></div>
+<div class="match-card" data-teams="ZURICH NOMADS|Geneva CC"><div class="card-meta"><span>Embrach Cricket Ground, Zurich &middot; 2 Aug 2026 &middot; 14:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">ZURICH NOMADS</span></div><div class="card-team-row"><span class="card-team">Geneva CC</span></div></div></div>
+<div class="match-card" data-teams="Cossonay CC|ZURICH NOMADS"><div class="card-meta"><span>En Marche, Cossonay &middot; 9 Aug 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Cossonay CC</span></div><div class="card-team-row"><span class="card-team">ZURICH NOMADS</span></div></div></div>
+<div class="match-card" data-teams="ZURICH NOMADS|Geneva CC"><div class="card-meta"><span>Embrach Cricket Ground, Zurich &middot; 16 Aug 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">ZURICH NOMADS</span></div><div class="card-team-row"><span class="card-team">Geneva CC</span></div></div></div>
+<div class="match-card" data-teams="Basel CC|ZURICH NOMADS"><div class="card-meta"><span>Bachgraben, Basel &middot; 20 Sep 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Basel CC</span></div><div class="card-team-row"><span class="card-team">ZURICH NOMADS</span></div></div></div>
+<div class="match-card" data-teams="ZURICH NOMADS|Olten CC"><div class="card-meta"><span>Embrach Cricket Ground, Zurich &middot; 27 Sep 2026 &middot; 11:30</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">ZURICH NOMADS</span></div><div class="card-team-row"><span class="card-team">Olten CC</span></div></div></div>
+<div class="match-card" data-teams="Nomads-Embrach Cricket Academy|ZURICH NOMADS"><div class="card-meta"><span>Embrach Cricket Ground, Zurich &middot; 11 Oct 2026 &middot; 10:00</span><span class="card-badge upcoming-badge">Upcoming</span></div><div class="card-scores"><div class="card-team-row"><span class="card-team bold">Nomads-Embrach Cricket Academy</span></div><div class="card-team-row"><span class="card-team">ZURICH NOMADS</span></div></div></div>
+</div></div>
+</div>
+  </div>  <div class="tab-content " id="tab-points-table">
+    <h2 class="sc-subtitle">CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026</h2>
+<section>
+  <h2>Group A (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">Basel Cricket Club</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">COSSONAY CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">GENEVA CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Nomads Embrach</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>()</td><td>0</td></tr>
+    <tr><td class="team">Olten CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Swiss Afghan CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Zurich Crickets CC 1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Zurich Lions CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>()</td><td>0</td></tr>
+    <tr><td class="team">ZURICH NOMADS</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+
+<h2 class="sc-subtitle">PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026</h2>
+<section>
+  <h2>Group A (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">ZURICH NOMADS</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">6.250</td><td>10</td></tr>
+    <tr><td class="team">GENEVA CC</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">5.200</td><td>10</td></tr>
+    <tr><td class="team">Basel Cricket Club</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">1.800</td><td>10</td></tr>
+    <tr><td class="team">COSSONAY CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">St Gallen CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Winterthur CC</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td class="neg">-4.025</td><td>0</td></tr>
+    <tr><td class="team">Basel Afghan CC</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-5.200</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+
+<section>
+  <h2>Group B (League Matches)</h2>
+  <table class="points-table">
+  <thead><tr><th>Team</th><th>M</th><th>W</th><th>L</th><th>D</th><th>T</th><th>NR</th><th>NRR</th><th>Pt.</th></tr></thead>
+  <tbody>
+    <tr><td class="team">Olten CC</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="pos">4.750</td><td>10</td></tr>
+    <tr><td class="team">Aargau Avengers</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-2.275</td><td>10</td></tr>
+    <tr><td class="team">Zurich Lions CC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Power WCC</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Nomads Embrach</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Zurich Crickets CC 1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+    <tr><td class="team">Swiss Afghan CC</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class="neg">-0.200</td><td>0</td></tr>
+  </tbody>
+</table>
+</section>
+  </div>
+  <script src="../../assets/script.js"></script>
+</body>
+</html>
