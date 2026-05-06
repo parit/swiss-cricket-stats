@@ -68,6 +68,19 @@ Past vs upcoming is determined automatically: a schedule entry is **past** once 
 
 Drop new scorecard PDFs into `data/scorecards/<tournament>/` and re-run `python3 build.py`. Matched schedule entries move from Upcoming to Past automatically.
 
+## Local Preview
+
+Serve the site locally before deploying — mirrors the GitHub Pages structure exactly:
+
+```bash
+python3 -m http.server 8000 --directory output
+```
+
+Then open:
+- Combined: `http://localhost:8000/2026/`
+- Per-tournament: `http://localhost:8000/2026/<slug>/stats.html`
+- Per-team: `http://localhost:8000/2026/teams/<id>/`
+
 ## Deploy to GitHub Pages
 
 ```bash

@@ -52,6 +52,18 @@ _NONALNUM = re.compile(r"[^a-z0-9]+")
 _MULTI_UNDERSCORE = re.compile(r"_+")
 
 
+def load_tournament_abbreviations(tsv_path: Path) -> dict[str, str]:
+    """Return {normalized_tournament_name: abbreviation} from tournament_abbreviations.tsv."""
+    if not tsv_path.exists():
+        return {}
+    result = {}
+    for line in tsv_path.read_text().splitlines()[1:]:  # skip header
+        parts = line.split("\t", 1)
+        if len(parts) == 2 and parts[1].strip():
+            result[normalize_tournament(parts[0].strip())] = parts[1].strip()
+    return result
+
+
 def title_to_folder(title: str) -> str:
     t = _NOISE.sub("", title)
     t = _NONALNUM.sub("_", t.lower())

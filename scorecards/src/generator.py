@@ -9,7 +9,15 @@ from zoneinfo import ZoneInfo
 _UTC = timezone.utc
 _SWISS = ZoneInfo("Europe/Zurich")
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "shared"))
-from utils import title_to_folder
+from utils import title_to_folder, normalize_tournament, load_tournament_abbreviations
+
+_ABBREV_PATH = Path(__file__).resolve().parents[2] / "data" / "tournament_abbreviations.tsv"
+_ABBREVIATIONS: dict[str, str] = load_tournament_abbreviations(_ABBREV_PATH)
+
+
+def _tourn_display(name: str) -> str:
+    """Abbreviation if defined, otherwise stripped short name."""
+    return _ABBREVIATIONS.get(normalize_tournament(name)) or _short_tournament(name)
 
 # Stable colour palette for tournament differentiation
 _PALETTE = [
@@ -80,7 +88,7 @@ def _winner(m: dict) -> str:
 
 def _tourn_pill(tournament: str, tourn_url_prefix: str | None) -> str:
     color = _tourn_color(tournament)
-    label = _short_tournament(tournament)
+    label = _tourn_display(tournament)
     style = f'class="tourn-pill" style="background:{color}"'
     if tourn_url_prefix:
         url = f"{tourn_url_prefix}{title_to_folder(tournament)}/stats.html"

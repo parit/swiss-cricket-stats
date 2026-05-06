@@ -479,3 +479,37 @@ def test_teams_tsv_has_no_duplicate_names():
     tsv = _read(DATA / "teams.tsv")
     names = [line.split('\t')[1] for line in tsv.splitlines()[1:] if '\t' in line]
     assert len(names) == len(set(names)), "Duplicate names found in teams.tsv"
+
+
+def test_tournament_abbreviations_tsv_exists():
+    """data/tournament_abbreviations.tsv must be present."""
+    assert (DATA / "tournament_abbreviations.tsv").exists()
+
+
+def test_tournament_abbreviations_all_entries_have_values():
+    """Every row in tournament_abbreviations.tsv must have a non-empty abbreviation."""
+    tsv = _read(DATA / "tournament_abbreviations.tsv")
+    for i, line in enumerate(tsv.splitlines()[1:], start=2):
+        parts = line.split('\t')
+        assert len(parts) == 2 and parts[1].strip(), \
+            f"tournament_abbreviations.tsv line {i} has no abbreviation: {repr(line)}"
+
+
+def test_team_pages_use_abbreviations():
+    """Tournament pills on team pages must show abbreviations from the TSV."""
+    sys.path.insert(0, str(ROOT / "shared"))
+    from utils import load_tournament_abbreviations
+    abbrevs = load_tournament_abbreviations(DATA / "tournament_abbreviations.tsv")
+    if not abbrevs:
+        return
+    abbrev_set = set(abbrevs.values())
+    teams_dir = OUTPUT / "teams"
+    found_any = False
+    for page in sorted(teams_dir.rglob("index.html")):
+        html = page.read_text()
+        if "tourn-pill" in html:
+            page_abbrevs = {a for a in abbrev_set if a in html}
+            assert page_abbrevs, \
+                f"{page.parent.name}: has tourn-pill but no known abbreviation found"
+            found_any = True
+    assert found_any, "No team pages with tournament pills found"
