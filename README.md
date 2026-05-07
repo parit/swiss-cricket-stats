@@ -163,10 +163,12 @@ python3 -m pytest tests/ -v
 
 | File | Tests | What it covers |
 |------|-------|---------------|
-| `tests/test_stats_html.py` | 75 | HTML structure, tournament completeness, per-tournament/team pages, schedule consistency |
+| `tests/test_stats_html.py` | 43 | HTML structure, tournament completeness, per-tournament/team pages, schedule consistency |
 | `tests/test_data_json.py` | 9 | `data.json` schema, match counts, abbreviations |
 | `tests/test_component.py` | 44 | Component files, JS structure and features, data↔component consistency |
-| `tests/scorecards/test_generator.py` | 8 | Scorecard HTML rendering primitives |
+| `tests/scorecards/test_generator.py` | 24 | Scorecard HTML rendering primitives incl. links, tournament pills, cards |
+| `tests/scorecards/test_parser.py` | 10 | Scorecard PDF label-anchored parser |
+| `tests/shared/test_utils.py` | 6 | `title_to_folder()` slug generation |
 
 ## Theming
 
