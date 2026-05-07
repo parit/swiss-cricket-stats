@@ -232,6 +232,14 @@ def test_js_back_button_conditional_on_nav_depth():
         "_teamHTML must guard back button with _navStack.length check"
 
 
+def test_js_hidden_attribute_not_overridden_by_display_flex():
+    """Shadow CSS must enforce [hidden]{display:none!important} — otherwise display:flex on
+    .match-card overrides the browser's hidden attribute rule and cards don't filter correctly."""
+    js = _read(COMP_JS)
+    assert '[hidden]' in js and 'display: none !important' in js, \
+        "Shadow CSS must include [hidden]{display:none!important}"
+
+
 def test_js_no_raw_unicode_arrow():
     """Raw ← causes encoding issues when JS file is served without explicit UTF-8."""
     assert '←' not in _read(COMP_JS)

@@ -22,6 +22,7 @@
   --cs-badge:  #222;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
+[hidden] { display: none !important; }
 .root { background: var(--cs-bg); padding: 16px; border-radius: 8px; color: var(--cs-text); }
 .loading, .error { padding: 24px; text-align: center; color: var(--cs-muted); }
 

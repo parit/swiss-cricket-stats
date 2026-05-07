@@ -62,7 +62,8 @@ def generate_data_json(pt_manifest: list, sc_manifest: dict, out_dir: str) -> st
     for name in all_names:
         slug = title_to_folder(name)
         past = [
-            {k: v for k, v in m.items() if k != "tournament"}
+            {k: (normalize_pt_team(v) if k in ("team_1st", "team_2nd") else v)
+             for k, v in m.items() if k != "tournament"}
             for m in past_by_name.get(name, [])
         ]
         upcoming = [

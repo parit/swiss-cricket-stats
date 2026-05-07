@@ -80,6 +80,17 @@ def test_all_sc_past_matches_in_data_json():
         assert key in data_past_set, f"Past match missing from data.json: {m}"
 
 
+def test_past_match_team_names_are_normalized():
+    """SC team names in data.json past matches must be normalised (no GENEVA CC etc.)."""
+    from utils import normalize_pt_team
+    for t in _load()["tournaments"]:
+        for m in t["past_matches"]:
+            for key in ("team_1st", "team_2nd"):
+                name = m.get(key, "")
+                assert normalize_pt_team(name) == name, \
+                    f"Un-normalized team name '{name}' in data.json past match ({t['name']})"
+
+
 def test_abbreviations_populated():
     abbrevs = load_tournament_abbreviations(DATA / "tournament_abbreviations.tsv")
     for t in _load()["tournaments"]:
