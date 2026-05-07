@@ -87,7 +87,7 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
 <div class="root"><div class="loading">Loading…</div></div>`;
 
   class CricketStats extends HTMLElement {
-    static get observedAttributes() { return ['src', 'season', 'base-url', 'tournament']; }
+    static get observedAttributes() { return ['src', 'season', 'base-url', 'tournament', 'team']; }
     _navStack = [];
 
     connectedCallback() {
@@ -118,7 +118,17 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
         const res = await fetch(src, { cache: 'no-cache' });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         this._data = await res.json();
-        this._navStack = [{ type: 'home' }];
+        const teamAttr = this.getAttribute('team');
+        const tournAttr = this.getAttribute('tournament');
+        if (teamAttr) {
+          const match = this._data.teams.find(t => t.name.toLowerCase() === teamAttr.toLowerCase());
+          this._navStack = [{ type: 'team', name: match ? match.name : teamAttr }];
+        } else if (tournAttr) {
+          const t = this._data.tournaments.find(t => t.slug.includes(tournAttr));
+          this._navStack = t ? [{ type: 'tournament', slug: t.slug }] : [{ type: 'home' }];
+        } else {
+          this._navStack = [{ type: 'home' }];
+        }
         this._renderView();
       } catch (e) {
         this.shadowRoot.querySelector('.root').innerHTML =
@@ -263,9 +273,10 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
         panels  += `<div class="tab-panel" data-tab="sc"${f ? '' : ' hidden'}>${this._renderSC(t.past_matches, t.upcoming_matches, false)}</div>`;
       }
 
+      const backBtn = this._navStack.length > 1 ? `<button class="back-btn" data-cs-back>&larr; Back</button>` : '';
       return `
         <div class="view-header">
-          <button class="back-btn" data-cs-back>&larr; Back</button>
+          ${backBtn}
           <h2>${t.name}</h2>
         </div>
         <div class="view-tabs">
@@ -317,9 +328,10 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
         panels  += `<div class="tab-panel" data-tab="pt"${f ? '' : ' hidden'}>${ptHTML}</div>`;
       }
 
+      const backBtn = this._navStack.length > 1 ? `<button class="back-btn" data-cs-back>&larr; Back</button>` : '';
       return `
         <div class="view-header">
-          <button class="back-btn" data-cs-back>&larr; Back</button>
+          ${backBtn}
           <h2>${name}</h2>
         </div>
         <div class="view-tabs">

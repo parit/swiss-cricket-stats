@@ -2,7 +2,10 @@ import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "shared"))
 
-from utils import title_to_folder
+from utils import title_to_folder, normalize_pt_team
+
+ROOT = Path(__file__).parent.parent.parent
+TEAMS_TSV = ROOT / "data" / "teams.tsv"
 
 
 def test_basic_conversion():
@@ -27,3 +30,14 @@ def test_all_noise_returns_empty():
 
 def test_empty_input():
     assert title_to_folder("") == ""
+
+
+def test_normalize_pt_team_geneva_cc():
+    assert normalize_pt_team("GENEVA CC") == "Geneva CC"
+
+
+def test_teams_tsv_no_case_insensitive_duplicates():
+    lines = [l for l in TEAMS_TSV.read_text().splitlines()[1:] if '\t' in l]
+    names_lower = [l.split('\t')[1].lower() for l in lines]
+    assert len(names_lower) == len(set(names_lower)), \
+        "teams.tsv has entries that differ only in case"

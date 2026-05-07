@@ -26,6 +26,7 @@ _PT_TEAM_NORM: dict[str, str] = {
     "Basel Cricket Club":    "Basel CC",
     "CERN CC":               "Cern CC",
     "COSSONAY CC":           "Cossonay CC",
+    "GENEVA CC":             "Geneva CC",
     "Nomads Embrach":        "Nomads-Embrach Cricket Academy",
     "Power WCC":             "Power Winterthur CC",
     "St Gallen CC":          "St. Gallen",

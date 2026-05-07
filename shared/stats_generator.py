@@ -242,12 +242,12 @@ def generate_per_team_stats(
     sc_past_norm     = [{**m, "tournament": normalize_tournament(m["tournament"])} for m in sc_matches]
     sc_upcoming_norm = [{**m, "tournament": normalize_tournament(m["tournament"])} for m in sc_upcoming]
 
-    # Collect all known teams from scorecard data
+    # Collect all known teams from scorecard data, normalising case variants
     teams: set[str] = set()
     for m in sc_past_norm:
-        teams.update([m["team_1st"], m["team_2nd"]])
+        teams.update([normalize_pt_team(m["team_1st"]), normalize_pt_team(m["team_2nd"])])
     for m in sc_upcoming_norm:
-        teams.update(filter(None, [m.get("home_team", ""), m.get("away_team", "")]))
+        teams.update(filter(None, [normalize_pt_team(m.get("home_team", "")), normalize_pt_team(m.get("away_team", ""))]))
 
     team_ids = assign_team_ids(sorted(t for t in teams if t.strip()), _TEAMS_TSV)
     tmap = _team_url_map("../")

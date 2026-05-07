@@ -481,6 +481,14 @@ def test_teams_tsv_has_no_duplicate_names():
     assert len(names) == len(set(names)), "Duplicate names found in teams.tsv"
 
 
+def test_teams_tsv_no_case_variant_duplicates():
+    """Case variants (e.g. GENEVA CC vs Geneva CC) must not create separate entries."""
+    tsv = _read(DATA / "teams.tsv")
+    names_lower = [line.split('\t')[1].lower() for line in tsv.splitlines()[1:] if '\t' in line]
+    assert len(names_lower) == len(set(names_lower)), \
+        "teams.tsv has entries that differ only in case — build is re-adding a normalised name"
+
+
 def test_tournament_abbreviations_tsv_exists():
     """data/tournament_abbreviations.tsv must be present."""
     assert (DATA / "tournament_abbreviations.tsv").exists()

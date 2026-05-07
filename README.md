@@ -103,9 +103,14 @@ Embed Cricket Switzerland stats in any webpage — no server, no framework, no d
 </cricket-stats>
 ```
 
-**Pre-select a tournament (optional):**
+**Open directly to a tournament (no home overview):**
 ```html
 <cricket-stats season="2026" tournament="csrl"></cricket-stats>
+```
+
+**Open directly to a team (no home overview):**
+```html
+<cricket-stats season="2026" team="Basel CC"></cricket-stats>
 ```
 
 **Theme with CSS custom properties:**
@@ -125,7 +130,8 @@ cricket-stats {
 | `season` | one of `season`/`src` | Season year — component resolves `{base-url}/{season}/data.json` |
 | `base-url` | No | Base URL override; defaults to script directory parent |
 | `src` | one of `season`/`src` | Explicit full URL to `data.json`; overrides `season`/`base-url` |
-| `tournament` | No | Slug fragment to pre-select on load (e.g. `csrl`) |
+| `tournament` | No | Slug fragment — loads directly into tournament view (e.g. `csrl`) |
+| `team` | No | Team name — loads directly into team view (case-insensitive, e.g. `Basel CC`) |
 
 **Data file URL pattern:** `https://<you>.github.io/<repo>/<season>/data.json`
 
@@ -163,12 +169,12 @@ python3 -m pytest tests/ -v
 
 | File | Tests | What it covers |
 |------|-------|---------------|
-| `tests/test_stats_html.py` | 43 | HTML structure, tournament completeness, per-tournament/team pages, schedule consistency |
+| `tests/test_stats_html.py` | 44 | HTML structure, tournament completeness, per-tournament/team pages, schedule consistency |
 | `tests/test_data_json.py` | 9 | `data.json` schema, match counts, abbreviations |
-| `tests/test_component.py` | 44 | Component files, JS structure and features, data↔component consistency |
+| `tests/test_component.py` | 47 | Component files, JS structure and features, data↔component consistency |
 | `tests/scorecards/test_generator.py` | 24 | Scorecard HTML rendering primitives incl. links, tournament pills, cards |
 | `tests/scorecards/test_parser.py` | 10 | Scorecard PDF label-anchored parser |
-| `tests/shared/test_utils.py` | 6 | `title_to_folder()` slug generation |
+| `tests/shared/test_utils.py` | 8 | `title_to_folder()` slug generation, team name normalisation |
 
 ## Theming
 

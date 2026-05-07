@@ -441,7 +441,7 @@
           },
           {
             "#": "3",
-            "Team": "GENEVA CC",
+            "Team": "Geneva CC",
             "M": "0",
             "W": "0",
             "L": "0",
@@ -3769,7 +3769,7 @@
           },
           {
             "#": "2",
-            "Team": "GENEVA CC",
+            "Team": "Geneva CC",
             "M": "1",
             "W": "1",
             "L": "0",
@@ -4385,10 +4385,6 @@
     {
       "id": "026",
       "name": "Embrach Thunder"
-    },
-    {
-      "id": "027",
-      "name": "GENEVA CC"
     },
     {
       "id": "028",

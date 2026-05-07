@@ -97,8 +97,30 @@ def test_js_extends_html_element():
 
 def test_js_observed_attributes():
     js = _read(COMP_JS)
-    for attr in ('src', 'season', 'base-url', 'tournament'):
+    for attr in ('src', 'season', 'base-url', 'tournament', 'team'):
         assert f"'{attr}'" in js, f"observedAttributes missing '{attr}'"
+
+
+def test_js_team_attr_sets_initial_team_view():
+    """team attribute must cause _load() to start in team view, not home."""
+    js = _read(COMP_JS)
+    assert "getAttribute('team')" in js, "Component does not read 'team' attribute"
+
+
+def test_js_initial_view_respects_team_attr():
+    """_load() must set navStack to team view when team attribute present."""
+    js = _read(COMP_JS)
+    load_body = js[js.index('async _load('):js.index('_onClick(e) {')]
+    assert "type: 'team'" in load_body, \
+        "_load() must initialise nav stack with team view when team attr is set"
+
+
+def test_js_initial_view_respects_tournament_attr():
+    """_load() must set navStack to tournament view (not home) when tournament attribute present."""
+    js = _read(COMP_JS)
+    load_body = js[js.index('async _load('):js.index('_onClick(e) {')]
+    assert "type: 'tournament'" in load_body, \
+        "_load() must initialise nav stack with tournament view when tournament attr is set"
 
 
 def test_js_has_shadow_dom():
@@ -197,6 +219,17 @@ def test_js_back_button_uses_entity():
     js = _read(COMP_JS)
     assert "data-cs-back" in js
     assert "&larr;" in js
+
+
+def test_js_back_button_conditional_on_nav_depth():
+    """Back button must only render when nav stack has >1 entry (not when view is root)."""
+    js = _read(COMP_JS)
+    tourn_body = js[js.index('_tournHTML(slug)'):js.index('_teamHTML(name)')]
+    assert "_navStack.length" in tourn_body, \
+        "_tournHTML must guard back button with _navStack.length check"
+    team_body = js[js.index('_teamHTML(name)'):js.index('_renderPT(groups)')]
+    assert "_navStack.length" in team_body, \
+        "_teamHTML must guard back button with _navStack.length check"
 
 
 def test_js_no_raw_unicode_arrow():
