@@ -115,7 +115,7 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
       const src = this._resolveUrl();
       if (!src) return;
       try {
-        const res = await fetch(src);
+        const res = await fetch(src, { cache: 'no-cache' });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         this._data = await res.json();
         this._navStack = [{ type: 'home' }];
