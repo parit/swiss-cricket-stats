@@ -1,0 +1,4522 @@
+{
+  "season": "2026",
+  "generated": "2026-05-07",
+  "tournaments": [
+    {
+      "name": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
+      "abbreviation": "CSNL",
+      "color": "#00bcd4",
+      "slug": "cricket_switzerland_national_league_csnl_2026",
+      "points_table": {
+        "Group A": [
+          {
+            "#": "1",
+            "Team": "Basel Afghan CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "2",
+            "Team": "Berne CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "3",
+            "Team": "Cern CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "4",
+            "Team": "CVZ",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "5",
+            "Team": "Geneva International CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "6",
+            "Team": "Power Winterthur CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "7",
+            "Team": "Winterthur CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "8",
+            "Team": "Zug Cricket Club",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "9",
+            "Team": "Zurich Mavericks Adliswil CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          }
+        ]
+      },
+      "past_matches": [],
+      "upcoming_matches": [
+        {
+          "date": "2026-05-17",
+          "time": "11:00",
+          "ground": "Deutweg, Winterthur",
+          "home_team": "Winterthur CC",
+          "away_team": "Zug Cricket Club"
+        },
+        {
+          "date": "2026-05-17",
+          "time": "11:00",
+          "ground": "Schonau, Bern",
+          "home_team": "Berne CC",
+          "away_team": "Basel Afghan CC"
+        },
+        {
+          "date": "2026-05-24",
+          "time": "11:30",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva International CC",
+          "away_team": "Basel Afghan CC"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "11:00",
+          "ground": "Deutweg, Winterthur",
+          "home_team": "Winterthur CC",
+          "away_team": "Power Winterthur CC"
+        },
+        {
+          "date": "2026-06-06",
+          "time": "12:00",
+          "ground": "Kantonsschule Solothurn, Solothurn",
+          "home_team": "Basel Afghan CC",
+          "away_team": "Zurich Mavericks Adliswil CC"
+        },
+        {
+          "date": "2026-06-07",
+          "time": "11:00",
+          "ground": "Deutweg, Winterthur",
+          "home_team": "Power Winterthur CC",
+          "away_team": "Berne CC"
+        },
+        {
+          "date": "2026-06-07",
+          "time": "10:00",
+          "ground": "Hunnenberg, Zug",
+          "home_team": "CVZ",
+          "away_team": "Winterthur CC"
+        },
+        {
+          "date": "2026-06-13",
+          "time": "14:00",
+          "ground": "Kantonsschule Solothurn, Solothurn",
+          "home_team": "Basel Afghan CC",
+          "away_team": "CVZ"
+        },
+        {
+          "date": "2026-06-14",
+          "time": "11:00",
+          "ground": "Schonau, Bern",
+          "home_team": "Berne CC",
+          "away_team": "Zurich Mavericks Adliswil CC"
+        },
+        {
+          "date": "2026-06-20",
+          "time": "12:00",
+          "ground": "Kantonsschule Solothurn, Solothurn",
+          "home_team": "Basel Afghan CC",
+          "away_team": "Cern CC"
+        },
+        {
+          "date": "2026-06-21",
+          "time": "11:00",
+          "ground": "Schonau, Bern",
+          "home_team": "Berne CC",
+          "away_team": "Geneva International CC"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "11:30",
+          "ground": "Deutweg, Winterthur",
+          "home_team": "Power Winterthur CC",
+          "away_team": "Geneva International CC"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "12:30",
+          "ground": "Hedingen, Zurich",
+          "home_team": "Zug Cricket Club",
+          "away_team": "CVZ"
+        },
+        {
+          "date": "2026-07-05",
+          "time": "11:00",
+          "ground": "Deutweg, Winterthur",
+          "home_team": "Winterthur CC",
+          "away_team": "Berne CC"
+        },
+        {
+          "date": "2026-07-05",
+          "time": "11:00",
+          "ground": "Tufi, Zurich",
+          "home_team": "Zurich Mavericks Adliswil CC",
+          "away_team": "Zug Cricket Club"
+        },
+        {
+          "date": "2026-07-12",
+          "time": "12:00",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva International CC",
+          "away_team": "Zurich Mavericks Adliswil CC"
+        },
+        {
+          "date": "2026-07-12",
+          "time": "11:00",
+          "ground": "Deutweg, Winterthur",
+          "home_team": "Power Winterthur CC",
+          "away_team": "Basel Afghan CC"
+        },
+        {
+          "date": "2026-07-19",
+          "time": "11:30",
+          "ground": "Hedingen, Zurich",
+          "home_team": "Zug Cricket Club",
+          "away_team": "Berne CC"
+        },
+        {
+          "date": "2026-07-19",
+          "time": "11:00",
+          "ground": "Tufi, Zurich",
+          "home_team": "Zurich Mavericks Adliswil CC",
+          "away_team": "Winterthur CC"
+        },
+        {
+          "date": "2026-07-26",
+          "time": "11:00",
+          "ground": "Deutweg, Winterthur",
+          "home_team": "Winterthur CC",
+          "away_team": "Cern CC"
+        },
+        {
+          "date": "2026-08-02",
+          "time": "12:00",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva International CC",
+          "away_team": "Zug Cricket Club"
+        },
+        {
+          "date": "2026-08-02",
+          "time": "11:00",
+          "ground": "Kantonsschule Solothurn, Solothurn",
+          "home_team": "Basel Afghan CC",
+          "away_team": "Winterthur CC"
+        },
+        {
+          "date": "2026-08-08",
+          "time": "12:00",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva International CC",
+          "away_team": "Winterthur CC"
+        },
+        {
+          "date": "2026-08-09",
+          "time": "12:00",
+          "ground": "En Prevessin, Geneva",
+          "home_team": "Cern CC",
+          "away_team": "Zug Cricket Club"
+        },
+        {
+          "date": "2026-08-09",
+          "time": "11:00",
+          "ground": "Tufi, Zurich",
+          "home_team": "Zurich Mavericks Adliswil CC",
+          "away_team": "CVZ"
+        },
+        {
+          "date": "2026-08-15",
+          "time": "13:00",
+          "ground": "Hunnenberg, Zug",
+          "home_team": "CVZ",
+          "away_team": "Geneva International CC"
+        },
+        {
+          "date": "2026-08-16",
+          "time": "11:30",
+          "ground": "Deutweg, Winterthur",
+          "home_team": "Power Winterthur CC",
+          "away_team": "Cern CC"
+        },
+        {
+          "date": "2026-08-23",
+          "time": "12:00",
+          "ground": "En Prevessin, Geneva",
+          "home_team": "Cern CC",
+          "away_team": "CVZ"
+        },
+        {
+          "date": "2026-08-30",
+          "time": "12:00",
+          "ground": "En Prevessin, Geneva",
+          "home_team": "Cern CC",
+          "away_team": "Zurich Mavericks Adliswil CC"
+        },
+        {
+          "date": "2026-08-30",
+          "time": "10:00",
+          "ground": "Hunnenberg, Zug",
+          "home_team": "CVZ",
+          "away_team": "Power Winterthur CC"
+        },
+        {
+          "date": "2026-09-06",
+          "time": "11:00",
+          "ground": "Schonau, Bern",
+          "home_team": "Berne CC",
+          "away_team": "Cern CC"
+        },
+        {
+          "date": "2026-09-13",
+          "time": "11:00",
+          "ground": "Deutweg, Winterthur",
+          "home_team": "Zurich Mavericks Adliswil CC",
+          "away_team": "Power Winterthur CC"
+        },
+        {
+          "date": "2026-09-20",
+          "time": "11:30",
+          "ground": "Hedingen, Zurich",
+          "home_team": "Zug Cricket Club",
+          "away_team": "Power Winterthur CC"
+        },
+        {
+          "date": "2026-09-20",
+          "time": "12:00",
+          "ground": "En Prevessin, Geneva",
+          "home_team": "Cern CC",
+          "away_team": "Geneva International CC"
+        },
+        {
+          "date": "2026-09-27",
+          "time": "11:30",
+          "ground": "Hedingen, Zurich",
+          "home_team": "Zug Cricket Club",
+          "away_team": "Basel Afghan CC"
+        },
+        {
+          "date": "2026-10-04",
+          "time": "10:00",
+          "ground": "Hunnenberg, Zug",
+          "home_team": "CVZ",
+          "away_team": "Berne CC"
+        }
+      ]
+    },
+    {
+      "name": "CRICKET SWITZERLAND PREMIER LEAGUE ( CSPL)-2026",
+      "abbreviation": "CSPL",
+      "color": "#607d8b",
+      "slug": "cricket_switzerland_premier_league_cspl_2026",
+      "points_table": {
+        "Group A": [
+          {
+            "#": "1",
+            "Team": "Basel CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "2",
+            "Team": "Cossonay CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "3",
+            "Team": "GENEVA CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "4",
+            "Team": "Nomads-Embrach Cricket Academy",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "()",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "5",
+            "Team": "Olten CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "6",
+            "Team": "Swiss Afghan CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "7",
+            "Team": "Zurich Crickets CC-1",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "8",
+            "Team": "Zurich Lions CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "()",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "9",
+            "Team": "ZURICH NOMADS",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          }
+        ]
+      },
+      "past_matches": [],
+      "upcoming_matches": [
+        {
+          "date": "2026-05-10",
+          "time": "11:30",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Basel CC",
+          "away_team": "Geneva CC"
+        },
+        {
+          "date": "2026-05-17",
+          "time": "12:00",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Swiss Afghan CC",
+          "away_team": "Geneva CC"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "11:30",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Swiss Afghan CC",
+          "away_team": "ZURICH NOMADS"
+        },
+        {
+          "date": "2026-06-21",
+          "time": "11:30",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "ZURICH NOMADS",
+          "away_team": "Zurich Crickets CC-1"
+        },
+        {
+          "date": "2026-06-21",
+          "time": "11:30",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Geneva CC",
+          "away_team": "Cossonay CC"
+        },
+        {
+          "date": "2026-06-21",
+          "time": "13:30",
+          "ground": "Kreuzzleg, Aargau",
+          "home_team": "Swiss Afghan CC",
+          "away_team": "Basel CC"
+        },
+        {
+          "date": "2026-06-21",
+          "time": "11:00",
+          "ground": "Obergosgen, Solothurn",
+          "home_team": "Olten CC",
+          "away_team": "Zurich Lions CC"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "11:30",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva CC",
+          "away_team": "Olten CC"
+        },
+        {
+          "date": "2026-07-05",
+          "time": "11:30",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva CC",
+          "away_team": "Nomads-Embrach Cricket Academy"
+        },
+        {
+          "date": "2026-07-05",
+          "time": "11:30",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "ZURICH NOMADS",
+          "away_team": "Zurich Lions CC"
+        },
+        {
+          "date": "2026-07-05",
+          "time": "11:30",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay CC",
+          "away_team": "Zurich Crickets CC-1"
+        },
+        {
+          "date": "2026-07-05",
+          "time": "11:00",
+          "ground": "Obergosgen, Solothurn",
+          "home_team": "Olten CC",
+          "away_team": "Swiss Afghan CC"
+        },
+        {
+          "date": "2026-07-11",
+          "time": "12:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets CC-1",
+          "away_team": "Zurich Lions CC"
+        },
+        {
+          "date": "2026-07-12",
+          "time": "11:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Basel CC",
+          "away_team": "Nomads-Embrach Cricket Academy"
+        },
+        {
+          "date": "2026-07-12",
+          "time": "11:30",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay CC",
+          "away_team": "Swiss Afghan CC"
+        },
+        {
+          "date": "2026-07-19",
+          "time": "11:00",
+          "ground": "Obergosgen, Solothurn",
+          "home_team": "Olten CC",
+          "away_team": "Zurich Crickets CC-1"
+        },
+        {
+          "date": "2026-07-25",
+          "time": "12:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets CC-1",
+          "away_team": "Basel CC"
+        },
+        {
+          "date": "2026-07-26",
+          "time": "11:30",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Zurich Lions CC",
+          "away_team": "Cossonay CC"
+        },
+        {
+          "date": "2026-08-01",
+          "time": "12:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets CC-1",
+          "away_team": "Nomads-Embrach Cricket Academy"
+        },
+        {
+          "date": "2026-08-02",
+          "time": "12:00",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay CC",
+          "away_team": "Basel CC"
+        },
+        {
+          "date": "2026-08-02",
+          "time": "11:00",
+          "ground": "Pfaffikon, Zurich",
+          "home_team": "Zurich Lions CC",
+          "away_team": "Swiss Afghan CC"
+        },
+        {
+          "date": "2026-08-09",
+          "time": "11:30",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay CC",
+          "away_team": "ZURICH NOMADS"
+        },
+        {
+          "date": "2026-08-15",
+          "time": "12:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets CC-1",
+          "away_team": "Swiss Afghan CC"
+        },
+        {
+          "date": "2026-08-16",
+          "time": "11:30",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "ZURICH NOMADS",
+          "away_team": "Geneva CC"
+        },
+        {
+          "date": "2026-08-23",
+          "time": "12:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Basel CC",
+          "away_team": "Olten CC"
+        },
+        {
+          "date": "2026-08-30",
+          "time": "11:30",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Swiss Afghan CC",
+          "away_team": "Nomads-Embrach Cricket Academy"
+        },
+        {
+          "date": "2026-08-30",
+          "time": "11:00",
+          "ground": "Obergosgen, Solothurn",
+          "home_team": "Olten CC",
+          "away_team": "Cossonay CC"
+        },
+        {
+          "date": "2026-08-30",
+          "time": "11:00",
+          "ground": "Pfaffikon, Zurich",
+          "home_team": "Zurich Lions CC",
+          "away_team": "Geneva CC"
+        },
+        {
+          "date": "2026-09-06",
+          "time": "11:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Nomads-Embrach Cricket Academy",
+          "away_team": "Zurich Lions CC"
+        },
+        {
+          "date": "2026-09-12",
+          "time": "11:30",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Zurich Lions CC",
+          "away_team": "Basel CC"
+        },
+        {
+          "date": "2026-09-13",
+          "time": "11:30",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Nomads-Embrach Cricket Academy",
+          "away_team": "Cossonay CC"
+        },
+        {
+          "date": "2026-09-20",
+          "time": "11:30",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Basel CC",
+          "away_team": "ZURICH NOMADS"
+        },
+        {
+          "date": "2026-09-27",
+          "time": "11:30",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva CC",
+          "away_team": "Zurich Crickets CC-1"
+        },
+        {
+          "date": "2026-09-27",
+          "time": "11:30",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "ZURICH NOMADS",
+          "away_team": "Olten CC"
+        },
+        {
+          "date": "2026-10-04",
+          "time": "11:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Nomads-Embrach Cricket Academy",
+          "away_team": "Olten CC"
+        },
+        {
+          "date": "2026-10-11",
+          "time": "10:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Nomads-Embrach Cricket Academy",
+          "away_team": "ZURICH NOMADS"
+        }
+      ]
+    },
+    {
+      "name": "CRICKET SWITZERLAND REGIONAL LEAGUE ( CSRL)-2026",
+      "abbreviation": "CSRL",
+      "color": "#e91e63",
+      "slug": "cricket_switzerland_regional_league_csrl_2026",
+      "points_table": {
+        "Group A": [
+          {
+            "#": "1",
+            "Team": "Basel Dragons JCC",
+            "M": "1",
+            "W": "1",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "2.686",
+            "For": "188/40",
+            "Against": "48/23.5",
+            "Pt.": "10",
+            "Last 5": "W"
+          },
+          {
+            "#": "2",
+            "Team": "Novartis CC",
+            "M": "1",
+            "W": "1",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "1.707",
+            "For": "105/24.4",
+            "Against": "102/40",
+            "Pt.": "10",
+            "Last 5": "W"
+          },
+          {
+            "#": "3",
+            "Team": "Geneva CC-2",
+            "M": "2",
+            "W": "1",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0.631",
+            "For": "293/80",
+            "Against": "194/64",
+            "Pt.": "10",
+            "Last 5": "LW"
+          },
+          {
+            "#": "4",
+            "Team": "Basel CC Colts",
+            "M": "2",
+            "W": "1",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-0.367",
+            "For": "163/47.5",
+            "Against": "302/80",
+            "Pt.": "10",
+            "Last 5": "W-L"
+          },
+          {
+            "#": "5",
+            "Team": "Geneva International CC-2",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "6",
+            "Team": "Geneva XI Stars",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "7",
+            "Team": "Geneva Sri Lanka CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "8",
+            "Team": "A1 Sports Club",
+            "M": "1",
+            "W": "0",
+            "L": "1",
+            "D": ")",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-1.707",
+            "For": "102/40",
+            "Against": "105/24.4",
+            "Pt.": "0",
+            "Last 5": "L"
+          },
+          {
+            "#": "9",
+            "Team": "Geneva Eagles Cricket Club",
+            "M": "1",
+            "W": "0",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-2.500",
+            "For": "79/40",
+            "Against": "179/40",
+            "Pt.": "0",
+            "Last 5": "L"
+          }
+        ],
+        "Group B": [
+          {
+            "#": "1",
+            "Team": "Luzern Cricket Club",
+            "M": "1",
+            "W": "1",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0.181",
+            "For": "181/38.4",
+            "Against": "180/40",
+            "Pt.": "10",
+            "Last 5": "W"
+          },
+          {
+            "#": "2",
+            "Team": "Pakhtoon Zalmi CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "3",
+            "Team": "Olten Gosgen CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "4",
+            "Team": "Aargau Crazy Cricketers",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "5",
+            "Team": "Zurich SuperLions",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "6",
+            "Team": "Aargau Avengers",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "7",
+            "Team": "Cricket Club Wettingen-1",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "8",
+            "Team": "Solothurn CC",
+            "M": "1",
+            "W": "0",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-0.181",
+            "For": "180/40",
+            "Against": "181/38.4",
+            "Pt.": "0",
+            "Last 5": "L"
+          }
+        ]
+      },
+      "past_matches": [
+        {
+          "date": "2026-04-26",
+          "time": "10:00 AM UTC",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "team_1st": "Geneva CC-2",
+          "score_1st": "179/10 (26.0 Ov)",
+          "team_2nd": "Geneva Eagles Cricket Club",
+          "score_2nd": "79/10 (17.3 Ov)",
+          "result": "Geneva CC-2 won by 100 runs"
+        },
+        {
+          "date": "2026-04-26",
+          "time": "09:29 AM UTC",
+          "ground": "Bachgraben, Basel",
+          "team_1st": "Basel Dragons JCC",
+          "score_1st": "188/10 (39.3 Ov)",
+          "team_2nd": "Basel CC Colts",
+          "score_2nd": "48/9 (23.5 Ov)",
+          "result": "Basel Dragons JCC won by 140 runs"
+        },
+        {
+          "date": "2026-04-26",
+          "time": "08:00 AM UTC",
+          "ground": "Luzern Cricket Ground, Luzern",
+          "team_1st": "Solothurn CC",
+          "score_1st": "180/10 (28.1 Ov)",
+          "team_2nd": "Luzern Cricket Club",
+          "score_2nd": "181/7 (38.4 Ov)",
+          "result": "Luzern Cricket Club won by 3 wickets"
+        },
+        {
+          "date": "2026-04-18",
+          "time": "09:58 AM UTC",
+          "ground": "Bachgraben, Basel",
+          "team_1st": "Geneva CC-2",
+          "score_1st": "114/10 (37.2 Ov)",
+          "team_2nd": "Basel CC Colts",
+          "score_2nd": "115/3 (24.0 Ov)",
+          "result": "Basel CC Colts won by 7 wickets"
+        },
+        {
+          "date": "2026-04-12",
+          "time": "09:22 AM UTC",
+          "ground": "Bachgraben, Basel",
+          "team_1st": "A1 Sports Club",
+          "score_1st": "102/10 (27.3 Ov)",
+          "team_2nd": "Novartis CC",
+          "score_2nd": "105/5 (24.4 Ov)",
+          "result": "Novartis CC won by 5 wickets"
+        }
+      ],
+      "upcoming_matches": [
+        {
+          "date": "2026-05-16",
+          "time": "09:00",
+          "ground": "Kantonsschule Solothurn, Solothurn",
+          "home_team": "Solothurn CC",
+          "away_team": "Pakhtoon Zalmi CC"
+        },
+        {
+          "date": "2026-05-17",
+          "time": "12:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Geneva Eagles Cricket Club",
+          "away_team": "Novartis CC"
+        },
+        {
+          "date": "2026-05-30",
+          "time": "12:00",
+          "ground": "Obergosgen, Solothurn",
+          "home_team": "Olten Gosgen CC",
+          "away_team": "Aargau Avengers"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "11:30",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Novartis CC",
+          "away_team": "Geneva CC-2"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "12:00",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Basel Dragons JCC",
+          "away_team": "Geneva International CC-2"
+        },
+        {
+          "date": "2026-06-07",
+          "time": "11:30",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Novartis CC",
+          "away_team": "Geneva XI Stars"
+        },
+        {
+          "date": "2026-06-07",
+          "time": "12:00",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva CC-2",
+          "away_team": "Basel Dragons JCC"
+        },
+        {
+          "date": "2026-06-07",
+          "time": "12:00",
+          "ground": "Pfaffikon, Zurich",
+          "home_team": "Zurich SuperLions",
+          "away_team": "Solothurn CC"
+        },
+        {
+          "date": "2026-06-13",
+          "time": "12:00",
+          "ground": "Obergosgen, Solothurn",
+          "home_team": "Olten Gosgen CC",
+          "away_team": "Solothurn CC"
+        },
+        {
+          "date": "2026-06-14",
+          "time": "11:00",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Basel Dragons JCC",
+          "away_team": "Novartis CC"
+        },
+        {
+          "date": "2026-06-14",
+          "time": "12:00",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva International CC-2",
+          "away_team": "A1 Sports Club"
+        },
+        {
+          "date": "2026-06-14",
+          "time": "13:30",
+          "ground": "Kreuzzleg, Aargau",
+          "home_team": "Cricket Club Wettingen-1",
+          "away_team": "Aargau Avengers"
+        },
+        {
+          "date": "2026-06-14",
+          "time": "10:00",
+          "ground": "Luzern Cricket Ground, Luzern",
+          "home_team": "Luzern Cricket Club",
+          "away_team": "Aargau Crazy Cricketers"
+        },
+        {
+          "date": "2026-06-14",
+          "time": "12:00",
+          "ground": "Onex, Geneva",
+          "home_team": "Geneva XI Stars",
+          "away_team": "Geneva Eagles Cricket Club"
+        },
+        {
+          "date": "2026-06-21",
+          "time": "12:30",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva Sri Lanka CC",
+          "away_team": "Basel Dragons JCC"
+        },
+        {
+          "date": "2026-06-21",
+          "time": "12:00",
+          "ground": "Pfaffikon, Zurich",
+          "home_team": "Zurich SuperLions",
+          "away_team": "Aargau Avengers"
+        },
+        {
+          "date": "2026-06-27",
+          "time": "11:00",
+          "ground": "Kantonsschule Solothurn, Solothurn",
+          "home_team": "Solothurn CC",
+          "away_team": "Aargau Avengers"
+        },
+        {
+          "date": "2026-06-27",
+          "time": "12:00",
+          "ground": "Obergosgen, Solothurn",
+          "home_team": "Olten Gosgen CC",
+          "away_team": "Luzern Cricket Club"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "12:00",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Basel Dragons JCC",
+          "away_team": "Geneva XI Stars"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "10:00",
+          "ground": "Kreuzzleg, Aargau",
+          "home_team": "Cricket Club Wettingen-1",
+          "away_team": "Aargau Crazy Cricketers"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "10:00",
+          "ground": "Luzern Cricket Ground, Luzern",
+          "home_team": "Luzern Cricket Club",
+          "away_team": "Zurich SuperLions"
+        },
+        {
+          "date": "2026-07-04",
+          "time": "12:30",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva Sri Lanka CC",
+          "away_team": "Geneva XI Stars"
+        },
+        {
+          "date": "2026-07-04",
+          "time": "10:00",
+          "ground": "Kantonsschule Solothurn, Solothurn",
+          "home_team": "Solothurn CC",
+          "away_team": "Cricket Club Wettingen-1"
+        },
+        {
+          "date": "2026-07-04",
+          "time": "11:30",
+          "ground": "Obergosgen, Solothurn",
+          "home_team": "Pakhtoon Zalmi CC",
+          "away_team": "Olten Gosgen CC"
+        },
+        {
+          "date": "2026-07-05",
+          "time": "10:00",
+          "ground": "Luzern Cricket Ground, Luzern",
+          "home_team": "Pakhtoon Zalmi CC",
+          "away_team": "Luzern Cricket Club"
+        },
+        {
+          "date": "2026-07-05",
+          "time": "12:00",
+          "ground": "Onex, Geneva",
+          "home_team": "Geneva XI Stars",
+          "away_team": "Geneva International CC-2"
+        },
+        {
+          "date": "2026-07-05",
+          "time": "12:00",
+          "ground": "Pfaffikon, Zurich",
+          "home_team": "Zurich SuperLions",
+          "away_team": "Aargau Crazy Cricketers"
+        },
+        {
+          "date": "2026-07-11",
+          "time": "12:00",
+          "ground": "Obergosgen, Solothurn",
+          "home_team": "Olten Gosgen CC",
+          "away_team": "Zurich SuperLions"
+        },
+        {
+          "date": "2026-07-12",
+          "time": "12:00",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Basel Dragons JCC",
+          "away_team": "Geneva Eagles Cricket Club"
+        },
+        {
+          "date": "2026-07-19",
+          "time": "12:00",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva Eagles Cricket Club",
+          "away_team": "Geneva Sri Lanka CC"
+        },
+        {
+          "date": "2026-07-26",
+          "time": "12:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Geneva Eagles Cricket Club",
+          "away_team": "Basel CC Colts"
+        },
+        {
+          "date": "2026-07-26",
+          "time": "12:00",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva CC-2",
+          "away_team": "A1 Sports Club"
+        },
+        {
+          "date": "2026-08-02",
+          "time": "11:30",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Novartis CC",
+          "away_team": "Geneva International CC-2"
+        },
+        {
+          "date": "2026-08-08",
+          "time": "11:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Basel CC Colts",
+          "away_team": "Novartis CC"
+        },
+        {
+          "date": "2026-08-09",
+          "time": "13:30",
+          "ground": "Kreuzzleg, Aargau",
+          "home_team": "Cricket Club Wettingen-1",
+          "away_team": "Zurich SuperLions"
+        },
+        {
+          "date": "2026-08-09",
+          "time": "12:00",
+          "ground": "Onex, Geneva",
+          "home_team": "Geneva XI Stars",
+          "away_team": "Geneva CC-2"
+        },
+        {
+          "date": "2026-08-15",
+          "time": "11:00",
+          "ground": "Brugg, Aargau",
+          "home_team": "Aargau Crazy Cricketers",
+          "away_team": "Pakhtoon Zalmi CC"
+        },
+        {
+          "date": "2026-08-16",
+          "time": "11:30",
+          "ground": "Chopfli Athletic Field, Geneva",
+          "home_team": "A1 Sports Club",
+          "away_team": "Geneva Sri Lanka CC"
+        },
+        {
+          "date": "2026-08-16",
+          "time": "10:00",
+          "ground": "Kreuzzleg, Aargau",
+          "home_team": "Cricket Club Wettingen-1",
+          "away_team": "Olten Gosgen CC"
+        },
+        {
+          "date": "2026-08-16",
+          "time": "12:30",
+          "ground": "Unknown",
+          "home_team": "Geneva Eagles Cricket Club",
+          "away_team": "Geneva International CC-2"
+        },
+        {
+          "date": "2026-08-16",
+          "time": "12:00",
+          "ground": "Pfaffikon, Zurich",
+          "home_team": "Pakhtoon Zalmi CC",
+          "away_team": "Zurich SuperLions"
+        },
+        {
+          "date": "2026-08-23",
+          "time": "12:00",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva International CC-2",
+          "away_team": "Geneva Sri Lanka CC"
+        },
+        {
+          "date": "2026-08-23",
+          "time": "10:00",
+          "ground": "Kreuzzleg, Aargau",
+          "home_team": "Pakhtoon Zalmi CC",
+          "away_team": "Cricket Club Wettingen-1"
+        },
+        {
+          "date": "2026-08-23",
+          "time": "12:30",
+          "ground": "Unknown",
+          "home_team": "Geneva Eagles Cricket Club",
+          "away_team": "A1 Sports Club"
+        },
+        {
+          "date": "2026-08-30",
+          "time": "11:30",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva Sri Lanka CC",
+          "away_team": "Novartis CC"
+        },
+        {
+          "date": "2026-08-30",
+          "time": "10:00",
+          "ground": "Luzern Cricket Ground, Luzern",
+          "home_team": "Luzern Cricket Club",
+          "away_team": "Cricket Club Wettingen-1"
+        },
+        {
+          "date": "2026-08-30",
+          "time": "12:00",
+          "ground": "Onex, Geneva",
+          "home_team": "Geneva XI Stars",
+          "away_team": "Basel CC Colts"
+        },
+        {
+          "date": "2026-09-05",
+          "time": "11:00",
+          "ground": "Brugg, Aargau",
+          "home_team": "Aargau Crazy Cricketers",
+          "away_team": "Olten Gosgen CC"
+        },
+        {
+          "date": "2026-09-06",
+          "time": "12:00",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva CC-2",
+          "away_team": "Geneva Sri Lanka CC"
+        },
+        {
+          "date": "2026-09-06",
+          "time": "11:00",
+          "ground": "Brugg, Aargau",
+          "home_team": "Aargau Avengers",
+          "away_team": "Pakhtoon Zalmi CC"
+        },
+        {
+          "date": "2026-09-06",
+          "time": "10:30",
+          "ground": "Chopfli Athletic Field, Geneva",
+          "home_team": "A1 Sports Club",
+          "away_team": "Basel CC Colts"
+        },
+        {
+          "date": "2026-09-12",
+          "time": "11:00",
+          "ground": "Brugg, Aargau",
+          "home_team": "Aargau Crazy Cricketers",
+          "away_team": "Solothurn CC"
+        },
+        {
+          "date": "2026-09-13",
+          "time": "12:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Basel CC Colts",
+          "away_team": "Geneva Sri Lanka CC"
+        },
+        {
+          "date": "2026-09-13",
+          "time": "12:00",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva International CC-2",
+          "away_team": "Geneva CC-2"
+        },
+        {
+          "date": "2026-09-13",
+          "time": "11:00",
+          "ground": "Brugg, Aargau",
+          "home_team": "Aargau Avengers",
+          "away_team": "Luzern Cricket Club"
+        },
+        {
+          "date": "2026-09-13",
+          "time": "11:30",
+          "ground": "Chopfli Athletic Field, Geneva",
+          "home_team": "A1 Sports Club",
+          "away_team": "Geneva XI Stars"
+        },
+        {
+          "date": "2026-09-19",
+          "time": "12:00",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva International CC-2",
+          "away_team": "Basel CC Colts"
+        },
+        {
+          "date": "2026-09-20",
+          "time": "10:30",
+          "ground": "Baumlihof, Basel",
+          "home_team": "A1 Sports Club",
+          "away_team": "Basel Dragons JCC"
+        },
+        {
+          "date": "2026-09-20",
+          "time": "11:00",
+          "ground": "Brugg, Aargau",
+          "home_team": "Aargau Avengers",
+          "away_team": "Aargau Crazy Cricketers"
+        }
+      ]
+    },
+    {
+      "name": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+      "abbreviation": "U19 T20",
+      "color": "#e91e63",
+      "slug": "cricket_switzerland_t20_u19_league_matches",
+      "points_table": {
+        "Group A": [
+          {
+            "#": "1",
+            "Team": "Zurich Crickets U19",
+            "M": "1",
+            "W": "1",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0.925",
+            "For": "106/17.1",
+            "Against": "105/20",
+            "Pt.": "2",
+            "Last 5": "W"
+          },
+          {
+            "#": "2",
+            "Team": "Basel Dragons B U19",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "3",
+            "Team": "Basel Dragons A U19",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "4",
+            "Team": "Swiss Afghan U19",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "5",
+            "Team": "Geneva XI Stars - U19",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "6",
+            "Team": "Cossonay Juniors U19",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "7",
+            "Team": "Nomads-Embrach Cricket Academy",
+            "M": "1",
+            "W": "0",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-0.925",
+            "For": "105/20",
+            "Against": "106/17.1",
+            "Pt.": "0",
+            "Last 5": "L"
+          }
+        ]
+      },
+      "past_matches": [
+        {
+          "date": "2026-04-04",
+          "time": "10:02 AM UTC",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "team_1st": "Nomads-Embrach Cricket Academy",
+          "score_1st": "105/10 (18.3 Ov)",
+          "team_2nd": "Zurich Crickets U19",
+          "score_2nd": "106/6 (17.1 Ov)",
+          "result": "Zurich Crickets U19 won by 4 wickets"
+        }
+      ],
+      "upcoming_matches": [
+        {
+          "date": "2026-05-03",
+          "time": "11:30",
+          "ground": "Onex, Geneva",
+          "home_team": "Geneva XI Stars - U19",
+          "away_team": "Cossonay Juniors U19"
+        },
+        {
+          "date": "2026-05-09",
+          "time": "10:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets U19",
+          "away_team": "Basel Dragons B U19"
+        },
+        {
+          "date": "2026-05-10",
+          "time": "10:30",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay Juniors U19",
+          "away_team": "Nomads-Embrach Cricket Academy"
+        },
+        {
+          "date": "2026-05-10",
+          "time": "15:00",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay Juniors U19",
+          "away_team": "Zurich Crickets U19"
+        },
+        {
+          "date": "2026-05-17",
+          "time": "15:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Nomads-Embrach Cricket Academy",
+          "away_team": "Swiss Afghan U19"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "15:00",
+          "ground": "Onex, Geneva",
+          "home_team": "Geneva XI Stars - U19",
+          "away_team": "Swiss Afghan U19"
+        },
+        {
+          "date": "2026-06-06",
+          "time": "14:30",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Basel Dragons A U19",
+          "away_team": "Basel Dragons B U19"
+        },
+        {
+          "date": "2026-06-07",
+          "time": "14:30",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Swiss Afghan U19",
+          "away_team": "Basel Dragons B U19"
+        },
+        {
+          "date": "2026-06-13",
+          "time": "11:30",
+          "ground": "",
+          "home_team": "Swiss Afghan U19",
+          "away_team": "Cossonay Juniors U19"
+        },
+        {
+          "date": "2026-06-27",
+          "time": "10:30",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Basel Dragons A U19",
+          "away_team": "Nomads-Embrach Cricket Academy"
+        },
+        {
+          "date": "2026-06-27",
+          "time": "14:30",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Basel Dragons B U19",
+          "away_team": "Nomads-Embrach Cricket Academy"
+        },
+        {
+          "date": "2026-07-04",
+          "time": "12:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets U19",
+          "away_team": "Swiss Afghan U19"
+        },
+        {
+          "date": "2026-09-06",
+          "time": "11:30",
+          "ground": "Onex, Geneva",
+          "home_team": "Geneva XI Stars - U19",
+          "away_team": "Basel Dragons A U19"
+        },
+        {
+          "date": "2026-09-06",
+          "time": "15:00",
+          "ground": "Onex, Geneva",
+          "home_team": "Geneva XI Stars - U19",
+          "away_team": "Basel Dragons B U19"
+        },
+        {
+          "date": "2026-09-12",
+          "time": "10:30",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Basel Dragons A U19",
+          "away_team": "Cossonay Juniors U19"
+        },
+        {
+          "date": "2026-09-12",
+          "time": "14:30",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Basel Dragons B U19",
+          "away_team": "Cossonay Juniors U19"
+        },
+        {
+          "date": "2026-09-13",
+          "time": "10:30",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Basel Dragons A U19",
+          "away_team": "Zurich Crickets U19"
+        },
+        {
+          "date": "2026-09-19",
+          "time": "12:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets U19",
+          "away_team": "Geneva XI Stars - U19"
+        },
+        {
+          "date": "2026-09-29",
+          "time": "12:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets U19",
+          "away_team": "Geneva XI Stars - U19"
+        }
+      ]
+    },
+    {
+      "name": "CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL T10)",
+      "abbreviation": "CSWL T10",
+      "color": "#795548",
+      "slug": "cricket_switzerland_women_t10_league_2026_cswl_t10",
+      "points_table": {
+        "Group A": [
+          {
+            "#": "1",
+            "Team": "CVZ-Women",
+            "M": "1",
+            "W": "1",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "3.700",
+            "For": "49/5.5",
+            "Against": "47/10",
+            "Pt.": "2",
+            "Last 5": "W"
+          },
+          {
+            "#": "2",
+            "Team": "A1SC- Women",
+            "M": "1",
+            "W": "1",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "2.973",
+            "For": "62/6.5",
+            "Against": "61/10",
+            "Pt.": "2",
+            "Last 5": "W"
+          },
+          {
+            "#": "3",
+            "Team": "Basel Supernovas",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "4",
+            "Team": "Cossonay CC-Women",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "5",
+            "Team": "CS Girls A1 Stars",
+            "M": "1",
+            "W": "0",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-2.973",
+            "For": "61/10",
+            "Against": "62/6.5",
+            "Pt.": "0",
+            "Last 5": "L"
+          },
+          {
+            "#": "6",
+            "Team": "Embrach Thunder",
+            "M": "1",
+            "W": "0",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-3.700",
+            "For": "47/10",
+            "Against": "49/5.5",
+            "Pt.": "0",
+            "Last 5": "L"
+          }
+        ]
+      },
+      "past_matches": [
+        {
+          "date": "2026-04-26",
+          "time": "13:26 PM UTC",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "team_1st": "Embrach Thunder",
+          "score_1st": "47/6 (10.0 Ov)",
+          "team_2nd": "CVZ-Women",
+          "score_2nd": "49/0 (5.5 Ov)",
+          "result": "CVZ-Women won by 10 wickets"
+        },
+        {
+          "date": "2026-05-02",
+          "time": "12:17 PM UTC",
+          "ground": "Birsfelden, Basel, Basel",
+          "team_1st": "CS Girls A1 Stars",
+          "score_1st": "61/3 (10.0 Ov)",
+          "team_2nd": "A1SC- Women",
+          "score_2nd": "62/1 (6.5 Ov)",
+          "result": "A1SC- Women won by 6 wickets"
+        }
+      ],
+      "upcoming_matches": [
+        {
+          "date": "2026-05-09",
+          "time": "14:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Basel Supernovas",
+          "away_team": "A1SC- Women"
+        },
+        {
+          "date": "2026-05-09",
+          "time": "14:00",
+          "ground": "Birsfelden, Basel",
+          "home_team": "Embrach Thunder",
+          "away_team": "CS Girls A1 Stars"
+        },
+        {
+          "date": "2026-05-17",
+          "time": "10:00",
+          "ground": "Hunnenberg, Zug",
+          "home_team": "CVZ-Women",
+          "away_team": "A1SC- Women"
+        },
+        {
+          "date": "2026-05-23",
+          "time": "14:00",
+          "ground": "Chopfli Athletic Field, Geneva",
+          "home_team": "A1SC- Women",
+          "away_team": "Embrach Thunder"
+        },
+        {
+          "date": "2026-05-23",
+          "time": "TBD",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay CC-Women",
+          "away_team": "CS Girls A1 Stars"
+        },
+        {
+          "date": "2026-05-30",
+          "time": "14:00",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay CC-Women",
+          "away_team": "Basel Supernovas"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "10:00",
+          "ground": "Hunnenberg, Zug",
+          "home_team": "CVZ-Women",
+          "away_team": "Cossonay CC-Women"
+        },
+        {
+          "date": "2026-06-06",
+          "time": "TBD",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay CC-Women",
+          "away_team": "Embrach Thunder"
+        },
+        {
+          "date": "2026-06-14",
+          "time": "14:00",
+          "ground": "Birsfelden, Basel",
+          "home_team": "A1SC- Women",
+          "away_team": "Cossonay CC-Women"
+        },
+        {
+          "date": "2026-08-15",
+          "time": "TBD",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Basel Supernovas",
+          "away_team": "CS Girls A1 Stars"
+        },
+        {
+          "date": "2026-08-23",
+          "time": "TBD",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Embrach Thunder",
+          "away_team": "Basel Supernovas"
+        },
+        {
+          "date": "2026-08-23",
+          "time": "TBD",
+          "ground": "-",
+          "home_team": "CS Girls A1 Stars",
+          "away_team": "CVZ-Women"
+        },
+        {
+          "date": "2026-08-29",
+          "time": "10:00",
+          "ground": "Hunnenberg, Zug",
+          "home_team": "CVZ-Women",
+          "away_team": "Basel Supernovas"
+        }
+      ]
+    },
+    {
+      "name": "CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)",
+      "abbreviation": "CSWL T20",
+      "color": "#795548",
+      "slug": "cricket_switzerland_women_t20_league_cswl_t20",
+      "points_table": {
+        "Group A": [
+          {
+            "#": "1",
+            "Team": "CVZ-Women",
+            "M": "1",
+            "W": "1",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "7.009",
+            "For": "80/7.2",
+            "Against": "78/20",
+            "Pt.": "2",
+            "Last 5": "W"
+          },
+          {
+            "#": "2",
+            "Team": "A1SC- Women",
+            "M": "1",
+            "W": "1",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "3.800",
+            "For": "174/20",
+            "Against": "98/20",
+            "Pt.": "2",
+            "Last 5": "W"
+          },
+          {
+            "#": "3",
+            "Team": "Basel Supernovas",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "4",
+            "Team": "Cossonay CC-Women",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "5",
+            "Team": "CS Girls A1 Stars",
+            "M": "1",
+            "W": "0",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-3.800",
+            "For": "98/20",
+            "Against": "174/20",
+            "Pt.": "0",
+            "Last 5": "L"
+          },
+          {
+            "#": "6",
+            "Team": "Embrach Thunder",
+            "M": "1",
+            "W": "0",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-7.009",
+            "For": "78/20",
+            "Against": "80/7.2",
+            "Pt.": "0",
+            "Last 5": "L"
+          }
+        ]
+      },
+      "past_matches": [
+        {
+          "date": "2026-04-26",
+          "time": "10:54 AM UTC",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "team_1st": "Embrach Thunder",
+          "score_1st": "78/6 (20.0 Ov)",
+          "team_2nd": "CVZ-Women",
+          "score_2nd": "80/0 (7.2 Ov)",
+          "result": "CVZ-Women won by 10 wickets"
+        },
+        {
+          "date": "2026-05-02",
+          "time": "08:15 AM UTC",
+          "ground": "Birsfelden, Basel, Basel",
+          "team_1st": "A1SC- Women",
+          "score_1st": "174/4 (20.0 Ov)",
+          "team_2nd": "CS Girls A1 Stars",
+          "score_2nd": "98/6 (20.0 Ov)",
+          "result": "A1SC- Women won by 76 runs"
+        }
+      ],
+      "upcoming_matches": [
+        {
+          "date": "2026-05-09",
+          "time": "10:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Basel Supernovas",
+          "away_team": "A1SC- Women"
+        },
+        {
+          "date": "2026-05-09",
+          "time": "10:00",
+          "ground": "Birsfelden, Basel",
+          "home_team": "Embrach Thunder",
+          "away_team": "CS Girls A1 Stars"
+        },
+        {
+          "date": "2026-05-17",
+          "time": "13:00",
+          "ground": "Hunnenberg, Zug",
+          "home_team": "CVZ-Women",
+          "away_team": "A1SC- Women"
+        },
+        {
+          "date": "2026-05-23",
+          "time": "10:00",
+          "ground": "Chopfli Athletic Field, Geneva",
+          "home_team": "A1SC- Women",
+          "away_team": "Embrach Thunder"
+        },
+        {
+          "date": "2026-05-23",
+          "time": "TBD",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay CC-Women",
+          "away_team": "CS Girls A1 Stars"
+        },
+        {
+          "date": "2026-05-30",
+          "time": "10:30",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay CC-Women",
+          "away_team": "Basel Supernovas"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "13:00",
+          "ground": "Hunnenberg, Zug",
+          "home_team": "CVZ-Women",
+          "away_team": "Cossonay CC-Women"
+        },
+        {
+          "date": "2026-06-06",
+          "time": "TBD",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay CC-Women",
+          "away_team": "Embrach Thunder"
+        },
+        {
+          "date": "2026-06-14",
+          "time": "10:00",
+          "ground": "Birsfelden, Basel",
+          "home_team": "A1SC- Women",
+          "away_team": "Cossonay CC-Women"
+        },
+        {
+          "date": "2026-08-15",
+          "time": "TBD",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Basel Supernovas",
+          "away_team": "CS Girls A1 Stars"
+        },
+        {
+          "date": "2026-08-23",
+          "time": "TBD",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Embrach Thunder",
+          "away_team": "Basel Supernovas"
+        },
+        {
+          "date": "2026-08-23",
+          "time": "TBD",
+          "ground": "-",
+          "home_team": "CS Girls A1 Stars",
+          "away_team": "CVZ-Women"
+        },
+        {
+          "date": "2026-08-29",
+          "time": "13:00",
+          "ground": "Hunnenberg, Zug",
+          "home_team": "CVZ-Women",
+          "away_team": "Basel Supernovas"
+        }
+      ]
+    },
+    {
+      "name": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL 2026)",
+      "abbreviation": "CSYL",
+      "color": "#e91e63",
+      "slug": "cricket_switzerland_youth_league_csyl_2026",
+      "points_table": {
+        "Group A": [
+          {
+            "#": "1",
+            "Team": "CH U19 NATI",
+            "M": "2",
+            "W": "2",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "2.692",
+            "For": "409/78",
+            "Against": "199/78",
+            "Pt.": "4",
+            "Last 5": "wW-Ww"
+          },
+          {
+            "#": "2",
+            "Team": "Nomads-Embrach Cricket Academy",
+            "M": "2",
+            "W": "1",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "1.474",
+            "For": "454/78",
+            "Against": "339/78",
+            "Pt.": "2",
+            "Last 5": "L-W"
+          },
+          {
+            "#": "3",
+            "Team": "Swiss Afghan U19",
+            "M": "1",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "1",
+            "NR": "0",
+            "NRR": "0.000",
+            "For": "166/50",
+            "Against": "166/50",
+            "Pt.": "1",
+            "Last 5": "T"
+          },
+          {
+            "#": "4",
+            "Team": "Basel Dragons A U19",
+            "M": "1",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "1",
+            "NR": "0",
+            "NRR": "0.000",
+            "For": "166/50",
+            "Against": "166/50",
+            "Pt.": "1",
+            "Last 5": "T"
+          },
+          {
+            "#": "5",
+            "Team": "Zurich Crickets U19",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "6",
+            "Team": "Geneva XI Stars - U19",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "7",
+            "Team": "Cossonay Juniors U19",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "8",
+            "Team": "Basel Dragons B U19",
+            "M": "2",
+            "W": "0",
+            "L": "2",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-3.250",
+            "For": "195/100",
+            "Against": "520/100",
+            "Pt.": "0",
+            "Last 5": "L-L"
+          }
+        ]
+      },
+      "past_matches": [
+        {
+          "date": "2026-05-03",
+          "time": "09:03 AM UTC",
+          "ground": "Baumlihof, Basel",
+          "team_1st": "Nomads-Embrach Cricket Academy",
+          "score_1st": "314/9 (41.1 Ov)",
+          "team_2nd": "Basel Dragons B U19",
+          "score_2nd": "136/10 (40.4 Ov)",
+          "result": "Nomads-Embrach Cricket Academy won by 178 runs"
+        },
+        {
+          "date": "2026-05-01",
+          "time": "11:13 AM UTC",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "team_1st": "CH U19 NATI",
+          "score_1st": "277/9 (50.0 Ov)",
+          "team_2nd": "Nomads-Embrach Cricket Academy",
+          "score_2nd": "140/6 (28.0 Ov)",
+          "result": "CH U19 NATI won by 204 runs"
+        },
+        {
+          "date": "2026-04-11",
+          "time": "09:24 AM UTC",
+          "ground": "Baumlihof, Basel",
+          "team_1st": "Swiss Afghan U19",
+          "score_1st": "166/10 (42.0 Ov)",
+          "team_2nd": "Basel Dragons A U19",
+          "score_2nd": "166/10 (39.3 Ov)",
+          "result": "Tie"
+        },
+        {
+          "date": "2026-04-25",
+          "time": "09:12 AM UTC",
+          "ground": "Baumlihof, Basel",
+          "team_1st": "CH U19 NATI",
+          "score_1st": "206/10 (46.5 Ov)",
+          "team_2nd": "Basel Dragons B U19",
+          "score_2nd": "59/10 (20.1 Ov)",
+          "result": "CH U19 NATI won by 147 runs"
+        }
+      ],
+      "upcoming_matches": [
+        {
+          "date": "2026-05-14",
+          "time": "11:30",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets U19",
+          "away_team": "CH U19 NATI"
+        },
+        {
+          "date": "2026-05-15",
+          "time": "11:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Basel Dragons A U19",
+          "away_team": "CH U19 NATI"
+        },
+        {
+          "date": "2026-05-15",
+          "time": "10:30",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets U19",
+          "away_team": "Nomads-Embrach Cricket Academy"
+        },
+        {
+          "date": "2026-05-24",
+          "time": "12:00",
+          "ground": "Onex, Geneva",
+          "home_team": "Geneva XI Stars - U19",
+          "away_team": "CH U19 NATI"
+        },
+        {
+          "date": "2026-05-25",
+          "time": "11:30",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets U19",
+          "away_team": "Basel Dragons A U19"
+        },
+        {
+          "date": "2026-05-30",
+          "time": "10:30",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Cossonay Juniors U19",
+          "away_team": "Basel Dragons A U19"
+        },
+        {
+          "date": "2026-06-20",
+          "time": "11:30",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Swiss Afghan U19",
+          "away_team": "Basel Dragons B U19"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "12:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "CH U19 NATI",
+          "away_team": "Swiss Afghan U19"
+        },
+        {
+          "date": "2026-07-05",
+          "time": "11:00",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Basel Dragons A U19",
+          "away_team": "Geneva XI Stars - U19"
+        },
+        {
+          "date": "2026-07-11",
+          "time": "09:00",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay Juniors U19",
+          "away_team": "CH U19 NATI"
+        },
+        {
+          "date": "2026-07-12",
+          "time": "12:30",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Swiss Afghan U19",
+          "away_team": "Nomads-Embrach Cricket Academy"
+        },
+        {
+          "date": "2026-07-12",
+          "time": "12:00",
+          "ground": "Onex, Geneva",
+          "home_team": "Geneva XI Stars - U19",
+          "away_team": "Cossonay Juniors U19"
+        },
+        {
+          "date": "2026-07-26",
+          "time": "11:30",
+          "ground": "Onex, Geneva",
+          "home_team": "Geneva XI Stars - U19",
+          "away_team": "Swiss Afghan U19"
+        },
+        {
+          "date": "2026-08-16",
+          "time": "09:00",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay Juniors U19",
+          "away_team": "Swiss Afghan U19"
+        },
+        {
+          "date": "2026-08-22",
+          "time": "10:00",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Basel Dragons B U19",
+          "away_team": "Zurich Crickets U19"
+        },
+        {
+          "date": "2026-08-23",
+          "time": "11:00",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Basel Dragons A U19",
+          "away_team": "Basel Dragons B U19"
+        },
+        {
+          "date": "2026-08-23",
+          "time": "11:00",
+          "ground": "Onex, Geneva",
+          "home_team": "Geneva XI Stars - U19",
+          "away_team": "Nomads-Embrach Cricket Academy"
+        },
+        {
+          "date": "2026-08-29",
+          "time": "11:00",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Basel Dragons B U19",
+          "away_team": "Geneva XI Stars - U19"
+        },
+        {
+          "date": "2026-08-29",
+          "time": "12:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Swiss Afghan U19",
+          "away_team": "Zurich Crickets U19"
+        },
+        {
+          "date": "2026-09-19",
+          "time": "11:00",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay Juniors U19",
+          "away_team": "Basel Dragons B U19"
+        },
+        {
+          "date": "2026-09-20",
+          "time": "12:00",
+          "ground": "Onex, Geneva",
+          "home_team": "Geneva XI Stars - U19",
+          "away_team": "Zurich Crickets U19"
+        }
+      ]
+    },
+    {
+      "name": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL U17 20 overs)",
+      "abbreviation": "U17 T20",
+      "color": "#607d8b",
+      "slug": "cricket_switzerland_youth_league_csyl_u17_20_overs",
+      "points_table": {},
+      "past_matches": [],
+      "upcoming_matches": [
+        {
+          "date": "2026-06-13",
+          "time": "14:30",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets U17",
+          "away_team": "Geneva XI Stars U17"
+        },
+        {
+          "date": "2026-09-13",
+          "time": "12:00",
+          "ground": "Onex, Geneva",
+          "home_team": "Geneva XI Stars U17",
+          "away_team": "Zurich Crickets U17"
+        }
+      ]
+    },
+    {
+      "name": "CRICKET SWITZERLAND YOUTH LEAGUE (CSYL U17 50 overs)",
+      "abbreviation": "CSYL U17",
+      "color": "#9b59b6",
+      "slug": "cricket_switzerland_youth_league_csyl_u17_50_overs",
+      "points_table": {},
+      "past_matches": [],
+      "upcoming_matches": [
+        {
+          "date": "2026-06-20",
+          "time": "12:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets U17",
+          "away_team": "Geneva XI Stars U17"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "12:00",
+          "ground": "Onex, Geneva",
+          "home_team": "Geneva XI Stars U17",
+          "away_team": "Zurich Crickets U17"
+        },
+        {
+          "date": "2026-09-05",
+          "time": "12:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets U19",
+          "away_team": "Cossonay Juniors U19"
+        }
+      ]
+    },
+    {
+      "name": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+      "abbreviation": "CricketerPro",
+      "color": "#9b59b6",
+      "slug": "cricketer_pro_t20_competition_division_2_2026",
+      "points_table": {
+        "Group A": [
+          {
+            "#": "1",
+            "Team": "Solothurn CC",
+            "M": "3",
+            "W": "3",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "1.914",
+            "For": "534/55.5",
+            "Against": "459/60",
+            "Pt.": "30",
+            "Last 5": "Ww-w-W"
+          },
+          {
+            "#": "2",
+            "Team": "Olten Gosgen CC",
+            "M": "1",
+            "W": "1",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "18.250",
+            "For": "56/2.4",
+            "Against": "55/20",
+            "Pt.": "10",
+            "Last 5": "W"
+          },
+          {
+            "#": "4",
+            "Team": "Basel Dragons JCC 2",
+            "M": "4",
+            "W": "1",
+            "L": "3",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-0.318",
+            "For": "546/80",
+            "Against": "531/74.2",
+            "Pt.": "10",
+            "Last 5": "L-W-L-L"
+          },
+          {
+            "#": "5",
+            "Team": "Luzern Cricket Club",
+            "M": "2",
+            "W": "1",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-0.553",
+            "For": "276/39.1",
+            "Against": "304/40",
+            "Pt.": "10",
+            "Last 5": "L-W"
+          },
+          {
+            "#": "6",
+            "Team": "CVZ",
+            "M": "2",
+            "W": "1",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-0.575",
+            "For": "351/40",
+            "Against": "374/40",
+            "Pt.": "10",
+            "Last 5": "LW"
+          },
+          {
+            "#": "7",
+            "Team": "Cricket Club Wettingen-1",
+            "M": "2",
+            "W": "0",
+            "L": "2",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-1.000",
+            "For": "224/40",
+            "Against": "264/40",
+            "Pt.": "0",
+            "Last 5": "L-L"
+          },
+          {
+            "#": "8",
+            "Team": "Sports Club Roche Cricket",
+            "M": "1",
+            "W": "0",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-18.250",
+            "For": "55/20",
+            "Against": "56/2.4",
+            "Pt.": "0",
+            "Last 5": "L"
+          }
+        ],
+        "Group B": [
+          {
+            "#": "1",
+            "Team": "A1 Sports Club",
+            "M": "1",
+            "W": "1",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "7.050",
+            "For": "202/20",
+            "Against": "61/20",
+            "Pt.": "10",
+            "Last 5": "w"
+          },
+          {
+            "#": "2",
+            "Team": "Berne CC",
+            "M": "1",
+            "W": "1",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "6.278",
+            "For": "69/7.1",
+            "Against": "67/20",
+            "Pt.": "10",
+            "Last 5": "W"
+          },
+          {
+            "#": "3",
+            "Team": "Basel Dragons JCC",
+            "M": "1",
+            "W": "1",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "2.050",
+            "For": "152/20",
+            "Against": "111/20",
+            "Pt.": "10",
+            "Last 5": "W"
+          },
+          {
+            "#": "4",
+            "Team": "Novartis CC",
+            "M": "2",
+            "W": "1",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "1.000",
+            "For": "259/40",
+            "Against": "219/40",
+            "Pt.": "10",
+            "Last 5": "W-L"
+          },
+          {
+            "#": "5",
+            "Team": "Basel CC Colts",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "6",
+            "Team": "Aargau Crazy Cricketers",
+            "M": "2",
+            "W": "0",
+            "L": "2",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-4.638",
+            "For": "134/40",
+            "Against": "217/27.1",
+            "Pt.": "0",
+            "Last 5": "L-L"
+          },
+          {
+            "#": "7",
+            "Team": "Cricket Club Wettingen-2",
+            "M": "1",
+            "W": "0",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-7.050",
+            "For": "61/20",
+            "Against": "202/20",
+            "Pt.": "0",
+            "Last 5": "L"
+          }
+        ],
+        "Group C": [
+          {
+            "#": "1",
+            "Team": "Zurich Mavericks Adliswil CC",
+            "M": "2",
+            "W": "2",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "6.425",
+            "For": "442/40",
+            "Against": "185/40",
+            "Pt.": "20",
+            "Last 5": "W-Ww"
+          },
+          {
+            "#": "2",
+            "Team": "Zurich Crickets CC-2",
+            "M": "2",
+            "W": "1",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-3.940",
+            "For": "239/39.2",
+            "Against": "399/39.5",
+            "Pt.": "10",
+            "Last 5": "W-L"
+          },
+          {
+            "#": "3",
+            "Team": "Zurich SuperLions",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "4",
+            "Team": "Basel Juniors",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "5",
+            "Team": "Nomads Falcons",
+            "M": "1",
+            "W": "0",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-0.378",
+            "For": "171/19.5",
+            "Against": "174/19.2",
+            "Pt.": "0",
+            "Last 5": "L"
+          },
+          {
+            "#": "6",
+            "Team": "Pakhtoon Zalmi CC",
+            "M": "1",
+            "W": "0",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-4.700",
+            "For": "120/20",
+            "Against": "214/20",
+            "Pt.": "0",
+            "Last 5": "L"
+          }
+        ],
+        "Group D": [
+          {
+            "#": "1",
+            "Team": "Geneva XI Stars",
+            "M": "3",
+            "W": "3",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "3.835",
+            "For": "477/46.5",
+            "Against": "381/60",
+            "Pt.": "30",
+            "Last 5": "W-W-W"
+          },
+          {
+            "#": "2",
+            "Team": "Geneva International CC-2",
+            "M": "2",
+            "W": "1",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-2.203",
+            "For": "213/40",
+            "Against": "202/26.5",
+            "Pt.": "10",
+            "Last 5": "W-L"
+          },
+          {
+            "#": "3",
+            "Team": "Geneva CC-2",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "4",
+            "Team": "Cern CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "5",
+            "Team": "Cossonay CC-2",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "6",
+            "Team": "Geneva Eagles Cricket Club",
+            "M": "1",
+            "W": "0",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-0.650",
+            "For": "112/20",
+            "Against": "125/20",
+            "Pt.": "0",
+            "Last 5": "L"
+          },
+          {
+            "#": "7",
+            "Team": "Geneva Sri Lanka CC",
+            "M": "1",
+            "W": "0",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-0.700",
+            "For": "185/20",
+            "Against": "199/20",
+            "Pt.": "0",
+            "Last 5": "L"
+          },
+          {
+            "#": "8",
+            "Team": "Geneva International CC",
+            "M": "1",
+            "W": "0",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-4,000",
+            "For": "108/20",
+            "Against": "188/20",
+            "Pt.": "0",
+            "Last 5": "L"
+          }
+        ]
+      },
+      "past_matches": [
+        {
+          "date": "2026-05-03",
+          "time": "13:30 PM UTC",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "team_1st": "Geneva XI Stars",
+          "score_1st": "188/5 (20.0 Ov)",
+          "team_2nd": "Geneva International CC",
+          "score_2nd": "108/10 (11.5 Ov)",
+          "result": "Geneva XI Stars won by 80 runs"
+        },
+        {
+          "date": "2026-05-03",
+          "time": "11:51 AM UTC",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "team_1st": "Zurich Mavericks Adliswil CC",
+          "score_1st": "228/4 (20.0 Ov)",
+          "team_2nd": "Zurich Crickets CC-2",
+          "score_2nd": "65/10 (14.0 Ov)",
+          "result": "Zurich Mavericks Adliswil CC won by 163 runs"
+        },
+        {
+          "date": "2026-05-03",
+          "time": "11:53 AM UTC",
+          "ground": "Kreuzzleg, Aargau",
+          "team_1st": "A1 Sports Club",
+          "score_1st": "202/5 (20.0 Ov)",
+          "team_2nd": "Cricket Club Wettingen-2",
+          "score_2nd": "61/10 (19.3 Ov)",
+          "result": "A1 Sports Club won by 141 runs"
+        },
+        {
+          "date": "2026-05-03",
+          "time": "10:15 AM UTC",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "team_1st": "Geneva International CC-2",
+          "score_1st": "88/10 (15.4 Ov)",
+          "team_2nd": "Geneva XI Stars",
+          "score_2nd": "90/3 (6.5 Ov)",
+          "result": "Geneva XI Stars won by 7 wickets"
+        },
+        {
+          "date": "2026-05-03",
+          "time": "08:57 AM UTC",
+          "ground": "Bachgraben, Basel",
+          "team_1st": "Basel Dragons JCC",
+          "score_1st": "152/8 (20.0 Ov)",
+          "team_2nd": "Novartis CC",
+          "score_2nd": "111/7 (20.0 Ov)",
+          "result": "Basel Dragons JCC won by 41 runs"
+        },
+        {
+          "date": "2026-05-03",
+          "time": "07:56 AM UTC",
+          "ground": "Kreuzzleg, Aargau",
+          "team_1st": "CVZ",
+          "score_1st": "141/10 (19.4 Ov)",
+          "team_2nd": "Cricket Club Wettingen-1",
+          "score_2nd": "123/10 (19.1 Ov)",
+          "result": "CVZ won by 18 runs"
+        },
+        {
+          "date": "2026-05-03",
+          "time": "07:01 AM UTC",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "team_1st": "Geneva International CC-2",
+          "score_1st": "125/10 (16.5 Ov)",
+          "team_2nd": "Geneva Eagles Cricket Club",
+          "score_2nd": "112/7 (20.0 Ov)",
+          "result": "Geneva International CC-2 won by 13 runs"
+        },
+        {
+          "date": "2026-05-02",
+          "time": "13:27 PM UTC",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "team_1st": "Geneva XI Stars",
+          "score_1st": "199/6 (20.0 Ov)",
+          "team_2nd": "Geneva Sri Lanka CC",
+          "score_2nd": "185/8 (20.0 Ov)",
+          "result": "Geneva XI Stars won by 14 runs"
+        },
+        {
+          "date": "2026-05-02",
+          "time": "08:50 AM UTC",
+          "ground": "Obergosgen, Solothurn",
+          "team_1st": "Sports Club Roche Cricket",
+          "score_1st": "55/10 (16.3 Ov)",
+          "team_2nd": "Olten Gosgen CC",
+          "score_2nd": "56/1 (2.4 Ov)",
+          "result": "Olten Gosgen CC won by 9 wickets"
+        },
+        {
+          "date": "2026-05-02",
+          "time": "08:10 AM UTC",
+          "ground": "B\u00e4umlihof, Bastia",
+          "team_1st": "Basel Dragons JCC 2",
+          "score_1st": "124/8 (20.0 Ov)",
+          "team_2nd": "Solothurn CC",
+          "score_2nd": "129/2 (15.5 Ov)",
+          "result": "Solothurn CC won by 8 wickets"
+        },
+        {
+          "date": "2026-05-02",
+          "time": "12:30 PM UTC",
+          "ground": "B\u00e4umlihof, Belfort",
+          "team_1st": "Basel Dragons JCC 2",
+          "score_1st": "149/10 (19.2 Ov)",
+          "team_2nd": "Zug Cricket Club",
+          "score_2nd": "150/8 (19.2 Ov)",
+          "result": "Zug Cricket Club won by 2 wickets"
+        },
+        {
+          "date": "2026-05-01",
+          "time": "07:30 AM UTC",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "team_1st": "Nomads Falcons",
+          "score_1st": "171/10 (19.5 Ov)",
+          "team_2nd": "Zurich Crickets CC-2",
+          "score_2nd": "174/4 (19.2 Ov)",
+          "result": "Zurich Crickets CC-2 won by 6 wickets"
+        },
+        {
+          "date": "2026-04-26",
+          "time": "10:05 AM UTC",
+          "ground": "Bachgraben, Lorrach",
+          "team_1st": "Basel Dragons JCC 2",
+          "score_1st": "123/10 (16.2 Ov)",
+          "team_2nd": "Cricket Club Wettingen-1",
+          "score_2nd": "101/10 (16.0 Ov)",
+          "result": "Basel Dragons JCC 2 won by 22 runs"
+        },
+        {
+          "date": "2026-04-26",
+          "time": "10:00 AM UTC",
+          "ground": "Schnau, Bern",
+          "team_1st": "Aargau Crazy Cricketers",
+          "score_1st": "67/8 (16.0 Ov)",
+          "team_2nd": "Berne CC",
+          "score_2nd": "69/1 (7.1 Ov)",
+          "result": "Berne CC won by 9 wickets"
+        },
+        {
+          "date": "2026-04-26",
+          "time": "07:08 AM UTC",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "team_1st": "Zurich Mavericks Adliswil CC",
+          "score_1st": "214/5 (20.0 Ov)",
+          "team_2nd": "Pakhtoon Zalmi CC",
+          "score_2nd": "120/10 (16.5 Ov)",
+          "result": "Zurich Mavericks Adliswil CC won by 94 runs"
+        },
+        {
+          "date": "2026-04-19",
+          "time": "12:43 PM UTC",
+          "ground": "Brugg, Aargau",
+          "team_1st": "Novartis CC",
+          "score_1st": "148/6 (20.0 Ov)",
+          "team_2nd": "Aargau Crazy Cricketers",
+          "score_2nd": "67/10 (18.0 Ov)",
+          "result": "Novartis CC won by 81 runs"
+        },
+        {
+          "date": "2026-04-18",
+          "time": "12:03 PM UTC",
+          "ground": "Kantonsschule Solothurn, Solothurn",
+          "team_1st": "Solothurn CC",
+          "score_1st": "251/6 (20.0 Ov)",
+          "team_2nd": "CVZ",
+          "score_2nd": "210/9 (20.0 Ov)",
+          "result": "Solothurn CC won by 41 runs"
+        },
+        {
+          "date": "2026-04-12",
+          "time": "11:47 AM UTC",
+          "ground": "Luzern Cricket Ground, Luzern",
+          "team_1st": "Basel Dragons JCC 2",
+          "score_1st": "150/10 (19.2 Ov)",
+          "team_2nd": "Luzern Cricket Club",
+          "score_2nd": "151/5 (19.1 Ov)",
+          "result": "Luzern Cricket Club won by 5 wickets"
+        },
+        {
+          "date": "2026-04-12",
+          "time": "07:48 AM UTC",
+          "ground": "Luzern Cricket Ground, Luzern",
+          "team_1st": "Solothurn CC",
+          "score_1st": "154/5 (20.0 Ov)",
+          "team_2nd": "Luzern Cricket Club",
+          "score_2nd": "125/7 (20.0 Ov)",
+          "result": "Solothurn CC won by 29 runs"
+        }
+      ],
+      "upcoming_matches": [
+        {
+          "date": "2026-05-09",
+          "time": "11:00",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Basel Dragons JCC",
+          "away_team": "Aargau Crazy Cricketers"
+        },
+        {
+          "date": "2026-05-09",
+          "time": "14:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets CC-2",
+          "away_team": "Pakhtoon Zalmi CC"
+        },
+        {
+          "date": "2026-05-10",
+          "time": "11:00",
+          "ground": "Chopfli Athletic Field, Geneva",
+          "home_team": "Sports Club Roche Cricket",
+          "away_team": "Luzern Cricket Club"
+        },
+        {
+          "date": "2026-05-10",
+          "time": "11:00",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva Sri Lanka CC",
+          "away_team": "Cern CC"
+        },
+        {
+          "date": "2026-05-10",
+          "time": "15:00",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva Sri Lanka CC",
+          "away_team": "Geneva International CC-2"
+        },
+        {
+          "date": "2026-05-10",
+          "time": "11:00",
+          "ground": "Hedingen, Zurich",
+          "home_team": "Zug Cricket Club",
+          "away_team": "Cricket Club Wettingen-1"
+        },
+        {
+          "date": "2026-05-10",
+          "time": "15:00",
+          "ground": "Hedingen, Zurich",
+          "home_team": "Zug Cricket Club",
+          "away_team": "Solothurn CC"
+        },
+        {
+          "date": "2026-05-10",
+          "time": "09:00",
+          "ground": "Hunnenberg, Zug",
+          "home_team": "CVZ",
+          "away_team": "Olten Gosgen CC"
+        },
+        {
+          "date": "2026-05-10",
+          "time": "14:00",
+          "ground": "Hunnenberg, Zug",
+          "home_team": "CVZ",
+          "away_team": "Basel Dragons JCC 2"
+        },
+        {
+          "date": "2026-05-10",
+          "time": "12:00",
+          "ground": "Onex, Geneva",
+          "home_team": "Geneva XI Stars",
+          "away_team": "Geneva CC-2"
+        },
+        {
+          "date": "2026-05-10",
+          "time": "11:00",
+          "ground": "Schonau, Bern",
+          "home_team": "Berne CC",
+          "away_team": "Basel CC Colts"
+        },
+        {
+          "date": "2026-05-10",
+          "time": "15:00",
+          "ground": "Schonau, Bern",
+          "home_team": "Berne CC",
+          "away_team": "Basel Dragons JCC"
+        },
+        {
+          "date": "2026-05-10",
+          "time": "12:30",
+          "ground": "Tufi, Zurich",
+          "home_team": "Zurich Mavericks Adliswil CC",
+          "away_team": "Zurich SuperLions"
+        },
+        {
+          "date": "2026-05-16",
+          "time": "12:00",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva International CC-2",
+          "away_team": "Geneva International CC"
+        },
+        {
+          "date": "2026-05-16",
+          "time": "16:00",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva International CC",
+          "away_team": "Geneva CC-2"
+        },
+        {
+          "date": "2026-05-16",
+          "time": "13:00",
+          "ground": "Obergosgen, Solothurn",
+          "home_team": "Olten Gosgen CC",
+          "away_team": "Basel Dragons JCC 2"
+        },
+        {
+          "date": "2026-05-17",
+          "time": "11:00",
+          "ground": "Birsfelden, Basel",
+          "home_team": "Sports Club Roche Cricket",
+          "away_team": "CVZ"
+        },
+        {
+          "date": "2026-05-17",
+          "time": "10:30",
+          "ground": "Chopfli Athletic Field, Geneva",
+          "home_team": "A1 Sports Club",
+          "away_team": "Aargau Crazy Cricketers"
+        },
+        {
+          "date": "2026-05-17",
+          "time": "12:30",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay CC-2",
+          "away_team": "Geneva Sri Lanka CC"
+        },
+        {
+          "date": "2026-05-17",
+          "time": "10:00",
+          "ground": "Kreuzzleg, Aargau",
+          "home_team": "Cricket Club Wettingen-1",
+          "away_team": "Solothurn CC"
+        },
+        {
+          "date": "2026-05-17",
+          "time": "12:00",
+          "ground": "Onex, Geneva",
+          "home_team": "Geneva XI Stars",
+          "away_team": "Cern CC"
+        },
+        {
+          "date": "2026-05-17",
+          "time": "12:00",
+          "ground": "Pfaffikon, Zurich",
+          "home_team": "Zurich SuperLions",
+          "away_team": "Basel Juniors"
+        },
+        {
+          "date": "2026-05-23",
+          "time": "11:00",
+          "ground": "Obergosgen, Solothurn",
+          "home_team": "Olten Gosgen CC",
+          "away_team": "Solothurn CC"
+        },
+        {
+          "date": "2026-05-23",
+          "time": "15:00",
+          "ground": "Obergosgen, Solothurn",
+          "home_team": "Olten Gosgen CC",
+          "away_team": "Zug Cricket Club"
+        },
+        {
+          "date": "2026-05-24",
+          "time": "11:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Novartis CC",
+          "away_team": "Berne CC"
+        },
+        {
+          "date": "2026-05-24",
+          "time": "12:30",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay CC-2",
+          "away_team": "Geneva CC-2"
+        },
+        {
+          "date": "2026-05-24",
+          "time": "12:00",
+          "ground": "En Prevessin, Geneva",
+          "home_team": "Cern CC",
+          "away_team": "Geneva International CC-2"
+        },
+        {
+          "date": "2026-05-24",
+          "time": "10:00",
+          "ground": "Kreuzzleg, Aargau",
+          "home_team": "Cricket Club Wettingen-1",
+          "away_team": "Sports Club Roche Cricket"
+        },
+        {
+          "date": "2026-05-24",
+          "time": "13:30",
+          "ground": "Kreuzzleg, Aargau",
+          "home_team": "Cricket Club Wettingen-2",
+          "away_team": "Basel Dragons JCC"
+        },
+        {
+          "date": "2026-05-24",
+          "time": "12:30",
+          "ground": "Unknown",
+          "home_team": "Geneva Eagles Cricket Club",
+          "away_team": "Geneva Sri Lanka CC"
+        },
+        {
+          "date": "2026-05-24",
+          "time": "12:00",
+          "ground": "Pfaffikon, Zurich",
+          "home_team": "Zurich SuperLions",
+          "away_team": "Zurich Crickets CC-2"
+        },
+        {
+          "date": "2026-05-30",
+          "time": "14:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets CC-2",
+          "away_team": "Basel Juniors"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "12:00",
+          "ground": "En Prevessin, Geneva",
+          "home_team": "Cern CC",
+          "away_team": "Geneva International CC"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "15:30",
+          "ground": "En Prevessin, Geneva",
+          "home_team": "Cern CC",
+          "away_team": "Geneva Eagles Cricket Club"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "10:00",
+          "ground": "Luzern Cricket Ground, Luzern",
+          "home_team": "Luzern Cricket Club",
+          "away_team": "Cricket Club Wettingen-1"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "14:00",
+          "ground": "Luzern Cricket Ground, Luzern",
+          "home_team": "Luzern Cricket Club",
+          "away_team": "Olten Gosgen CC"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "11:30",
+          "ground": "Onex, Geneva",
+          "home_team": "Geneva XI Stars",
+          "away_team": "Cossonay CC-2"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "12:00",
+          "ground": "Pfaffikon, Zurich",
+          "home_team": "Zurich SuperLions",
+          "away_team": "Nomads Falcons"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "12:00",
+          "ground": "Schonau, Bern",
+          "home_team": "Berne CC",
+          "away_team": "Cricket Club Wettingen-2"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "15:30",
+          "ground": "Schonau, Bern",
+          "home_team": "A1 Sports Club",
+          "away_team": "Berne CC"
+        },
+        {
+          "date": "2026-06-06",
+          "time": "11:00",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Basel Dragons JCC",
+          "away_team": "A1 Sports Club"
+        },
+        {
+          "date": "2026-06-06",
+          "time": "11:00",
+          "ground": "Brugg, Aargau",
+          "home_team": "Aargau Crazy Cricketers",
+          "away_team": "Cricket Club Wettingen-2"
+        },
+        {
+          "date": "2026-06-07",
+          "time": "12:00",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Basel Dragons JCC 2",
+          "away_team": "Sports Club Roche Cricket"
+        },
+        {
+          "date": "2026-06-07",
+          "time": "12:00",
+          "ground": "En Prevessin, Geneva",
+          "home_team": "Cern CC",
+          "away_team": "Cossonay CC-2"
+        },
+        {
+          "date": "2026-06-07",
+          "time": "13:30",
+          "ground": "Kreuzzleg, Aargau",
+          "home_team": "Cricket Club Wettingen-1",
+          "away_team": "Olten Gosgen CC"
+        },
+        {
+          "date": "2026-06-07",
+          "time": "17:00",
+          "ground": "Kreuzzleg, Aargau",
+          "home_team": "Cricket Club Wettingen-2",
+          "away_team": "Basel CC Colts"
+        },
+        {
+          "date": "2026-06-13",
+          "time": "11:30",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva Sri Lanka CC",
+          "away_team": "Geneva International CC"
+        },
+        {
+          "date": "2026-06-14",
+          "time": "10:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Nomads Falcons",
+          "away_team": "Basel Juniors"
+        },
+        {
+          "date": "2026-06-14",
+          "time": "11:00",
+          "ground": "Birsfelden, Basel",
+          "home_team": "Sports Club Roche Cricket",
+          "away_team": "Zug Cricket Club"
+        },
+        {
+          "date": "2026-06-20",
+          "time": "10:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Basel Juniors",
+          "away_team": "Zurich Mavericks Adliswil CC"
+        },
+        {
+          "date": "2026-06-20",
+          "time": "14:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Basel CC Colts",
+          "away_team": "Aargau Crazy Cricketers"
+        },
+        {
+          "date": "2026-06-21",
+          "time": "10:30",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Novartis CC",
+          "away_team": "Cricket Club Wettingen-2"
+        },
+        {
+          "date": "2026-06-21",
+          "time": "14:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "A1 Sports Club",
+          "away_team": "Novartis CC"
+        },
+        {
+          "date": "2026-06-21",
+          "time": "09:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Pakhtoon Zalmi CC",
+          "away_team": "Nomads Falcons"
+        },
+        {
+          "date": "2026-06-21",
+          "time": "11:00",
+          "ground": "Hedingen, Zurich",
+          "home_team": "Zug Cricket Club",
+          "away_team": "Luzern Cricket Club"
+        },
+        {
+          "date": "2026-06-21",
+          "time": "15:00",
+          "ground": "Hedingen, Zurich",
+          "home_team": "Zug Cricket Club",
+          "away_team": "CVZ"
+        },
+        {
+          "date": "2026-06-21",
+          "time": "12:30",
+          "ground": "Unknown",
+          "home_team": "Geneva Eagles Cricket Club",
+          "away_team": "Geneva CC-2"
+        },
+        {
+          "date": "2026-06-27",
+          "time": "10:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Basel CC Colts",
+          "away_team": "Novartis CC"
+        },
+        {
+          "date": "2026-06-27",
+          "time": "15:30",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva CC-2",
+          "away_team": "Geneva Sri Lanka CC"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "10:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Basel CC Colts",
+          "away_team": "A1 Sports Club"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "11:00",
+          "ground": "Birsfelden, Basel",
+          "home_team": "Sports Club Roche Cricket",
+          "away_team": "Solothurn CC"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "12:30",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay CC-2",
+          "away_team": "Geneva Eagles Cricket Club"
+        },
+        {
+          "date": "2026-07-11",
+          "time": "11:00",
+          "ground": "Baumlihof, Basel",
+          "home_team": "Basel Dragons JCC",
+          "away_team": "Basel CC Colts"
+        },
+        {
+          "date": "2026-07-11",
+          "time": "11:30",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva CC-2",
+          "away_team": "Cern CC"
+        },
+        {
+          "date": "2026-07-11",
+          "time": "16:00",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva CC-2",
+          "away_team": "Geneva International CC-2"
+        },
+        {
+          "date": "2026-07-12",
+          "time": "09:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Pakhtoon Zalmi CC",
+          "away_team": "Zurich SuperLions"
+        },
+        {
+          "date": "2026-07-18",
+          "time": "11:30",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva International CC",
+          "away_team": "Cossonay CC-2"
+        },
+        {
+          "date": "2026-07-18",
+          "time": "15:30",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva International CC-2",
+          "away_team": "Cossonay CC-2"
+        },
+        {
+          "date": "2026-07-26",
+          "time": "09:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Nomads Falcons",
+          "away_team": "Zurich Mavericks Adliswil CC"
+        },
+        {
+          "date": "2026-08-02",
+          "time": "12:30",
+          "ground": "Unknown",
+          "home_team": "Geneva Eagles Cricket Club",
+          "away_team": "Geneva XI Stars"
+        },
+        {
+          "date": "2026-08-09",
+          "time": "10:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Basel Juniors",
+          "away_team": "Pakhtoon Zalmi CC"
+        },
+        {
+          "date": "2026-08-09",
+          "time": "12:30",
+          "ground": "Unknown",
+          "home_team": "Geneva Eagles Cricket Club",
+          "away_team": "Geneva International CC"
+        },
+        {
+          "date": "2026-08-16",
+          "time": "13:30",
+          "ground": "Hunnenberg, Zug",
+          "home_team": "CVZ",
+          "away_team": "Luzern Cricket Club"
+        }
+      ]
+    },
+    {
+      "name": "PICKWICK CUP T20 COMPETITIONS (ELITE DIVISION)-2026",
+      "abbreviation": "Pickwick",
+      "color": "#3498db",
+      "slug": "pickwick_t20_elite_division_2026",
+      "points_table": {
+        "Group A": [
+          {
+            "#": "1",
+            "Team": "ZURICH NOMADS",
+            "M": "1",
+            "W": "1",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "6.250",
+            "For": "272/20",
+            "Against": "147/20",
+            "Pt.": "10",
+            "Last 5": "W"
+          },
+          {
+            "#": "2",
+            "Team": "GENEVA CC",
+            "M": "1",
+            "W": "1",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "5.200",
+            "For": "209/20",
+            "Against": "105/20",
+            "Pt.": "10",
+            "Last 5": "W"
+          },
+          {
+            "#": "3",
+            "Team": "Basel CC",
+            "M": "1",
+            "W": "1",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "1.800",
+            "For": "83/20",
+            "Against": "47/20",
+            "Pt.": "10",
+            "Last 5": "W"
+          },
+          {
+            "#": "4",
+            "Team": "Cossonay CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "5",
+            "Team": "St. Gallen",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "6",
+            "Team": "Winterthur CC",
+            "M": "2",
+            "W": "0",
+            "L": "2",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-4.025",
+            "For": "194/40",
+            "Against": "355/40",
+            "Pt.": "0",
+            "Last 5": "L-L"
+          },
+          {
+            "#": "7",
+            "Team": "Basel Afghan CC",
+            "M": "1",
+            "W": "0",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-5.200",
+            "For": "105/20",
+            "Against": "209/20",
+            "Pt.": "0",
+            "Last 5": "L"
+          }
+        ],
+        "Group B": [
+          {
+            "#": "1",
+            "Team": "Olten CC",
+            "M": "1",
+            "W": "1",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "4.750",
+            "For": "160/20",
+            "Against": "65/20",
+            "Pt.": "10",
+            "Last 5": "W"
+          },
+          {
+            "#": "2",
+            "Team": "Aargau Avengers",
+            "M": "2",
+            "W": "1",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-2.275",
+            "For": "164/40",
+            "Against": "255/40",
+            "Pt.": "10",
+            "Last 5": "W-L"
+          },
+          {
+            "#": "3",
+            "Team": "Zurich Lions CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "4",
+            "Team": "Power Winterthur CC",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "5",
+            "Team": "Nomads-Embrach Cricket Academy",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "6",
+            "Team": "Zurich Crickets CC-1",
+            "M": "0",
+            "W": "0",
+            "L": "0",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "0",
+            "For": "-",
+            "Against": "-",
+            "Pt.": "0",
+            "Last 5": ""
+          },
+          {
+            "#": "7",
+            "Team": "Swiss Afghan CC",
+            "M": "1",
+            "W": "0",
+            "L": "1",
+            "D": "0",
+            "T": "0",
+            "NR": "0",
+            "NRR": "-0.200",
+            "For": "95/20",
+            "Against": "99/20",
+            "Pt.": "0",
+            "Last 5": "L"
+          }
+        ]
+      },
+      "past_matches": [
+        {
+          "date": "2026-05-03",
+          "time": "09:58 AM UTC",
+          "ground": "Deutweg, Winterthur",
+          "team_1st": "ZURICH NOMADS",
+          "score_1st": "272/5 (20.0 Ov)",
+          "team_2nd": "Winterthur CC",
+          "score_2nd": "147/10 (16.4 Ov)",
+          "result": "ZURICH NOMADS won by 125 runs"
+        },
+        {
+          "date": "2026-05-02",
+          "time": "12:55 PM UTC",
+          "ground": "Obergosgen, Solothurn",
+          "team_1st": "Olten CC",
+          "score_1st": "160/10 (20.0 Ov)",
+          "team_2nd": "Aargau Avengers",
+          "score_2nd": "65/10 (14.3 Ov)",
+          "result": "Olten CC won by 95 runs"
+        },
+        {
+          "date": "2026-04-19",
+          "time": "11:58 AM UTC",
+          "ground": "Bachgraben, Basel",
+          "team_1st": "Basel CC",
+          "score_1st": "83/10 (18.2 Ov)",
+          "team_2nd": "Winterthur CC",
+          "score_2nd": "47/10 (17.2 Ov)",
+          "result": "Basel CC won by 36 runs"
+        },
+        {
+          "date": "2026-04-19",
+          "time": "09:00 AM UTC",
+          "ground": "Brugg, Aargau",
+          "team_1st": "Swiss Afghan CC",
+          "score_1st": "95/10 (19.1 Ov)",
+          "team_2nd": "Aargau Avengers",
+          "score_2nd": "99/2 (13.1 Ov)",
+          "result": "Aargau Avengers won by 8 wickets"
+        },
+        {
+          "date": "2026-04-18",
+          "time": "14:05 PM UTC",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "team_1st": "GENEVA CC",
+          "score_1st": "209/5 (20.0 Ov)",
+          "team_2nd": "Basel Afghan CC",
+          "score_2nd": "105/10 (10.4 Ov)",
+          "result": "GENEVA CC won by 104 runs"
+        }
+      ],
+      "upcoming_matches": [
+        {
+          "date": "2026-05-09",
+          "time": "15:30",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva CC",
+          "away_team": "Cossonay CC"
+        },
+        {
+          "date": "2026-05-09",
+          "time": "11:00",
+          "ground": "Obergosgen, Solothurn",
+          "home_team": "Olten CC",
+          "away_team": "Zurich Lions CC"
+        },
+        {
+          "date": "2026-05-09",
+          "time": "15:00",
+          "ground": "Obergosgen, Solothurn",
+          "home_team": "Olten CC",
+          "away_team": "Swiss Afghan CC"
+        },
+        {
+          "date": "2026-05-10",
+          "time": "11:00",
+          "ground": "Deutweg, Winterthur",
+          "home_team": "Power Winterthur CC",
+          "away_team": "Olten CC"
+        },
+        {
+          "date": "2026-05-10",
+          "time": "14:30",
+          "ground": "Deutweg, Winterthur",
+          "home_team": "Swiss Afghan CC",
+          "away_team": "Power Winterthur CC"
+        },
+        {
+          "date": "2026-05-16",
+          "time": "15:00",
+          "ground": "Kantonsschule Solothurn, Solothurn",
+          "home_team": "Basel Afghan CC",
+          "away_team": "Basel CC"
+        },
+        {
+          "date": "2026-05-17",
+          "time": "11:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Lions CC",
+          "away_team": "Nomads-Embrach Cricket Academy"
+        },
+        {
+          "date": "2026-05-24",
+          "time": "10:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Nomads-Embrach Cricket Academy",
+          "away_team": "Aargau Avengers"
+        },
+        {
+          "date": "2026-05-24",
+          "time": "14:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Swiss Afghan CC",
+          "away_team": "Zurich Crickets CC-1"
+        },
+        {
+          "date": "2026-05-25",
+          "time": "11:00",
+          "ground": "Deutweg, Winterthur",
+          "home_team": "Power Winterthur CC",
+          "away_team": "Zurich Lions CC"
+        },
+        {
+          "date": "2026-05-25",
+          "time": "14:30",
+          "ground": "Deutweg, Winterthur",
+          "home_team": "Power Winterthur CC",
+          "away_team": "Aargau Avengers"
+        },
+        {
+          "date": "2026-05-30",
+          "time": "16:00",
+          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "home_team": "Geneva CC",
+          "away_team": "St. Gallen"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "09:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets CC-1",
+          "away_team": "Nomads-Embrach Cricket Academy"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "11:30",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay CC",
+          "away_team": "Basel CC"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "15:00",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay CC",
+          "away_team": "Basel Afghan CC"
+        },
+        {
+          "date": "2026-06-07",
+          "time": "11:00",
+          "ground": "Brugg, Aargau",
+          "home_team": "Aargau Avengers",
+          "away_team": "Zurich Lions CC"
+        },
+        {
+          "date": "2026-06-07",
+          "time": "13:00",
+          "ground": "En Marche, Cossonay",
+          "home_team": "Cossonay CC",
+          "away_team": "St. Gallen"
+        },
+        {
+          "date": "2026-06-13",
+          "time": "10:30",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets CC-1",
+          "away_team": "Olten CC"
+        },
+        {
+          "date": "2026-06-13",
+          "time": "14:30",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Nomads-Embrach Cricket Academy",
+          "away_team": "Olten CC"
+        },
+        {
+          "date": "2026-06-14",
+          "time": "12:00",
+          "ground": "Deutweg, Winterthur",
+          "home_team": "Winterthur CC",
+          "away_team": "Cossonay CC"
+        },
+        {
+          "date": "2026-06-14",
+          "time": "15:00",
+          "ground": "Deutweg, Winterthur",
+          "home_team": "Winterthur CC",
+          "away_team": "Geneva CC"
+        },
+        {
+          "date": "2026-06-14",
+          "time": "10:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Nomads-Embrach Cricket Academy",
+          "away_team": "Power Winterthur CC"
+        },
+        {
+          "date": "2026-06-14",
+          "time": "15:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "ZURICH NOMADS",
+          "away_team": "Basel Afghan CC"
+        },
+        {
+          "date": "2026-06-14",
+          "time": "11:00",
+          "ground": "Pfaffikon, Zurich",
+          "home_team": "Zurich Lions CC",
+          "away_team": "Zurich Crickets CC-1"
+        },
+        {
+          "date": "2026-06-27",
+          "time": "11:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Zurich Crickets CC-1",
+          "away_team": "Power Winterthur CC"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "14:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Basel CC",
+          "away_team": "ZURICH NOMADS"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "12:00",
+          "ground": "Grundenmoos, St. Gallen",
+          "home_team": "St. Gallen",
+          "away_team": "Winterthur CC"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "09:30",
+          "ground": "Hedingen, Zurich",
+          "home_team": "Zurich Lions CC",
+          "away_team": "Swiss Afghan CC"
+        },
+        {
+          "date": "2026-07-05",
+          "time": "15:30",
+          "ground": "Grundenmoos, St. Gallen",
+          "home_team": "St. Gallen",
+          "away_team": "Basel CC"
+        },
+        {
+          "date": "2026-07-05",
+          "time": "11:00",
+          "ground": "Staad, St. Gallen",
+          "home_team": "Basel Afghan CC",
+          "away_team": "St. Gallen"
+        },
+        {
+          "date": "2026-07-11",
+          "time": "09:00",
+          "ground": "Kantonsschule Solothurn, Solothurn",
+          "home_team": "Basel Afghan CC",
+          "away_team": "Winterthur CC"
+        },
+        {
+          "date": "2026-07-12",
+          "time": "11:00",
+          "ground": "Grundenmoos, St. Gallen",
+          "home_team": "St. Gallen",
+          "away_team": "ZURICH NOMADS"
+        },
+        {
+          "date": "2026-07-19",
+          "time": "10:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "Swiss Afghan CC",
+          "away_team": "Nomads-Embrach Cricket Academy"
+        },
+        {
+          "date": "2026-07-19",
+          "time": "15:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "ZURICH NOMADS",
+          "away_team": "Cossonay CC"
+        },
+        {
+          "date": "2026-08-02",
+          "time": "14:00",
+          "ground": "Embrach Cricket Ground, Zurich",
+          "home_team": "ZURICH NOMADS",
+          "away_team": "Geneva CC"
+        },
+        {
+          "date": "2026-08-09",
+          "time": "14:00",
+          "ground": "Bachgraben, Basel",
+          "home_team": "Basel CC",
+          "away_team": "Geneva CC"
+        },
+        {
+          "date": "2026-08-16",
+          "time": "11:00",
+          "ground": "Brugg, Aargau",
+          "home_team": "Aargau Avengers",
+          "away_team": "Zurich Crickets CC-1"
+        }
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "id": "001",
+      "name": "A1 Sports Club"
+    },
+    {
+      "id": "002",
+      "name": "A1SC- Women"
+    },
+    {
+      "id": "003",
+      "name": "Aargau Avengers"
+    },
+    {
+      "id": "004",
+      "name": "Aargau Crazy Cricketers"
+    },
+    {
+      "id": "005",
+      "name": "Basel Afghan CC"
+    },
+    {
+      "id": "006",
+      "name": "Basel CC"
+    },
+    {
+      "id": "007",
+      "name": "Basel CC Colts"
+    },
+    {
+      "id": "008",
+      "name": "Basel Dragons A U19"
+    },
+    {
+      "id": "009",
+      "name": "Basel Dragons B U19"
+    },
+    {
+      "id": "010",
+      "name": "Basel Dragons JCC"
+    },
+    {
+      "id": "011",
+      "name": "Basel Dragons JCC 2"
+    },
+    {
+      "id": "012",
+      "name": "Basel Juniors"
+    },
+    {
+      "id": "013",
+      "name": "Basel Supernovas"
+    },
+    {
+      "id": "014",
+      "name": "Berne CC"
+    },
+    {
+      "id": "015",
+      "name": "CH U19 NATI"
+    },
+    {
+      "id": "016",
+      "name": "CS Girls A1 Stars"
+    },
+    {
+      "id": "017",
+      "name": "CVZ"
+    },
+    {
+      "id": "018",
+      "name": "CVZ-Women"
+    },
+    {
+      "id": "019",
+      "name": "Cern CC"
+    },
+    {
+      "id": "020",
+      "name": "Cossonay CC"
+    },
+    {
+      "id": "021",
+      "name": "Cossonay CC-2"
+    },
+    {
+      "id": "022",
+      "name": "Cossonay CC-Women"
+    },
+    {
+      "id": "023",
+      "name": "Cossonay Juniors U19"
+    },
+    {
+      "id": "024",
+      "name": "Cricket Club Wettingen-1"
+    },
+    {
+      "id": "025",
+      "name": "Cricket Club Wettingen-2"
+    },
+    {
+      "id": "026",
+      "name": "Embrach Thunder"
+    },
+    {
+      "id": "027",
+      "name": "GENEVA CC"
+    },
+    {
+      "id": "028",
+      "name": "Geneva CC"
+    },
+    {
+      "id": "029",
+      "name": "Geneva CC-2"
+    },
+    {
+      "id": "030",
+      "name": "Geneva Eagles Cricket Club"
+    },
+    {
+      "id": "031",
+      "name": "Geneva International CC"
+    },
+    {
+      "id": "032",
+      "name": "Geneva International CC-2"
+    },
+    {
+      "id": "033",
+      "name": "Geneva Sri Lanka CC"
+    },
+    {
+      "id": "034",
+      "name": "Geneva XI Stars"
+    },
+    {
+      "id": "035",
+      "name": "Geneva XI Stars - U19"
+    },
+    {
+      "id": "036",
+      "name": "Geneva XI Stars U17"
+    },
+    {
+      "id": "037",
+      "name": "Luzern Cricket Club"
+    },
+    {
+      "id": "038",
+      "name": "Nomads Falcons"
+    },
+    {
+      "id": "039",
+      "name": "Nomads-Embrach Cricket Academy"
+    },
+    {
+      "id": "040",
+      "name": "Novartis CC"
+    },
+    {
+      "id": "041",
+      "name": "Olten CC"
+    },
+    {
+      "id": "042",
+      "name": "Olten Gosgen CC"
+    },
+    {
+      "id": "043",
+      "name": "Pakhtoon Zalmi CC"
+    },
+    {
+      "id": "044",
+      "name": "Power Winterthur CC"
+    },
+    {
+      "id": "045",
+      "name": "Solothurn CC"
+    },
+    {
+      "id": "046",
+      "name": "Sports Club Roche Cricket"
+    },
+    {
+      "id": "047",
+      "name": "St. Gallen"
+    },
+    {
+      "id": "048",
+      "name": "Swiss Afghan CC"
+    },
+    {
+      "id": "049",
+      "name": "Swiss Afghan U19"
+    },
+    {
+      "id": "050",
+      "name": "Winterthur CC"
+    },
+    {
+      "id": "051",
+      "name": "ZURICH NOMADS"
+    },
+    {
+      "id": "052",
+      "name": "Zug Cricket Club"
+    },
+    {
+      "id": "053",
+      "name": "Zurich Crickets CC-1"
+    },
+    {
+      "id": "054",
+      "name": "Zurich Crickets CC-2"
+    },
+    {
+      "id": "055",
+      "name": "Zurich Crickets U17"
+    },
+    {
+      "id": "056",
+      "name": "Zurich Crickets U19"
+    },
+    {
+      "id": "057",
+      "name": "Zurich Lions CC"
+    },
+    {
+      "id": "058",
+      "name": "Zurich Mavericks Adliswil CC"
+    },
+    {
+      "id": "059",
+      "name": "Zurich SuperLions"
+    }
+  ]
+}

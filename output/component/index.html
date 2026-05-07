@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Switzerland Stats — Web Component Demo</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 24px; color: #222; }
+    h1 { font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    .subtitle { font-size: 0.85rem; color: #666; margin-bottom: 24px; }
+    cricket-stats { display: block; max-width: 1200px; }
+  </style>
+</head>
+<body>
+  <h1>Cricket Switzerland Stats 2026</h1>
+  <p class="subtitle">Embedded via &lt;cricket-stats&gt; web component &mdash; no framework required.</p>
+  <script src="cricket-stats.js"></script>
+  <cricket-stats season="2026"></cricket-stats>
+</body>
+</html>
