@@ -232,6 +232,37 @@ def test_js_back_button_conditional_on_nav_depth():
         "_teamHTML must guard back button with _navStack.length check"
 
 
+def test_js_observed_attributes_includes_venue():
+    js = _read(COMP_JS)
+    obs = js[js.index('observedAttributes'):js.index('observedAttributes') + 100]
+    assert "'venue'" in obs, "observedAttributes missing 'venue'"
+
+
+def test_js_venue_attr_reads_attribute():
+    js = _read(COMP_JS)
+    assert "getAttribute('venue')" in js, "Component does not read 'venue' attribute"
+
+
+def test_js_initial_view_respects_venue_attr():
+    """_load() must set navStack to venue view when venue attribute present."""
+    js = _read(COMP_JS)
+    load_body = js[js.index('async _load('):js.index('_onClick(e) {')]
+    assert "type: 'venue'" in load_body, \
+        "_load() must initialise nav stack with venue view when venue attr is set"
+
+
+def test_js_has_venue_view():
+    assert "_venueHTML" in _read(COMP_JS)
+
+
+def test_js_venue_navigation_attribute():
+    assert "data-cs-venue" in _read(COMP_JS)
+
+
+def test_js_venue_btn_css():
+    assert ".cs-venue-btn" in _read(COMP_JS)
+
+
 def test_js_hidden_attribute_not_overridden_by_display_flex():
     """Shadow CSS must enforce [hidden]{display:none!important} — otherwise display:flex on
     .match-card overrides the browser's hidden attribute rule and cards don't filter correctly."""

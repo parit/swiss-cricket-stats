@@ -60,6 +60,8 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
 
 .cs-team-btn { background: none; border: none; padding: 0; cursor: pointer; color: inherit; font-size: inherit; font-family: inherit; border-bottom: 1px dotted var(--cs-muted); font-weight: 600; text-align: left; }
 .cs-team-btn:hover { color: var(--cs-accent); border-bottom-color: var(--cs-accent); }
+.cs-venue-btn { background: none; border: none; padding: 0; cursor: pointer; color: inherit; font-size: inherit; font-family: inherit; border-bottom: 1px dotted var(--cs-muted); text-align: left; }
+.cs-venue-btn:hover { color: var(--cs-accent); border-bottom-color: var(--cs-accent); }
 
 .tourn-pill { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.72rem; font-weight: 600; color: #fff; white-space: nowrap; letter-spacing: 0.02em; border: none; cursor: pointer; font-family: inherit; }
 .tourn-pill:hover { opacity: 0.85; }
@@ -88,7 +90,7 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
 <div class="root"><div class="loading">Loading…</div></div>`;
 
   class CricketStats extends HTMLElement {
-    static get observedAttributes() { return ['src', 'season', 'base-url', 'tournament', 'team']; }
+    static get observedAttributes() { return ['src', 'season', 'base-url', 'tournament', 'team', 'venue']; }
     _navStack = [];
 
     connectedCallback() {
@@ -121,12 +123,19 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
         this._data = await res.json();
         const teamAttr = this.getAttribute('team');
         const tournAttr = this.getAttribute('tournament');
+        const venueAttr = this.getAttribute('venue');
         if (teamAttr) {
           const match = this._data.teams.find(t => t.name.toLowerCase() === teamAttr.toLowerCase());
           this._navStack = [{ type: 'team', name: match ? match.name : teamAttr }];
         } else if (tournAttr) {
           const t = this._data.tournaments.find(t => t.slug.includes(tournAttr));
           this._navStack = t ? [{ type: 'tournament', slug: t.slug }] : [{ type: 'home' }];
+        } else if (venueAttr) {
+          const allGrounds = this._data.tournaments.flatMap(t =>
+            [...t.past_matches, ...t.upcoming_matches].map(m => m.ground)
+          );
+          const match = allGrounds.find(g => g && g.toLowerCase() === venueAttr.toLowerCase());
+          this._navStack = [{ type: 'venue', name: match || venueAttr }];
         } else {
           this._navStack = [{ type: 'home' }];
         }
@@ -143,6 +152,8 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
       if (team) { this._navTo({ type: 'team', name: team.dataset.csTeam }); return; }
       const tourn = e.target.closest('[data-cs-tourn]');
       if (tourn) { this._navTo({ type: 'tournament', slug: tourn.dataset.csTourn }); return; }
+      const venue = e.target.closest('[data-cs-venue]');
+      if (venue) { this._navTo({ type: 'venue', name: venue.dataset.csVenue }); return; }
       const tabBtn = e.target.closest('.tab-btn');
       if (tabBtn) { this._switchTab(tabBtn); return; }
       const viewBtn = e.target.closest('.view-btn');
@@ -173,6 +184,10 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
           break;
         case 'team':
           root.innerHTML = this._teamHTML(cur.name);
+          this._wireTeamFilter();
+          break;
+        case 'venue':
+          root.innerHTML = this._venueHTML(cur.name);
           this._wireTeamFilter();
           break;
       }
@@ -341,6 +356,38 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
         </div>`;
     }
 
+    _venueHTML(name) {
+      const nl = name.toLowerCase();
+      const allPast = [], allUpcoming = [];
+
+      for (const t of this._data.tournaments) {
+        const past = t.past_matches
+          .filter(m => (m.ground || '').toLowerCase() === nl)
+          .map(m => ({ ...m, _tourn: t.name, _slug: t.slug, _color: t.color }));
+        const upcoming = t.upcoming_matches
+          .filter(m => (m.ground || '').toLowerCase() === nl)
+          .map(m => ({ ...m, _tourn: t.name, _slug: t.slug, _color: t.color }));
+        allPast.push(...past);
+        allUpcoming.push(...upcoming);
+      }
+
+      allPast.sort((a, b) => a.date.localeCompare(b.date));
+      allUpcoming.sort((a, b) => a.date.localeCompare(b.date));
+
+      const backBtn = this._navStack.length > 1 ? `<button class="back-btn" data-cs-back>&larr; Back</button>` : '';
+      const sc = this._renderSC(allPast, allUpcoming, true);
+
+      return `
+    <div class="view-header">
+      ${backBtn}
+      <h2>${name}</h2>
+    </div>
+    <div class="view-tabs">
+      <div class="tabs"><button class="tab-btn active" data-tab="sc">Matches</button></div>
+      <div class="tab-panel" data-tab="sc">${sc}</div>
+    </div>`;
+    }
+
     // === Renderers ===
 
     _renderPT(groups) {
@@ -416,6 +463,11 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
       return `<button class="cs-team-btn" data-cs-team="${name}">${name}</button>`;
     }
 
+    _venueBtn(name) {
+      if (!name) return '';
+      return `<button class="cs-venue-btn" data-cs-venue="${name}">${name}</button>`;
+    }
+
     _fmtDate(str) {
       const d = new Date(str + 'T00:00:00');
       return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
@@ -430,7 +482,7 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
         const tournCell = showTourn ? `<td>${this._pill(m)}</td>` : '';
         return `<tr data-teams="${m.team_1st}|${m.team_2nd}">
           <td class="dt"${borderL}>${this._fmtDate(m.date)}</td>
-          <td>${m.ground}</td>
+          <td>${this._venueBtn(m.ground)}</td>
           <td class="sc-team">${this._teamBtn(m.team_1st)}</td>
           <td class="score">${m.score_1st}</td>
           <td class="sc-team">${this._teamBtn(m.team_2nd)}</td>
@@ -454,7 +506,7 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
         const tournCell = showTourn ? `<td>${this._pill(m)}</td>` : '';
         return `<tr data-teams="${home}|${away}">
           <td class="dt"${borderL}>${this._fmtDate(m.date)}${time}</td>
-          <td>${m.ground}</td>
+          <td>${this._venueBtn(m.ground)}</td>
           <td class="sc-team">${this._teamBtn(home)}</td>
           <td class="sc-team">${this._teamBtn(away)}</td>
           ${tournCell}
@@ -472,7 +524,7 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
         const s1cls = winner && winner === m.team_1st.toLowerCase() ? ' winner' : '';
         const s2cls = winner && winner === m.team_2nd.toLowerCase() ? ' winner' : '';
         return `<div class="match-card" data-teams="${m.team_1st}|${m.team_2nd}"${bs}>
-          <div class="card-meta"><span>${m.ground} &middot; ${this._fmtDate(m.date)}</span><span class="badge">Past</span></div>
+          <div class="card-meta"><span>${this._venueBtn(m.ground)} &middot; ${this._fmtDate(m.date)}</span><span class="badge">Past</span></div>
           ${pill}
           <div class="card-scores">
             <div class="card-team-row"><span class="card-team bold">${this._teamBtn(m.team_1st)}</span><span class="card-score${s1cls}">${m.score_1st}</span></div>
@@ -492,7 +544,7 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
         const bs = showTourn ? ` style="border-top:5px solid ${m._color || '#888'}"` : '';
         const pill = showTourn ? `<div>${this._pill(m)}</div>` : '';
         return `<div class="match-card" data-teams="${home}|${away}"${bs}>
-          <div class="card-meta"><span>${m.ground} &middot; ${this._fmtDate(m.date)}${time}</span><span class="badge upcoming">Upcoming</span></div>
+          <div class="card-meta"><span>${this._venueBtn(m.ground)} &middot; ${this._fmtDate(m.date)}${time}</span><span class="badge upcoming">Upcoming</span></div>
           ${pill}
           <div class="card-scores">
             <div class="card-team-row">${this._teamBtn(home)}</div>
