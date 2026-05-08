@@ -1,6 +1,6 @@
 {
   "season": "2026",
-  "generated": "2026-05-07",
+  "generated": "2026-05-08",
   "tournaments": [
     {
       "name": "CRICKET SWITZERLAND NATIONAL LEAGUE ( CSNL)-2026",
@@ -165,7 +165,7 @@
         {
           "date": "2026-05-24",
           "time": "11:30",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva International CC",
           "away_team": "Basel Afghan CC"
         },
@@ -256,7 +256,7 @@
         {
           "date": "2026-07-12",
           "time": "12:00",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva International CC",
           "away_team": "Zurich Mavericks Adliswil CC"
         },
@@ -291,7 +291,7 @@
         {
           "date": "2026-08-02",
           "time": "12:00",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva International CC",
           "away_team": "Zug Cricket Club"
         },
@@ -305,7 +305,7 @@
         {
           "date": "2026-08-08",
           "time": "12:00",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva International CC",
           "away_team": "Winterthur CC"
         },
@@ -558,7 +558,7 @@
         {
           "date": "2026-05-17",
           "time": "12:00",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Swiss Afghan CC",
           "away_team": "Geneva CC"
         },
@@ -600,14 +600,14 @@
         {
           "date": "2026-06-28",
           "time": "11:30",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva CC",
           "away_team": "Olten CC"
         },
         {
           "date": "2026-07-05",
           "time": "11:30",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva CC",
           "away_team": "Nomads-Embrach Cricket Academy"
         },
@@ -775,7 +775,7 @@
         {
           "date": "2026-09-27",
           "time": "11:30",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva CC",
           "away_team": "Zurich Crickets CC-1"
         },
@@ -1072,7 +1072,7 @@
         {
           "date": "2026-04-26",
           "time": "10:00 AM UTC",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "team_1st": "Geneva CC-2",
           "score_1st": "179/10 (26.0 Ov)",
           "team_2nd": "Geneva Eagles Cricket Club",
@@ -1166,7 +1166,7 @@
         {
           "date": "2026-06-07",
           "time": "12:00",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva CC-2",
           "away_team": "Basel Dragons JCC"
         },
@@ -1194,7 +1194,7 @@
         {
           "date": "2026-06-14",
           "time": "12:00",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva International CC-2",
           "away_team": "A1 Sports Club"
         },
@@ -1222,7 +1222,7 @@
         {
           "date": "2026-06-21",
           "time": "12:30",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva Sri Lanka CC",
           "away_team": "Basel Dragons JCC"
         },
@@ -1271,7 +1271,7 @@
         {
           "date": "2026-07-04",
           "time": "12:30",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva Sri Lanka CC",
           "away_team": "Geneva XI Stars"
         },
@@ -1327,7 +1327,7 @@
         {
           "date": "2026-07-19",
           "time": "12:00",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva Eagles Cricket Club",
           "away_team": "Geneva Sri Lanka CC"
         },
@@ -1341,7 +1341,7 @@
         {
           "date": "2026-07-26",
           "time": "12:00",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva CC-2",
           "away_team": "A1 Sports Club"
         },
@@ -1411,7 +1411,7 @@
         {
           "date": "2026-08-23",
           "time": "12:00",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva International CC-2",
           "away_team": "Geneva Sri Lanka CC"
         },
@@ -1432,7 +1432,7 @@
         {
           "date": "2026-08-30",
           "time": "11:30",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva Sri Lanka CC",
           "away_team": "Novartis CC"
         },
@@ -1460,7 +1460,7 @@
         {
           "date": "2026-09-06",
           "time": "12:00",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva CC-2",
           "away_team": "Geneva Sri Lanka CC"
         },
@@ -1495,7 +1495,7 @@
         {
           "date": "2026-09-13",
           "time": "12:00",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva International CC-2",
           "away_team": "Geneva CC-2"
         },
@@ -1516,7 +1516,7 @@
         {
           "date": "2026-09-19",
           "time": "12:00",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva International CC-2",
           "away_team": "Basel CC Colts"
         },
@@ -3043,7 +3043,7 @@
         {
           "date": "2026-05-03",
           "time": "13:30 PM UTC",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "team_1st": "Geneva XI Stars",
           "score_1st": "188/5 (20.0 Ov)",
           "team_2nd": "Geneva International CC",
@@ -3073,7 +3073,7 @@
         {
           "date": "2026-05-03",
           "time": "10:15 AM UTC",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "team_1st": "Geneva International CC-2",
           "score_1st": "88/10 (15.4 Ov)",
           "team_2nd": "Geneva XI Stars",
@@ -3103,7 +3103,7 @@
         {
           "date": "2026-05-03",
           "time": "07:01 AM UTC",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "team_1st": "Geneva International CC-2",
           "score_1st": "125/10 (16.5 Ov)",
           "team_2nd": "Geneva Eagles Cricket Club",
@@ -3113,7 +3113,7 @@
         {
           "date": "2026-05-02",
           "time": "13:27 PM UTC",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "team_1st": "Geneva XI Stars",
           "score_1st": "199/6 (20.0 Ov)",
           "team_2nd": "Geneva Sri Lanka CC",
@@ -3256,14 +3256,14 @@
         {
           "date": "2026-05-10",
           "time": "11:00",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva Sri Lanka CC",
           "away_team": "Cern CC"
         },
         {
           "date": "2026-05-10",
           "time": "15:00",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva Sri Lanka CC",
           "away_team": "Geneva International CC-2"
         },
@@ -3326,14 +3326,14 @@
         {
           "date": "2026-05-16",
           "time": "12:00",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva International CC-2",
           "away_team": "Geneva International CC"
         },
         {
           "date": "2026-05-16",
           "time": "16:00",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva International CC",
           "away_team": "Geneva CC-2"
         },
@@ -3557,7 +3557,7 @@
         {
           "date": "2026-06-13",
           "time": "11:30",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva Sri Lanka CC",
           "away_team": "Geneva International CC"
         },
@@ -3641,7 +3641,7 @@
         {
           "date": "2026-06-27",
           "time": "15:30",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva CC-2",
           "away_team": "Geneva Sri Lanka CC"
         },
@@ -3676,14 +3676,14 @@
         {
           "date": "2026-07-11",
           "time": "11:30",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva CC-2",
           "away_team": "Cern CC"
         },
         {
           "date": "2026-07-11",
           "time": "16:00",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva CC-2",
           "away_team": "Geneva International CC-2"
         },
@@ -3697,14 +3697,14 @@
         {
           "date": "2026-07-18",
           "time": "11:30",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva International CC",
           "away_team": "Cossonay CC-2"
         },
         {
           "date": "2026-07-18",
           "time": "15:30",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva International CC-2",
           "away_team": "Cossonay CC-2"
         },
@@ -4010,7 +4010,7 @@
         {
           "date": "2026-04-18",
           "time": "14:05 PM UTC",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "team_1st": "Geneva CC",
           "score_1st": "209/5 (20.0 Ov)",
           "team_2nd": "Basel Afghan CC",
@@ -4022,7 +4022,7 @@
         {
           "date": "2026-05-09",
           "time": "15:30",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva CC",
           "away_team": "Cossonay CC"
         },
@@ -4099,7 +4099,7 @@
         {
           "date": "2026-05-30",
           "time": "16:00",
-          "ground": "Bout-du-monde, Geneva (Switzerland)",
+          "ground": "Bout-du-monde, Geneva",
           "home_team": "Geneva CC",
           "away_team": "St. Gallen"
         },

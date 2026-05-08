@@ -91,6 +91,15 @@ def test_past_match_team_names_are_normalized():
                     f"Un-normalized team name '{name}' in data.json past match ({t['name']})"
 
 
+def test_no_switzerland_suffix_in_venues():
+    """All Geneva venues must say 'Geneva' not 'Geneva (Switzerland)'."""
+    for t in _load()["tournaments"]:
+        for m in t["past_matches"] + t["upcoming_matches"]:
+            ground = m.get("ground", "")
+            assert "(Switzerland)" not in ground, \
+                f"Venue still has '(Switzerland)' suffix: '{ground}'"
+
+
 def test_abbreviations_populated():
     abbrevs = load_tournament_abbreviations(DATA / "tournament_abbreviations.tsv")
     for t in _load()["tournaments"]:
