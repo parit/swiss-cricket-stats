@@ -11,6 +11,10 @@ docs/
 
 # Intermediate / debug
 tmp/
+*.png
+*.jpg
+.superpowers/
+scorecards/data/
 
 # Python
 __pycache__/
