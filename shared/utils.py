@@ -5,7 +5,9 @@ from pathlib import Path
 _NOISE = re.compile(r"\b(competitions|cup)\b", re.IGNORECASE)
 
 _CORRECTIONS_PATH = Path(__file__).parent / "corrections.json"
+_VENUES_PATH = Path(__file__).parent.parent / "data" / "venues.tsv"
 _corrections: dict[str, str] | None = None
+_venues: dict[str, tuple[str, str]] | None = None  # lower_name → (ground, city)
 
 
 def _load_corrections() -> dict[str, str]:
@@ -19,6 +21,29 @@ def apply_corrections(text: str) -> str:
     for wrong, correct in _load_corrections().items():
         text = text.replace(wrong, correct)
     return text
+
+
+def _load_venues() -> dict[str, tuple[str, str]]:
+    global _venues
+    if _venues is None:
+        _venues = {}
+        if _VENUES_PATH.exists():
+            for line in _VENUES_PATH.read_text().splitlines()[1:]:
+                parts = line.split('\t')
+                if len(parts) >= 2 and parts[0].strip():
+                    ground, city = parts[0].strip(), parts[1].strip()
+                    _venues[ground.lower()] = (ground, city)
+    return _venues
+
+
+def normalize_ground(raw: str) -> str:
+    """Normalise a raw ground string to canonical 'Ground, City' using venues.tsv."""
+    name = raw.split(',')[0].strip() if ',' in raw else raw.strip()
+    venues = _load_venues()
+    entry = venues.get(name.lower())
+    if entry:
+        return f"{entry[0]}, {entry[1]}"
+    return raw
 _PT_TEAM_NORM: dict[str, str] = {
     "At Sports Club":        "A1 Sports Club",
     "Basel CC Juniors":      "Basel Juniors",

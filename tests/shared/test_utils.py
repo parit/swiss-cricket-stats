@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "shared"))
 
-from utils import title_to_folder, normalize_pt_team
+from utils import title_to_folder, normalize_pt_team, normalize_ground
 
 ROOT = Path(__file__).parent.parent.parent
 TEAMS_TSV = ROOT / "data" / "teams.tsv"
@@ -34,6 +34,20 @@ def test_empty_input():
 
 def test_normalize_pt_team_geneva_cc():
     assert normalize_pt_team("GENEVA CC") == "Geneva CC"
+
+
+def test_normalize_ground_known_venue():
+    assert normalize_ground("Bäumlihof, Basel") == "Bäumlihof, Basel"
+
+def test_normalize_ground_ocr_city_variant():
+    """OCR may produce wrong city — venue lookup replaces whole string with canonical form."""
+    assert normalize_ground("Bäumlihof, Bastia") == "Bäumlihof, Basel"
+
+def test_normalize_ground_case_insensitive():
+    assert normalize_ground("BACHGRABEN, Basel") == "Bachgraben, Basel"
+
+def test_normalize_ground_unknown_venue_passthrough():
+    assert normalize_ground("Some Unknown Ground, Zurich") == "Some Unknown Ground, Zurich"
 
 
 def test_teams_tsv_no_case_insensitive_duplicates():

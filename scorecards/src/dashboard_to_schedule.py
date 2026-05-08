@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "shared"))
 
 from dashboard_parser import parse_dashboard
+from utils import normalize_ground
 from datetime import date
 
 SCHEDULE_PATH = ROOT / "data" / "scorecards" / "schedule.json"
@@ -30,7 +31,7 @@ def main():
 
     entries = []
     for i, m in enumerate(matches, start=1):
-        entries.append({"id": i, **m})
+        entries.append({"id": i, **m, "ground": normalize_ground(m["ground"])})
 
     SCHEDULE_PATH.write_text(json.dumps(entries, indent=2))
     print(f"[schedule] Written {len(entries)} entries → {SCHEDULE_PATH}")

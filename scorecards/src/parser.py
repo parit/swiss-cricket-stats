@@ -4,7 +4,7 @@ import sys
 import fitz
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "shared"))
-from utils import apply_corrections
+from utils import apply_corrections, normalize_ground
 
 LABELS = {"Ground", "Date", "Match Result", "Toss", "Total", "Result"}
 
@@ -102,7 +102,7 @@ def parse(pdf_path: str, debug_dir: str = "tmp") -> dict:
         "tournament": tournament,
         "date": date,
         "time": time,
-        "ground": apply_corrections(" ".join(ground_lines)),
+        "ground": normalize_ground(apply_corrections(" ".join(ground_lines))),
         "team_1st": apply_corrections(team_1st),
         "score_1st": score_1st,
         "team_2nd": apply_corrections(team_2nd),
