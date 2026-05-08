@@ -6,7 +6,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent
 sys.path.insert(0, str(ROOT / "shared"))
-from stats_generator import generate_stats, generate_per_tournament_stats, generate_per_team_stats
+from shell_generator import generate_combined_shell, generate_per_tournament_shells, generate_per_team_shells
+from utils import normalize_tournament, title_to_folder
 from data_generator import generate_data_json
 
 OUT_DIR = ROOT / "output" / "2026"
@@ -104,9 +105,14 @@ if __name__ == "__main__":
     sc_past     = sc_manifest["past"]
     sc_upcoming = sc_manifest.get("upcoming", [])
 
-    generate_stats(pt_tournaments, sc_past, sc_upcoming, out_dir=str(OUT_DIR))
-    generate_per_tournament_stats(pt_tournaments, sc_past, sc_upcoming, out_dir=str(OUT_DIR))
-    generate_per_team_stats(pt_tournaments, sc_past, sc_upcoming, out_dir=str(OUT_DIR))
+    all_tourn_names = sorted(
+        {normalize_tournament(t) for t, _ in pt_tournaments} |
+        {normalize_tournament(m["tournament"]) for m in sc_past + sc_upcoming}
+    )
+    tournaments = [(name, title_to_folder(name)) for name in all_tourn_names]
+    generate_combined_shell(out_dir=str(OUT_DIR))
+    generate_per_tournament_shells(tournaments, out_dir=str(OUT_DIR))
+    generate_per_team_shells(out_dir=str(OUT_DIR))
     generate_data_json(pt_tournaments_raw, sc_manifest, out_dir=str(OUT_DIR))
 
     print()
