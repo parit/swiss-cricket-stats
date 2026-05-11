@@ -149,6 +149,7 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
         const teamAttr = this.getAttribute('team');
         const tournAttr = this.getAttribute('tournament');
         const venueAttr = this.getAttribute('venue');
+        const scorecardAttr = this.getAttribute('scorecard');
         if (teamAttr) {
           const match = this._data.teams.find(t => t.name.toLowerCase() === teamAttr.toLowerCase());
           this._navStack = [{ type: 'team', name: match ? match.name : teamAttr }];
@@ -161,6 +162,8 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
           );
           const match = allGrounds.find(g => g && g.toLowerCase() === venueAttr.toLowerCase());
           this._navStack = [{ type: 'venue', name: match || venueAttr }];
+        } else if (scorecardAttr) {
+          this._navStack = [{ type: 'scorecard', id: scorecardAttr }];
         } else {
           this._navStack = [{ type: 'home' }];
         }
@@ -219,13 +222,17 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
           break;
         case 'scorecard': {
           const { id } = cur;
+          const epoch = this._navStack.length;
           root.innerHTML = this._backBtn() + '<p class="cs-loading">Loading&hellip;</p>';
           fetch(this._scorecardUrl(id))
             .then(r => r.json())
             .then(data => {
+              if (this._navStack.length !== epoch ||
+                  this._navStack[this._navStack.length - 1].id !== id) return;
               root.innerHTML = this._backBtn() + this._scorecardHTML(data);
             })
             .catch(() => {
+              if (this._navStack.length !== epoch) return;
               root.innerHTML = this._backBtn() + '<p class="cs-err">Failed to load scorecard.</p>';
             });
           break;
@@ -335,7 +342,7 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
         panels  += `<div class="tab-panel" data-tab="sc"${f ? '' : ' hidden'}>${this._renderSC(t.past_matches, t.upcoming_matches, false)}</div>`;
       }
 
-      const backBtn = this._navStack.length > 1 ? `<button class="back-btn" data-cs-back>&larr; Back</button>` : '';
+      const backBtn = this._backBtn();
       return `
         <div class="view-header">
           ${backBtn}
@@ -390,7 +397,7 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
         panels  += `<div class="tab-panel" data-tab="pt"${f ? '' : ' hidden'}>${ptHTML}</div>`;
       }
 
-      const backBtn = this._navStack.length > 1 ? `<button class="back-btn" data-cs-back>&larr; Back</button>` : '';
+      const backBtn = this._backBtn();
       return `
         <div class="view-header">
           ${backBtn}
@@ -420,7 +427,7 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
       allPast.sort((a, b) => a.date.localeCompare(b.date));
       allUpcoming.sort((a, b) => a.date.localeCompare(b.date));
 
-      const backBtn = this._navStack.length > 1 ? `<button class="back-btn" data-cs-back>&larr; Back</button>` : '';
+      const backBtn = this._backBtn();
       const sc = this._renderSC(allPast, allUpcoming, true);
 
       return `

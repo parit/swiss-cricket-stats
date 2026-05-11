@@ -223,14 +223,20 @@ def test_js_back_button_uses_entity():
 
 
 def test_js_back_button_conditional_on_nav_depth():
-    """Back button must only render when nav stack has >1 entry (not when view is root)."""
+    """Back button must only render when nav stack has >1 entry (not when view is root).
+    The guard lives in _backBtn(); _tournHTML and _teamHTML must delegate to it."""
     js = _read(COMP_JS)
+    # _backBtn() method definition itself must contain the length guard
+    back_btn_body = js[js.index('_backBtn() {'):js.index('_homeHTML() {')]
+    assert "_navStack.length" in back_btn_body, \
+        "_backBtn() must guard back button with _navStack.length check"
+    # _tournHTML and _teamHTML must call _backBtn()
     tourn_body = js[js.index('_tournHTML(slug)'):js.index('_teamHTML(name)')]
-    assert "_navStack.length" in tourn_body, \
-        "_tournHTML must guard back button with _navStack.length check"
-    team_body = js[js.index('_teamHTML(name)'):js.index('_renderPT(groups)')]
-    assert "_navStack.length" in team_body, \
-        "_teamHTML must guard back button with _navStack.length check"
+    assert "_backBtn()" in tourn_body, \
+        "_tournHTML must use this._backBtn() for the back button"
+    team_body = js[js.index('_teamHTML(name)'):js.index('_venueHTML(name)')]
+    assert "_backBtn()" in team_body, \
+        "_teamHTML must use this._backBtn() for the back button"
 
 
 def test_js_observed_attributes_includes_venue():
