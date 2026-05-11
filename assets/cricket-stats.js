@@ -86,11 +86,31 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
 
 .empty-msg { color: var(--cs-muted); font-style: italic; padding: 12px 0; font-size: 0.9rem; }
 .muted { color: var(--cs-muted); font-size: 0.8rem; }
+
+.cs-scorecard { padding: 8px 0; }
+.cs-sc-header { background: var(--cs-surf); border: 1px solid var(--cs-border); border-radius: 6px; padding: 12px 16px; margin-bottom: 12px; }
+.cs-sc-title { font-weight: 700; font-size: 1rem; }
+.cs-sc-meta { font-size: 0.8rem; color: var(--cs-muted); margin: 2px 0; }
+.cs-sc-result { font-size: 0.85rem; color: var(--cs-accent); font-weight: 600; margin-top: 4px; }
+.cs-innings { background: var(--cs-surf); border: 1px solid var(--cs-border); border-radius: 6px; padding: 12px 16px; margin-bottom: 12px; }
+.cs-inn-title { font-weight: 700; font-size: 0.9rem; margin-bottom: 8px; }
+.cs-inn-extras, .cs-fow { font-size: 0.78rem; color: var(--cs-muted); margin: 6px 0; }
+.cs-table-wrap { overflow-x: auto; margin-bottom: 8px; }
+.cs-bat-table, .cs-bowl-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+.cs-bat-table th, .cs-bat-table td,
+.cs-bowl-table th, .cs-bowl-table td { padding: 4px 8px; border-bottom: 1px solid var(--cs-border); text-align: left; }
+.cs-bat-table th, .cs-bowl-table th { font-weight: 600; color: var(--cs-muted); font-size: 0.75rem; }
+.cs-num { text-align: right !important; }
+.cs-dim { color: var(--cs-muted); }
+.cs-bold { font-weight: 700; }
+.cs-sc-btn { background: none; border: 1px solid var(--cs-accent); color: var(--cs-accent); border-radius: 4px; padding: 2px 8px; font-size: 0.75rem; cursor: pointer; }
+.cs-sc-btn:hover { background: var(--cs-accent); color: #fff; }
+.cs-loading, .cs-err { padding: 24px; text-align: center; color: var(--cs-muted); }
 </style>
 <div class="root"><div class="loading">Loading…</div></div>`;
 
   class CricketStats extends HTMLElement {
-    static get observedAttributes() { return ['src', 'season', 'base-url', 'tournament', 'team', 'venue']; }
+    static get observedAttributes() { return ['src', 'season', 'base-url', 'tournament', 'team', 'venue', 'scorecard']; }
     _navStack = [];
 
     connectedCallback() {
@@ -112,6 +132,11 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
       const base = (this.getAttribute('base-url') || (_scriptBase ? `${_scriptBase}/..` : null));
       if (!base) return null;
       return `${base.replace(/\/$/, '')}/${season}/data.json`;
+    }
+
+    _scorecardUrl(id) {
+      const base = this._resolveUrl().replace(/\/data\.json$/, '');
+      return `${base}/scorecards/${id}.json`;
     }
 
     async _load() {
@@ -154,6 +179,8 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
       if (tourn) { this._navTo({ type: 'tournament', slug: tourn.dataset.csTourn }); return; }
       const venue = e.target.closest('[data-cs-venue]');
       if (venue) { this._navTo({ type: 'venue', name: venue.dataset.csVenue }); return; }
+      const sc = e.target.closest('[data-cs-scorecard]');
+      if (sc) { this._navTo({ type: 'scorecard', id: sc.dataset.csScorecard }); return; }
       const tabBtn = e.target.closest('.tab-btn');
       if (tabBtn) { this._switchTab(tabBtn); return; }
       const viewBtn = e.target.closest('.view-btn');
@@ -190,6 +217,19 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
           root.innerHTML = this._venueHTML(cur.name);
           this._wireTeamFilter();
           break;
+        case 'scorecard': {
+          const { id } = cur;
+          root.innerHTML = this._backBtn() + '<p class="cs-loading">Loading&hellip;</p>';
+          fetch(this._scorecardUrl(id))
+            .then(r => r.json())
+            .then(data => {
+              root.innerHTML = this._backBtn() + this._scorecardHTML(data);
+            })
+            .catch(() => {
+              root.innerHTML = this._backBtn() + '<p class="cs-err">Failed to load scorecard.</p>';
+            });
+          break;
+        }
       }
     }
 
@@ -248,6 +288,12 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
           if (items.length) sec.hidden = items.every(i => i.hidden);
         });
       });
+    }
+
+    _backBtn() {
+      return this._navStack.length > 1
+        ? `<button class="back-btn" data-cs-back>&larr; Back</button>`
+        : '';
     }
 
     // === View builders ===
@@ -388,6 +434,65 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
     </div>`;
     }
 
+    // === Scorecard renderers ===
+
+    _scorecardHTML(data) {
+      const m = data.match;
+      const innings = data.innings || [];
+      const innHTML = innings.map(inn => this._inningsHTML(inn)).join('');
+      return `<div class="cs-scorecard">
+    <div class="cs-sc-header">
+      <div class="cs-sc-title">${m.team_1st} vs ${m.team_2nd}</div>
+      <div class="cs-sc-meta">${m.date} &middot; ${m.ground}</div>
+      <div class="cs-sc-result">${m.result}</div>
+    </div>
+    ${innHTML}
+  </div>`;
+    }
+
+    _inningsHTML(inn) {
+      const batRows = (inn.batting || []).map(b =>
+        `<tr><td>${b.no}</td><td>${b.name}</td><td class="cs-dim">${b.status}</td>
+     <td class="cs-num">${b.runs}</td><td class="cs-num cs-dim">${b.balls}</td>
+     <td class="cs-num cs-dim">${b.fours}</td><td class="cs-num cs-dim">${b.sixes}</td>
+     <td class="cs-num cs-dim">${b.sr.toFixed(2)}</td></tr>`
+      ).join('');
+
+      const bowlRows = (inn.bowling || []).map(b =>
+        `<tr><td>${b.no}</td><td>${b.name}</td>
+     <td class="cs-num">${b.overs}</td><td class="cs-num cs-dim">${b.maidens}</td>
+     <td class="cs-num">${b.runs}</td><td class="cs-num cs-bold">${b.wickets}</td>
+     <td class="cs-num cs-dim">${b.wides}</td><td class="cs-num cs-dim">${b.noballs}</td>
+     <td class="cs-num">${b.eco.toFixed(2)}</td></tr>`
+      ).join('');
+
+      const ext = inn.extras || {};
+      const extParts = ['wd','nb','lb','b'].filter(k => ext[k]).map(k => `${k} ${ext[k]}`).join(', ');
+
+      return `<div class="cs-innings">
+    <div class="cs-inn-title">${inn.team} &mdash; ${inn.score} (${inn.overs} Ov) &middot; ${inn.innings} Innings</div>
+    <div class="cs-table-wrap">
+      <table class="cs-bat-table">
+        <thead><tr><th>#</th><th>Batsman</th><th>Dismissal</th>
+          <th class="cs-num">R</th><th class="cs-num">B</th>
+          <th class="cs-num">4s</th><th class="cs-num">6s</th><th class="cs-num">SR</th></tr></thead>
+        <tbody>${batRows}</tbody>
+      </table>
+    </div>
+    <div class="cs-inn-extras">Extras: ${extParts || '&mdash;'} &mdash; Total: ${inn.total.runs}/${inn.total.wickets} (${inn.total.overs} Ov, CRR: ${inn.total.crr})</div>
+    ${inn.fall_of_wickets ? `<div class="cs-fow">FoW: ${inn.fall_of_wickets}</div>` : ''}
+    <div class="cs-table-wrap">
+      <table class="cs-bowl-table">
+        <thead><tr><th>#</th><th>Bowler</th>
+          <th class="cs-num">O</th><th class="cs-num">M</th>
+          <th class="cs-num">R</th><th class="cs-num">W</th>
+          <th class="cs-num">WD</th><th class="cs-num">NB</th><th class="cs-num">Eco</th></tr></thead>
+        <tbody>${bowlRows}</tbody>
+      </table>
+    </div>
+  </div>`;
+    }
+
     // === Renderers ===
 
     _renderPT(groups) {
@@ -475,11 +580,14 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
 
     _pastTable(matches, showTourn) {
       if (!matches.length) return '<p class="empty-msg">No past matches.</p>';
-      const hdr = ['Date', 'Ground', 'Batting 1st', 'Score', 'Batting 2nd', 'Score', 'Result'];
+      const hdr = ['Date', 'Ground', 'Batting 1st', 'Score', 'Batting 2nd', 'Score', 'Result', ''];
       if (showTourn) hdr.push('Tournament');
       const rows = matches.map(m => {
         const borderL = showTourn ? ` style="border-left:5px solid ${m._color || '#888'};padding-left:10px"` : '';
         const tournCell = showTourn ? `<td>${this._pill(m)}</td>` : '';
+        const scCell = m.scorecard_id
+          ? `<td><button class="cs-sc-btn" data-cs-scorecard="${m.scorecard_id}">Scorecard</button></td>`
+          : '<td></td>';
         return `<tr data-teams="${m.team_1st}|${m.team_2nd}">
           <td class="dt"${borderL}>${this._fmtDate(m.date)}</td>
           <td>${this._venueBtn(m.ground)}</td>
@@ -488,6 +596,7 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
           <td class="sc-team">${this._teamBtn(m.team_2nd)}</td>
           <td class="score">${m.score_2nd}</td>
           <td class="result">${m.result}</td>
+          ${scCell}
           ${tournCell}
         </tr>`;
       }).join('');
@@ -523,6 +632,9 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
         const winner = this._winner(m).toLowerCase();
         const s1cls = winner && winner === m.team_1st.toLowerCase() ? ' winner' : '';
         const s2cls = winner && winner === m.team_2nd.toLowerCase() ? ' winner' : '';
+        const scBtn = m.scorecard_id
+          ? `<button class="cs-sc-btn" data-cs-scorecard="${m.scorecard_id}">View Scorecard &rarr;</button>`
+          : '';
         return `<div class="match-card" data-teams="${m.team_1st}|${m.team_2nd}"${bs}>
           <div class="card-meta"><span>${this._venueBtn(m.ground)} &middot; ${this._fmtDate(m.date)}</span><span class="badge">Past</span></div>
           ${pill}
@@ -531,6 +643,7 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
             <div class="card-team-row"><span class="card-team">${this._teamBtn(m.team_2nd)}</span><span class="card-score${s2cls}">${m.score_2nd}</span></div>
           </div>
           <div class="card-result">${m.result}</div>
+          ${scBtn}
         </div>`;
       }).join('')}</div>`;
     }

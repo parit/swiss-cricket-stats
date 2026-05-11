@@ -20,6 +20,7 @@ from pathlib import Path
 ROOT      = Path(__file__).parent.parent
 OUTPUT    = ROOT / "output"
 COMP_DIR  = OUTPUT / "component"
+COMP      = COMP_DIR   # alias used in scorecard tests
 COMP_JS   = COMP_DIR / "cricket-stats.js"
 COMP_HTML = COMP_DIR / "index.html"
 DATA_JSON = OUTPUT / "2026" / "data.json"
@@ -371,3 +372,28 @@ def test_component_js_matches_season_assets_copy():
     assets = (OUTPUT / "2026" / "assets" / "cricket-stats.js").read_bytes()
     assert comp == assets, \
         "output/component/cricket-stats.js differs from output/2026/assets/cricket-stats.js — build.py copy mismatch"
+
+
+# ---------------------------------------------------------------------------
+# 6. Scorecard view
+# ---------------------------------------------------------------------------
+
+def test_js_has_scorecard_view():
+    js = _read(COMP / "cricket-stats.js")
+    assert "'scorecard'" in js or '"scorecard"' in js, "No scorecard view type"
+
+def test_js_scorecard_fetch():
+    js = _read(COMP / "cricket-stats.js")
+    assert "scorecards/" in js, "Scorecard URL path not in JS"
+
+def test_js_scorecard_batting_renderer():
+    js = _read(COMP / "cricket-stats.js")
+    assert "_battingTable" in js or "_inningsHTML" in js, "No batting renderer"
+
+def test_js_scorecard_bowling_renderer():
+    js = _read(COMP / "cricket-stats.js")
+    assert "_bowlingTable" in js or "_inningsHTML" in js, "No bowling renderer"
+
+def test_js_match_row_scorecard_trigger():
+    js = _read(COMP / "cricket-stats.js")
+    assert "scorecard_id" in js, "match rows don't reference scorecard_id"
