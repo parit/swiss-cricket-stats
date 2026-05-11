@@ -223,3 +223,19 @@ def test_scorecard_json_structure():
         for inn in d["innings"]:
             for key in ("team", "score", "overs", "innings", "batting", "bowling", "extras", "total"):
                 assert key in inn, f"Missing innings key '{key}' in {f.name}"
+
+
+def test_past_matches_with_pdf_have_scorecard_id():
+    """Matches that have a scorecard PDF should expose scorecard_id in data.json."""
+    data = json.loads((OUT / "data.json").read_text())
+    manifest = json.loads((TMP / "sc_manifest.json").read_text())
+    manifest_ids = {m["scorecard_id"] for m in manifest["past"] if m.get("scorecard_id")}
+    for tourn in data["tournaments"]:
+        for m in tourn["past_matches"]:
+            if m.get("scorecard_id"):
+                assert m["scorecard_id"] in manifest_ids, \
+                    f"scorecard_id {m['scorecard_id']} not in manifest"
+    # at least one match should have a scorecard_id
+    all_past = [m for t in data["tournaments"] for m in t["past_matches"]]
+    ids = [m.get("scorecard_id") for m in all_past if m.get("scorecard_id")]
+    assert ids, "No past match has scorecard_id in data.json"
