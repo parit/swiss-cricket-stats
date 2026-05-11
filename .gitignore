@@ -9,6 +9,9 @@ architecture.md
 conversation.md
 docs/
 
+# Generated output (deploy.py pushes output/ to gh-pages; no need to track on main)
+output/
+
 # Intermediate / debug
 tmp/
 *.png
