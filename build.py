@@ -6,9 +6,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent
 sys.path.insert(0, str(ROOT / "shared"))
+sys.path.insert(0, str(ROOT / "scorecards" / "src"))
 from shell_generator import generate_combined_shell, generate_per_tournament_shells, generate_per_team_shells
 from utils import normalize_tournament, title_to_folder
 from data_generator import generate_data_json
+from innings_parser import parse_innings
 
 OUT_DIR = ROOT / "output" / "2026"
 TMP_DIR = ROOT / "tmp"
@@ -83,6 +85,31 @@ def _cleanup_old_files():
         print(f"[build] Removed {len(removed)} old file(s)/dir(s)")
 
 
+def generate_scorecard_jsons(sc_manifest: dict, out_dir: Path, data_dir: Path) -> None:
+    """Write output/2026/scorecards/<scorecard_id>.json for each past match with a PDF."""
+    sc_dir = out_dir / "scorecards"
+    sc_dir.mkdir(parents=True, exist_ok=True)
+    written = 0
+    for m in sc_manifest.get("past", []):
+        sid = m.get("scorecard_id")
+        if not sid:
+            continue
+        pdfs = list(data_dir.rglob(f"{sid}.pdf"))
+        if not pdfs:
+            print(f"[scorecard] WARNING: PDF not found for {sid}")
+            continue
+        try:
+            innings = parse_innings(str(pdfs[0]))
+        except Exception as e:
+            print(f"[scorecard] WARNING: innings parse failed for {sid}: {e}")
+            continue
+        match_fields = {k: v for k, v in m.items() if k != "scorecard_id"}
+        payload = {"match": match_fields, "innings": innings}
+        (sc_dir / f"{sid}.json").write_text(json.dumps(payload, indent=2))
+        written += 1
+    print(f"[scorecard] {written} scorecard JSON(s) → {sc_dir.relative_to(out_dir.parent.parent)}")
+
+
 if __name__ == "__main__":
     print("=" * 50)
     print("POINTS TABLE — parse")
@@ -114,6 +141,7 @@ if __name__ == "__main__":
     generate_per_tournament_shells(tournaments, out_dir=str(OUT_DIR))
     generate_per_team_shells(out_dir=str(OUT_DIR))
     generate_data_json(pt_tournaments_raw, sc_manifest, out_dir=str(OUT_DIR))
+    generate_scorecard_jsons(sc_manifest, out_dir=OUT_DIR, data_dir=ROOT / "data" / "scorecards")
 
     print()
     print("=" * 50)

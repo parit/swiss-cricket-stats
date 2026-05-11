@@ -189,3 +189,37 @@ def test_sc_manifest_past_matches_have_scorecard_id():
     for m in manifest["past"]:
         assert "scorecard_id" in m, f"Missing scorecard_id in {m}"
         assert m["scorecard_id"].startswith("Scorecard_"), f"Bad scorecard_id: {m['scorecard_id']}"
+
+
+# ---------------------------------------------------------------------------
+# Per-match scorecard JSON files
+# ---------------------------------------------------------------------------
+
+OUT = ROOT / "output" / "2026"
+
+
+def test_scorecard_json_dir_exists():
+    assert (OUT / "scorecards").is_dir(), "output/2026/scorecards/ dir missing — run build.py"
+
+
+def test_scorecard_json_files_exist():
+    manifest = json.loads((TMP / "sc_manifest.json").read_text())
+    sc_dir = OUT / "scorecards"
+    for m in manifest["past"]:
+        sid = m.get("scorecard_id", "")
+        if sid:
+            assert (sc_dir / f"{sid}.json").exists(), f"Missing scorecard JSON for {sid}"
+
+
+def test_scorecard_json_structure():
+    sc_dir = OUT / "scorecards"
+    files = list(sc_dir.glob("*.json"))
+    assert files, "No scorecard JSON files found"
+    for f in files[:3]:  # check first 3
+        d = json.loads(f.read_text())
+        assert "match" in d, f"Missing 'match' key in {f.name}"
+        assert "innings" in d, f"Missing 'innings' key in {f.name}"
+        assert isinstance(d["innings"], list), f"innings must be list in {f.name}"
+        for inn in d["innings"]:
+            for key in ("team", "score", "overs", "innings", "batting", "bowling", "extras", "total"):
+                assert key in inn, f"Missing innings key '{key}' in {f.name}"
