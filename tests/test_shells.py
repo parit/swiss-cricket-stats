@@ -56,9 +56,9 @@ def test_per_tournament_shells_have_tournament_attr():
     for p in OUT.glob("*/stats.html"):
         assert 'tournament="' in _read(p), f"Missing tournament= in {p}"
 
-def test_per_tournament_shells_have_back_link():
+def test_per_tournament_shells_have_no_back_link():
     for p in OUT.glob("*/stats.html"):
-        assert "season-link" in _read(p), f"Missing season-link in {p}"
+        assert "season-link" not in _read(p), f"Stale season-link in {p}"
 
 def test_per_team_shells_exist():
     ids = load_team_ids(DATA / "teams.tsv")
@@ -71,8 +71,8 @@ def test_per_team_shells_have_team_attr():
     for p in pages:
         assert 'team="' in _read(p), f"Missing team= in {p}"
 
-def test_per_team_shells_have_back_link():
+def test_per_team_shells_have_no_back_link():
     pages = list((OUT / "teams").glob("*/index.html"))
     assert pages, "No team index.html files found under output/2026/teams/"
     for p in pages:
-        assert "season-link" in _read(p), f"Missing season-link in {p}"
+        assert "season-link" not in _read(p), f"Stale season-link in {p}"

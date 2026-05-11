@@ -4,6 +4,7 @@ Past matches  = successfully parsed scorecard PDFs.
 Upcoming matches = schedule.json entries with no matching scorecard.
 """
 import json
+import shutil
 import sys
 from pathlib import Path
 
@@ -11,7 +12,7 @@ ROOT = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(ROOT / "shared"))
 
 from parser import parse
-from utils import normalize_tournament
+from utils import normalize_tournament, title_to_folder
 
 DATA_DIR      = ROOT / "data" / "scorecards"
 SCHEDULE_PATH = DATA_DIR / "schedule.json"
@@ -41,7 +42,34 @@ def _upcoming(schedule, sc_past):
     return upcoming
 
 
+def sort_new_matches(data_dir: Path) -> None:
+    """Parse PDFs in new-matches/, derive tournament slug, move to correct folder."""
+    new_dir = data_dir / "new-matches"
+    if not new_dir.exists():
+        return
+    pdfs = sorted(new_dir.glob("*.pdf"))
+    if not pdfs:
+        return
+    print(f"[sort] {len(pdfs)} PDF(s) in new-matches/\n")
+    for pdf in pdfs:
+        match = parse(str(pdf), debug_dir=str(DEBUG_DIR))
+        tournament = match.get("tournament", "")
+        if not tournament:
+            print(f"[sort] WARNING: no tournament found in {pdf.name} — left in new-matches/")
+            continue
+        slug = title_to_folder(normalize_tournament(tournament))
+        dest_dir = data_dir / slug
+        dest_dir.mkdir(parents=True, exist_ok=True)
+        dest = dest_dir / pdf.name
+        if dest.exists():
+            print(f"[sort] SKIP {pdf.name} — already exists in {slug}/")
+            continue
+        shutil.move(str(pdf), str(dest))
+        print(f"[sort] {pdf.name} → {slug}/\n")
+
+
 def run():
+    sort_new_matches(DATA_DIR)
     pdfs = sorted(p for p in DATA_DIR.rglob("*.pdf"))
     if not pdfs:
         print(f"[sc] No PDFs found in {DATA_DIR}")

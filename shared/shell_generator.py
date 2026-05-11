@@ -9,8 +9,7 @@ from utils import load_team_ids
 _TEAMS_TSV = ROOT / "data" / "teams.tsv"
 
 
-def _shell(title: str, css: str, js: str, back: str | None, attrs: str) -> str:
-    back_html = f'\n  <a href="{back}" class="season-link">&larr; Season 2026</a>' if back else ''
+def _shell(title: str, css: str, js: str, attrs: str) -> str:
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +18,7 @@ def _shell(title: str, css: str, js: str, back: str | None, attrs: str) -> str:
   <title>{title}</title>
   <link rel="stylesheet" href="{css}">
 </head>
-<body>{back_html}
+<body>
   <script src="{js}"></script>
   <cricket-stats {attrs}></cricket-stats>
 </body>
@@ -33,7 +32,6 @@ def generate_combined_shell(out_dir: str) -> None:
         title="Cricket Switzerland 2026",
         css="assets/style.css",
         js="assets/cricket-stats.js",
-        back=None,
         attrs='season="2026" src="data.json"',
     )
     (out / "index.html").write_text(html)
@@ -50,7 +48,6 @@ def generate_per_tournament_shells(tournaments: list[tuple[str, str]], out_dir: 
             title=name,
             css="../assets/style.css",
             js="../assets/cricket-stats.js",
-            back="../index.html",
             attrs=f'season="2026" src="../data.json" tournament="{slug}"',
         )
         (d / "stats.html").write_text(html)
@@ -75,7 +72,6 @@ def generate_per_team_shells(out_dir: str) -> None:
             title=name,
             css="../../assets/style.css",
             js="../../assets/cricket-stats.js",
-            back="../../index.html",
             attrs=f'season="2026" src="../../data.json" team="{name}"',
         )
         (d / "index.html").write_text(html)
