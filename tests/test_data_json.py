@@ -182,3 +182,10 @@ def test_tournament_abbreviations_all_entries_have_values():
         parts = line.split('\t')
         assert len(parts) == 2 and parts[1].strip(), \
             f"tournament_abbreviations.tsv line {i} has no abbreviation: {repr(line)}"
+
+
+def test_sc_manifest_past_matches_have_scorecard_id():
+    manifest = json.loads((TMP / "sc_manifest.json").read_text())
+    for m in manifest["past"]:
+        assert "scorecard_id" in m, f"Missing scorecard_id in {m}"
+        assert m["scorecard_id"].startswith("Scorecard_"), f"Bad scorecard_id: {m['scorecard_id']}"

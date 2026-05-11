@@ -79,6 +79,7 @@ def run():
     for pdf in pdfs:
         print(f"--- {pdf.name} ---")
         match = parse(str(pdf), debug_dir=str(DEBUG_DIR))
+        match["scorecard_id"] = pdf.stem
         json_path = DEBUG_DIR / f"{pdf.stem}_sc.json"
         json_path.write_text(json.dumps(match, indent=2))
         print(f"[sc] Parsed → {json_path.name}")
