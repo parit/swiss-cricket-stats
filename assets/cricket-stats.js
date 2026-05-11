@@ -232,7 +232,8 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
               root.innerHTML = this._backBtn() + this._scorecardHTML(data);
             })
             .catch(() => {
-              if (this._navStack.length !== epoch) return;
+              if (this._navStack.length !== epoch ||
+                  this._navStack[this._navStack.length - 1].id !== id) return;
               root.innerHTML = this._backBtn() + '<p class="cs-err">Failed to load scorecard.</p>';
             });
           break;
