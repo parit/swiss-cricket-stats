@@ -460,14 +460,14 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
 
     _inningsHTML(inn) {
       const batRows = (inn.batting || []).map(b =>
-        `<tr><td>${b.no}</td><td>${b.name}</td><td class="cs-dim">${b.status}</td>
+        `<tr><td>${b.name}</td><td class="cs-dim">${b.status}</td>
      <td class="cs-num">${b.runs}</td><td class="cs-num cs-dim">${b.balls}</td>
      <td class="cs-num cs-dim">${b.fours}</td><td class="cs-num cs-dim">${b.sixes}</td>
      <td class="cs-num cs-dim">${b.sr.toFixed(2)}</td></tr>`
       ).join('');
 
       const bowlRows = (inn.bowling || []).map(b =>
-        `<tr><td>${b.no}</td><td>${b.name}</td>
+        `<tr><td>${b.name}</td>
      <td class="cs-num">${b.overs}</td><td class="cs-num cs-dim">${b.maidens}</td>
      <td class="cs-num">${b.runs}</td><td class="cs-num cs-bold">${b.wickets}</td>
      <td class="cs-num cs-dim">${b.wides}</td><td class="cs-num cs-dim">${b.noballs}</td>
@@ -481,7 +481,7 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
     <div class="cs-inn-title">${inn.team} &mdash; ${inn.score} (${inn.overs} Ov) &middot; ${inn.innings} Innings</div>
     <div class="cs-table-wrap">
       <table class="cs-bat-table">
-        <thead><tr><th>#</th><th>Batsman</th><th>Dismissal</th>
+        <thead><tr><th>Batsman</th><th>Dismissal</th>
           <th class="cs-num">R</th><th class="cs-num">B</th>
           <th class="cs-num">4s</th><th class="cs-num">6s</th><th class="cs-num">SR</th></tr></thead>
         <tbody>${batRows}</tbody>
@@ -491,7 +491,7 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
     ${inn.fall_of_wickets ? `<div class="cs-fow">FoW: ${inn.fall_of_wickets}</div>` : ''}
     <div class="cs-table-wrap">
       <table class="cs-bowl-table">
-        <thead><tr><th>#</th><th>Bowler</th>
+        <thead><tr><th>Bowler</th>
           <th class="cs-num">O</th><th class="cs-num">M</th>
           <th class="cs-num">R</th><th class="cs-num">W</th>
           <th class="cs-num">WD</th><th class="cs-num">NB</th><th class="cs-num">Eco</th></tr></thead>
