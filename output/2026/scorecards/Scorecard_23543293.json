@@ -1,0 +1,217 @@
+{
+  "match": {
+    "tournament": "CRICKET SWITZERLAND T20 U19 (League Matches)",
+    "date": "2026-04-04",
+    "time": "10:02 AM UTC",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "team_1st": "Nomads-Embrach Cricket Academy",
+    "score_1st": "105/10 (18.3 Ov)",
+    "team_2nd": "Zurich Crickets U19",
+    "score_2nd": "106/6 (17.1 Ov)",
+    "result": "Zurich Crickets U19 won by 4 wickets"
+  },
+  "innings": [
+    {
+      "team": "Zurich Crickets U19",
+      "score": "106/6",
+      "overs": "17.1",
+      "innings": "1st",
+      "batting": [
+        {
+          "no": 1,
+          "name": "Mohammad Wali",
+          "hand": "RHB",
+          "status": "run out Ibrahim Schinwari / Fawad Khan",
+          "runs": 14,
+          "balls": 9,
+          "minutes": 13,
+          "fours": 2,
+          "sixes": 0,
+          "sr": 155.56
+        },
+        {
+          "no": 2,
+          "name": "Abid Barekzai (wk)",
+          "hand": "RHB",
+          "status": "b Amjid Dawoudzai",
+          "runs": 35,
+          "balls": 35,
+          "minutes": 59,
+          "fours": 5,
+          "sixes": 0,
+          "sr": 100.0
+        },
+        {
+          "no": 3,
+          "name": "Shankar Panguluri",
+          "hand": "RHB",
+          "status": "c \u2020Rohullah Akhonzada b Sadat Baura",
+          "runs": 7,
+          "balls": 14,
+          "minutes": 21,
+          "fours": 0,
+          "sixes": 1,
+          "sr": 50.0
+        },
+        {
+          "no": 4,
+          "name": "Avneet Singh",
+          "hand": "LHB",
+          "status": "c \u2020Rohullah Akhonzada b Amjid Dawoudzai",
+          "runs": 28,
+          "balls": 30,
+          "minutes": 31,
+          "fours": 2,
+          "sixes": 2,
+          "sr": 93.33
+        },
+        {
+          "no": 5,
+          "name": "Seyhishan Prabakar",
+          "hand": "RHB",
+          "status": "b Fawad Khan",
+          "runs": 2,
+          "balls": 4,
+          "minutes": 13,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 50.0
+        },
+        {
+          "no": 6,
+          "name": "Parwez Rahimzay",
+          "hand": "RHB",
+          "status": "lbw b Amjid Dawoudzai",
+          "runs": 0,
+          "balls": 2,
+          "minutes": 1,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        },
+        {
+          "no": 7,
+          "name": "Zekrullah Niazai",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 6,
+          "balls": 8,
+          "minutes": 9,
+          "fours": 1,
+          "sixes": 0,
+          "sr": 75.0
+        },
+        {
+          "no": 8,
+          "name": "Amjid Kharoti (c)",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 2,
+          "balls": 4,
+          "minutes": 3,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 50.0
+        }
+      ],
+      "extras": {
+        "nb": 3,
+        "wd": 9,
+        "total": 12
+      },
+      "total": {
+        "overs": "17.1",
+        "wickets": 6,
+        "runs": 106,
+        "crr": 6.17
+      },
+      "fall_of_wickets": "22-1 (Mohammad Wali, 2.4 ov), 49-2 (Shankar Panguluri, 7.3 ov), 92-3 (Abid Barekzai, 13 ov), 96-4 (Avneet Singh, 14.3 ov), 96-5 (Parwez Rahimzay, 14.5 ov), 99-6 (Seyhishan Prabakar, 16 ov) No",
+      "bowling": [
+        {
+          "no": 1,
+          "name": "Fawad Khan",
+          "overs": "4",
+          "maidens": 0,
+          "runs": 30,
+          "wickets": 1,
+          "dots": 13,
+          "fours": 2,
+          "sixes": 1,
+          "wides": 1,
+          "noballs": 2,
+          "eco": 7.5
+        },
+        {
+          "no": 2,
+          "name": "Obaidullah Jan",
+          "overs": "3",
+          "maidens": 0,
+          "runs": 12,
+          "wickets": 0,
+          "dots": 13,
+          "fours": 1,
+          "sixes": 0,
+          "wides": 2,
+          "noballs": 0,
+          "eco": 4.0
+        },
+        {
+          "no": 3,
+          "name": "Didar Ahmadzai",
+          "overs": "3.1",
+          "maidens": 0,
+          "runs": 9,
+          "wickets": 0,
+          "dots": 13,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 3,
+          "noballs": 0,
+          "eco": 2.84
+        },
+        {
+          "no": 4,
+          "name": "Sadat Baura",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 18,
+          "wickets": 1,
+          "dots": 7,
+          "fours": 2,
+          "sixes": 1,
+          "wides": 0,
+          "noballs": 1,
+          "eco": 9.0
+        },
+        {
+          "no": 5,
+          "name": "Emran Rahmann",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 23,
+          "wickets": 0,
+          "dots": 6,
+          "fours": 3,
+          "sixes": 1,
+          "wides": 2,
+          "noballs": 0,
+          "eco": 11.5
+        },
+        {
+          "no": 6,
+          "name": "Amjid Dawoudzai (c)",
+          "overs": "3",
+          "maidens": 0,
+          "runs": 14,
+          "wickets": 3,
+          "dots": 10,
+          "fours": 2,
+          "sixes": 0,
+          "wides": 0,
+          "noballs": 0,
+          "eco": 4.67
+        }
+      ]
+    }
+  ]
+}

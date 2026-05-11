@@ -1,0 +1,307 @@
+{
+  "match": {
+    "tournament": "CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)",
+    "date": "2026-04-26",
+    "time": "10:54 AM UTC",
+    "ground": "Embrach Cricket Ground, Zurich",
+    "team_1st": "Embrach Thunder",
+    "score_1st": "78/6 (20.0 Ov)",
+    "team_2nd": "CVZ-Women",
+    "score_2nd": "80/0 (7.2 Ov)",
+    "result": "CVZ-Women won by 10 wickets"
+  },
+  "innings": [
+    {
+      "team": "Embrach Thunder",
+      "score": "78/6",
+      "overs": "20.0",
+      "innings": "1st",
+      "batting": [
+        {
+          "no": 1,
+          "name": "Shamanthy kanesharatnam",
+          "hand": "RHB",
+          "status": "c Mrinalika Singh Dev b Sejal vinod",
+          "runs": 4,
+          "balls": 13,
+          "minutes": 23,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 30.77
+        },
+        {
+          "no": 2,
+          "name": "DITYA TAMMINENI",
+          "hand": "RHB",
+          "status": "b Sejal vinod",
+          "runs": 1,
+          "balls": 21,
+          "minutes": 32,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 4.76
+        },
+        {
+          "no": 3,
+          "name": "Hasini Ramayanam (c)",
+          "hand": "RHB",
+          "status": "c Parinitha Mundra b Bhagyashree Jadhav",
+          "runs": 1,
+          "balls": 7,
+          "minutes": 10,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 14.29
+        },
+        {
+          "no": 4,
+          "name": "Shobana SRIKANTHAN",
+          "hand": "RHB",
+          "status": "c Elizabeth Franks b Bhagyashree Jadhav",
+          "runs": 4,
+          "balls": 20,
+          "minutes": 33,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 20.0
+        },
+        {
+          "no": 5,
+          "name": "Nivedita Jha",
+          "hand": "RHB",
+          "status": "b Bhagyashree Jadhav",
+          "runs": 0,
+          "balls": 4,
+          "minutes": 7,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        },
+        {
+          "no": 6,
+          "name": "Vidya Gorantla (wk)",
+          "hand": "RHB",
+          "status": "b Geeta Lele",
+          "runs": 0,
+          "balls": 21,
+          "minutes": 31,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        },
+        {
+          "no": 7,
+          "name": "Prasanti Ramayanam",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 0,
+          "balls": 4,
+          "minutes": 11,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        },
+        {
+          "no": 8,
+          "name": "Manaswini Jayakumar",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 0,
+          "balls": 2,
+          "minutes": 3,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        }
+      ],
+      "extras": {
+        "wd": 59,
+        "nb": 8,
+        "b": 1,
+        "total": 68
+      },
+      "total": {
+        "overs": "20.0",
+        "wickets": 6,
+        "runs": 78,
+        "crr": 3.9
+      },
+      "fall_of_wickets": "17-1 (Shamanthy kanesharatnam, 5.3 ov), 26-2 (DITYA TAMMINENI, 8 ov), 28-3 (Hasini Ramayanam, 8.2 ov), 38-4 (Nivedita Jha, 10.2 ov), 66-5 (Shobana SRIKANTHAN, 17.2 ov), 75-6 (Vidya Gorantla, 19.3 ov) No",
+      "bowling": [
+        {
+          "no": 1,
+          "name": "Parinitha Mundra",
+          "overs": "4",
+          "maidens": 0,
+          "runs": 16,
+          "wickets": 0,
+          "dots": 15,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 6,
+          "noballs": 1,
+          "eco": 4.0
+        },
+        {
+          "no": 2,
+          "name": "Geeta Lele",
+          "overs": "4",
+          "maidens": 0,
+          "runs": 9,
+          "wickets": 1,
+          "dots": 19,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 3,
+          "noballs": 0,
+          "eco": 2.25
+        },
+        {
+          "no": 3,
+          "name": "Amrutha",
+          "overs": "4",
+          "maidens": 0,
+          "runs": 27,
+          "wickets": 0,
+          "dots": 10,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 11,
+          "noballs": 2,
+          "eco": 6.75
+        },
+        {
+          "no": 4,
+          "name": "Sejal vinod (c)",
+          "overs": "4",
+          "maidens": 1,
+          "runs": 10,
+          "wickets": 2,
+          "dots": 18,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 4,
+          "noballs": 0,
+          "eco": 2.5
+        },
+        {
+          "no": 5,
+          "name": "Bhagyashree Jadhav",
+          "overs": "4",
+          "maidens": 1,
+          "runs": 15,
+          "wickets": 3,
+          "dots": 16,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 6,
+          "noballs": 1,
+          "eco": 3.75
+        }
+      ]
+    },
+    {
+      "team": "CVZ-Women",
+      "score": "80/0",
+      "overs": "7.2",
+      "innings": "1st",
+      "batting": [
+        {
+          "no": 1,
+          "name": "Geeta Lele",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 35,
+          "balls": 27,
+          "minutes": 28,
+          "fours": 6,
+          "sixes": 0,
+          "sr": 129.63
+        },
+        {
+          "no": 2,
+          "name": "Amrutha",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 4,
+          "balls": 8,
+          "minutes": 28,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 50.0
+        }
+      ],
+      "extras": {
+        "wd": 20,
+        "nb": 20,
+        "b": 1,
+        "total": 41
+      },
+      "total": {
+        "overs": "7.2",
+        "wickets": 0,
+        "runs": 80,
+        "crr": 10.91
+      },
+      "fall_of_wickets": "No",
+      "bowling": [
+        {
+          "no": 1,
+          "name": "Hasini Ramayanam (c)",
+          "overs": "3.2",
+          "maidens": 0,
+          "runs": 34,
+          "wickets": 0,
+          "dots": 4,
+          "fours": 3,
+          "sixes": 0,
+          "wides": 4,
+          "noballs": 2,
+          "eco": 10.2
+        },
+        {
+          "no": 2,
+          "name": "Shamanthy kanesharatnam",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 25,
+          "wickets": 0,
+          "dots": 3,
+          "fours": 2,
+          "sixes": 0,
+          "wides": 1,
+          "noballs": 5,
+          "eco": 12.5
+        },
+        {
+          "no": 3,
+          "name": "Shobana SRIKANTHAN",
+          "overs": "1",
+          "maidens": 0,
+          "runs": 10,
+          "wickets": 0,
+          "dots": 1,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 3,
+          "noballs": 2,
+          "eco": 10.0
+        },
+        {
+          "no": 4,
+          "name": "DITYA TAMMINENI",
+          "overs": "1",
+          "maidens": 0,
+          "runs": 10,
+          "wickets": 0,
+          "dots": 1,
+          "fours": 1,
+          "sixes": 0,
+          "wides": 1,
+          "noballs": 1,
+          "eco": 10.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "match": {
+    "tournament": "CRICKET SWITZERLAND WOMEN T20 LEAGUE (CSWL T20)",
+    "date": "2026-05-09",
+    "time": "08:04 AM UTC",
+    "ground": "Bachgraben, Basel",
+    "team_1st": "A1SC- Women",
+    "score_1st": "138/6 (20.0 Ov)",
+    "team_2nd": "Basel Supernovas",
+    "score_2nd": "139/3 (19.0 Ov)",
+    "result": "Basel Supernovas won by 4 wickets"
+  },
+  "innings": [
+    {
+      "team": "A1SC- Women",
+      "score": "138/6",
+      "overs": "20.0",
+      "innings": "1st",
+      "batting": [
+        {
+          "no": 1,
+          "name": "Divya Sreekumar (c)",
+          "hand": "RHB",
+          "status": "b Amrita Sasidharan",
+          "runs": 34,
+          "balls": 48,
+          "minutes": 88,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 70.83
+        },
+        {
+          "no": 2,
+          "name": "Ramya Krishna Punekar",
+          "hand": "RHB",
+          "status": "run out Melissa Pienaar",
+          "runs": 1,
+          "balls": 1,
+          "minutes": 4,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 100.0
+        },
+        {
+          "no": 3,
+          "name": "Shilpa Shankar (wk)",
+          "hand": "RHB",
+          "status": "c Anuja Kirushnanantham b Nicole",
+          "runs": 5,
+          "balls": 15,
+          "minutes": 33,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 33.33
+        },
+        {
+          "no": 4,
+          "name": "Saranya Kotha",
+          "hand": "RHB",
+          "status": "c Amrita Sasidharan b Regina Molomo",
+          "runs": 9,
+          "balls": 10,
+          "minutes": 25,
+          "fours": 1,
+          "sixes": 0,
+          "sr": 90.0
+        },
+        {
+          "no": 5,
+          "name": "Metty Fernandes",
+          "hand": "RHB",
+          "status": "run out Melissa Pienaar / \u2020 Nanditha Sunil Kumar",
+          "runs": 7,
+          "balls": 12,
+          "minutes": 21,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 58.33
+        },
+        {
+          "no": 6,
+          "name": "Reetu Chakkiyath",
+          "hand": "LHB",
+          "status": "not out",
+          "runs": 4,
+          "balls": 6,
+          "minutes": 30,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 66.67
+        },
+        {
+          "no": 7,
+          "name": "Neethu Tharaniyil Mohanan",
+          "hand": "RHB",
+          "status": "c Nanditha Sunil Kumar b Anuja Kirushnanantham",
+          "runs": 0,
+          "balls": 1,
+          "minutes": 4,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        }
+      ],
+      "extras": {
+        "wd": 60,
+        "b": 4,
+        "nb": 14,
+        "total": 78
+      },
+      "total": {
+        "overs": "20.0",
+        "wickets": 6,
+        "runs": 138,
+        "crr": 6.9
+      },
+      "fall_of_wickets": "4-1 (Ramya Krishna Punekar, 0.4 ov), 60-2 (Shilpa Shankar, 8.5 ov), 100-3 (Saranya Kotha, 12.5 ov), 127-4 (Metty Fernandes, 18.1 ov), 130-5 (Divya Sreekumar, 18.5 ov), 138-6 (Neethu Tharaniyil Mohanan, 20 ov) No",
+      "bowling": [
+        {
+          "no": 1,
+          "name": "Anuja Kirushnanantham",
+          "overs": "4",
+          "maidens": 0,
+          "runs": 24,
+          "wickets": 1,
+          "dots": 9,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 8,
+          "noballs": 0,
+          "eco": 6.0
+        },
+        {
+          "no": 2,
+          "name": "Melissa Pienaar",
+          "overs": "4",
+          "maidens": 0,
+          "runs": 23,
+          "wickets": 0,
+          "dots": 7,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 5,
+          "noballs": 0,
+          "eco": 5.75
+        },
+        {
+          "no": 3,
+          "name": "Amrita Sasidharan (c)",
+          "overs": "4",
+          "maidens": 0,
+          "runs": 19,
+          "wickets": 1,
+          "dots": 11,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 4,
+          "noballs": 2,
+          "eco": 4.75
+        },
+        {
+          "no": 4,
+          "name": "Regina Molomo",
+          "overs": "3",
+          "maidens": 0,
+          "runs": 23,
+          "wickets": 1,
+          "dots": 4,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 7,
+          "noballs": 0,
+          "eco": 7.67
+        },
+        {
+          "no": 5,
+          "name": "Nicole",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 19,
+          "wickets": 1,
+          "dots": 1,
+          "fours": 1,
+          "sixes": 0,
+          "wides": 3,
+          "noballs": 1,
+          "eco": 9.5
+        },
+        {
+          "no": 6,
+          "name": "Laura Annina Luedi",
+          "overs": "1",
+          "maidens": 0,
+          "runs": 11,
+          "wickets": 0,
+          "dots": 0,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 1,
+          "noballs": 4,
+          "eco": 11.0
+        },
+        {
+          "no": 7,
+          "name": "Nanditha Sunil Kumar",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 15,
+          "wickets": 0,
+          "dots": 1,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 2,
+          "noballs": 0,
+          "eco": 7.5
+        }
+      ]
+    },
+    {
+      "team": "Basel Supernovas",
+      "score": "139/3",
+      "overs": "19.0",
+      "innings": "1st",
+      "batting": [
+        {
+          "no": 1,
+          "name": "Amrita Sasidharan (c & wk)",
+          "hand": "RHB",
+          "status": "c Neethu Tharaniyil Mohanan b Saranya Kotha",
+          "runs": 0,
+          "balls": 1,
+          "minutes": 4,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        },
+        {
+          "no": 2,
+          "name": "Nanditha Sunil Kumar (wk)",
+          "hand": "RHB",
+          "status": "c Saranya Kotha b Metty Fernandes",
+          "runs": 6,
+          "balls": 11,
+          "minutes": 24,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 54.55
+        },
+        {
+          "no": 3,
+          "name": "Melissa Pienaar",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 31,
+          "balls": 32,
+          "minutes": 87,
+          "fours": 1,
+          "sixes": 0,
+          "sr": 96.88
+        },
+        {
+          "no": 4,
+          "name": "Anuja Kirushnanantham",
+          "hand": "RHB",
+          "status": "b Neethu Tharaniyil Mohanan",
+          "runs": 8,
+          "balls": 8,
+          "minutes": 11,
+          "fours": 1,
+          "sixes": 0,
+          "sr": 100.0
+        },
+        {
+          "no": 5,
+          "name": "Nicole",
+          "hand": "LHB",
+          "status": "not out",
+          "runs": 6,
+          "balls": 26,
+          "minutes": 57,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 23.08
+        }
+      ],
+      "extras": {
+        "wd": 72,
+        "nb": 16,
+        "total": 88
+      },
+      "total": {
+        "overs": "19.0",
+        "wickets": 3,
+        "runs": 139,
+        "crr": 7.32
+      },
+      "fall_of_wickets": "0-1 (Amrita Sasidharan, 0.1 ov), 31-2 (Nanditha Sunil Kumar, 4.3 ov), 47-3 (Anuja Kirushnanantham, 6.4 ov) No",
+      "bowling": [
+        {
+          "no": 1,
+          "name": "Saranya Kotha",
+          "overs": "3",
+          "maidens": 0,
+          "runs": 19,
+          "wickets": 1,
+          "dots": 7,
+          "fours": 1,
+          "sixes": 0,
+          "wides": 3,
+          "noballs": 2,
+          "eco": 6.33
+        },
+        {
+          "no": 2,
+          "name": "Metty Fernandes",
+          "overs": "4",
+          "maidens": 0,
+          "runs": 30,
+          "wickets": 1,
+          "dots": 7,
+          "fours": 1,
+          "sixes": 0,
+          "wides": 7,
+          "noballs": 1,
+          "eco": 7.5
+        },
+        {
+          "no": 3,
+          "name": "Neethu Tharaniyil Mohanan",
+          "overs": "4",
+          "maidens": 0,
+          "runs": 25,
+          "wickets": 1,
+          "dots": 9,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 7,
+          "noballs": 2,
+          "eco": 6.25
+        },
+        {
+          "no": 4,
+          "name": "Divya Sreekumar (c)",
+          "overs": "3",
+          "maidens": 0,
+          "runs": 24,
+          "wickets": 0,
+          "dots": 4,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 7,
+          "noballs": 1,
+          "eco": 8.0
+        },
+        {
+          "no": 5,
+          "name": "Ramya Krishna Punekar",
+          "overs": "4",
+          "maidens": 0,
+          "runs": 32,
+          "wickets": 0,
+          "dots": 5,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 8,
+          "noballs": 2,
+          "eco": 8.0
+        },
+        {
+          "no": 6,
+          "name": "Rosmin Kannookadan",
+          "overs": "1",
+          "maidens": 0,
+          "runs": 9,
+          "wickets": 0,
+          "dots": 1,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 4,
+          "noballs": 0,
+          "eco": 9.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "match": {
+    "tournament": "CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL",
+    "date": "2026-05-02",
+    "time": "12:17 PM UTC",
+    "ground": "Birsfelden, Basel",
+    "team_1st": "CS Girls A1 Stars",
+    "score_1st": "61/3 (10.0 Ov)",
+    "team_2nd": "A1SC- Women",
+    "score_2nd": "62/1 (6.5 Ov)",
+    "result": "A1SC- Women won by 6 wickets"
+  },
+  "innings": [
+    {
+      "team": "CS Girls A1 Stars",
+      "score": "61/3",
+      "overs": "10.0",
+      "innings": "1st",
+      "batting": [
+        {
+          "no": 1,
+          "name": "Naina Metty Saju (c)",
+          "hand": "RHB",
+          "status": "b Metty Fernandes",
+          "runs": 4,
+          "balls": 9,
+          "minutes": 9,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 44.44
+        },
+        {
+          "no": 2,
+          "name": "Anusha Dasgupta",
+          "hand": "RHB",
+          "status": "b Ramya Krishna Punekar",
+          "runs": 6,
+          "balls": 8,
+          "minutes": 19,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 75.0
+        },
+        {
+          "no": 3,
+          "name": "Sreya Sreekumar",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 17,
+          "balls": 19,
+          "minutes": 30,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 89.47
+        },
+        {
+          "no": 4,
+          "name": "Ashmita Dube (wk)",
+          "hand": "RHB",
+          "status": "c Saranya Kotha b Ramya Krishna Punekar",
+          "runs": 2,
+          "balls": 3,
+          "minutes": 1,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 66.67
+        },
+        {
+          "no": 5,
+          "name": "Nadhika Ramesh",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 5,
+          "balls": 15,
+          "minutes": 19,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 33.33
+        }
+      ],
+      "extras": {
+        "wd": 13,
+        "nb": 14,
+        "total": 27
+      },
+      "total": {
+        "overs": "10.0",
+        "wickets": 3,
+        "runs": 61,
+        "crr": 6.1
+      },
+      "fall_of_wickets": "17-1 (Naina Metty Saju, 2.3 ov), 27-2 (Anusha Dasgupta, 4.2 ov), 29-3 (Ashmita Dube, 4.5 ov) No",
+      "bowling": [
+        {
+          "no": 1,
+          "name": "Saranya Kotha",
+          "overs": "1",
+          "maidens": 0,
+          "runs": 8,
+          "wickets": 0,
+          "dots": 2,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 3,
+          "noballs": 0,
+          "eco": 8.0
+        },
+        {
+          "no": 2,
+          "name": "Divya Sreekumar",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 12,
+          "wickets": 0,
+          "dots": 2,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 1,
+          "noballs": 1,
+          "eco": 6.0
+        },
+        {
+          "no": 3,
+          "name": "Metty Fernandes",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 9,
+          "wickets": 1,
+          "dots": 6,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 0,
+          "noballs": 3,
+          "eco": 4.5
+        },
+        {
+          "no": 4,
+          "name": "Neethu Tharaniyil Mohanan",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 13,
+          "wickets": 0,
+          "dots": 3,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 2,
+          "noballs": 1,
+          "eco": 6.5
+        },
+        {
+          "no": 5,
+          "name": "Ramya Krishna Punekar",
+          "overs": "1",
+          "maidens": 0,
+          "runs": 5,
+          "wickets": 2,
+          "dots": 3,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 0,
+          "noballs": 1,
+          "eco": 5.0
+        },
+        {
+          "no": 6,
+          "name": "Anita Muruganandam (c)",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 14,
+          "wickets": 0,
+          "dots": 4,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 1,
+          "noballs": 1,
+          "eco": 7.0
+        }
+      ]
+    },
+    {
+      "team": "A1SC- Women",
+      "score": "62/1",
+      "overs": "6.5",
+      "innings": "1st",
+      "batting": [
+        {
+          "no": 1,
+          "name": "Shilpa Shankar (wk)",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 11,
+          "balls": 16,
+          "minutes": 27,
+          "fours": 1,
+          "sixes": 0,
+          "sr": 68.75
+        },
+        {
+          "no": 2,
+          "name": "Saranya Kotha",
+          "hand": "RHB",
+          "status": "c \u2020Ashmita Dube b Anusha Dasgupta",
+          "runs": 4,
+          "balls": 7,
+          "minutes": 10,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 57.14
+        },
+        {
+          "no": 3,
+          "name": "Ramya Krishna Punekar",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 7,
+          "balls": 11,
+          "minutes": 16,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 63.64
+        }
+      ],
+      "extras": {
+        "nb": 26,
+        "wd": 14,
+        "total": 40
+      },
+      "total": {
+        "overs": "6.5",
+        "wickets": 1,
+        "runs": 62,
+        "crr": 9.07
+      },
+      "fall_of_wickets": "22-1 (Saranya Kotha, 2.5 ov) No",
+      "bowling": [
+        {
+          "no": 1,
+          "name": "Naina Metty Saju (c)",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 15,
+          "wickets": 0,
+          "dots": 4,
+          "fours": 1,
+          "sixes": 0,
+          "wides": 1,
+          "noballs": 1,
+          "eco": 7.5
+        },
+        {
+          "no": 2,
+          "name": "Sreya Sreekumar",
+          "overs": "1",
+          "maidens": 0,
+          "runs": 7,
+          "wickets": 0,
+          "dots": 2,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 2,
+          "noballs": 0,
+          "eco": 7.0
+        },
+        {
+          "no": 3,
+          "name": "Anusha Dasgupta",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 21,
+          "wickets": 1,
+          "dots": 1,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 3,
+          "noballs": 5,
+          "eco": 10.5
+        },
+        {
+          "no": 4,
+          "name": "Nadhika Ramesh",
+          "overs": "1",
+          "maidens": 0,
+          "runs": 7,
+          "wickets": 0,
+          "dots": 2,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 1,
+          "noballs": 2,
+          "eco": 7.0
+        },
+        {
+          "no": 5,
+          "name": "Swathi Ravula",
+          "overs": "0.5",
+          "maidens": 0,
+          "runs": 12,
+          "wickets": 0,
+          "dots": 0,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 0,
+          "noballs": 5,
+          "eco": 14.4
+        }
+      ]
+    }
+  ]
+}
