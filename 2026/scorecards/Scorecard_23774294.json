@@ -1,0 +1,398 @@
+{
+  "match": {
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-02",
+    "time": "08:10 AM UTC",
+    "ground": "B\u00e4umlihof, Basel",
+    "team_1st": "Basel Dragons JCC 2",
+    "score_1st": "124/8 (20.0 Ov)",
+    "team_2nd": "Solothurn CC",
+    "score_2nd": "129/2 (15.5 Ov)",
+    "result": "Solothurn CC won by 8 wickets"
+  },
+  "innings": [
+    {
+      "team": "Basel Dragons JCC 2",
+      "score": "124/8",
+      "overs": "20.0",
+      "batting": [
+        {
+          "no": 1,
+          "name": "Zayan Ahmed",
+          "hand": "RHB",
+          "status": "b Nasrat Zaheri",
+          "runs": 48,
+          "balls": 55,
+          "minutes": 73,
+          "fours": 3,
+          "sixes": 2,
+          "sr": 87.27
+        },
+        {
+          "no": 2,
+          "name": "Ibrahim Schinwari",
+          "hand": "RHB",
+          "status": "c&b Tawhidullah Babar",
+          "runs": 14,
+          "balls": 22,
+          "minutes": 41,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 63.64
+        },
+        {
+          "no": 3,
+          "name": "Shafiq Sadik",
+          "hand": "LHB",
+          "status": "b Tawhidullah Babar",
+          "runs": 0,
+          "balls": 1,
+          "minutes": 1,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        },
+        {
+          "no": 4,
+          "name": "Fairdoon Rostamkhil (c)",
+          "hand": "RHB",
+          "status": "b Farooqshah Yousafzai",
+          "runs": 0,
+          "balls": 4,
+          "minutes": 5,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        },
+        {
+          "no": 5,
+          "name": "Nihanth Parcha",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 28,
+          "balls": 25,
+          "minutes": 45,
+          "fours": 3,
+          "sixes": 0,
+          "sr": 112.0
+        },
+        {
+          "no": 6,
+          "name": "Rostam Wafa",
+          "hand": "RHB",
+          "status": "c Aminullah Safi b Nasrat Zaheri",
+          "runs": 1,
+          "balls": 2,
+          "minutes": 2,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 50.0
+        },
+        {
+          "no": 7,
+          "name": "Abhikbrata Sarkar",
+          "hand": "RHB",
+          "status": "run out Aminullah Safi",
+          "runs": 6,
+          "balls": 10,
+          "minutes": 12,
+          "fours": 1,
+          "sixes": 0,
+          "sr": 60.0
+        },
+        {
+          "no": 8,
+          "name": "Amin Ahmadzai",
+          "hand": "RHB",
+          "status": "c Salim Ibrahimi b Attaullah Ibrahimkhel",
+          "runs": 2,
+          "balls": 2,
+          "minutes": 1,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 100.0
+        },
+        {
+          "no": 9,
+          "name": "Salman K",
+          "hand": "RHB",
+          "status": "b Ahmadzai Samiullah",
+          "runs": 0,
+          "balls": 1,
+          "minutes": 2,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        },
+        {
+          "no": 10,
+          "name": "Simul Biswas",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 1,
+          "balls": 1,
+          "minutes": 2,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 100.0
+        }
+      ],
+      "extras": {
+        "wd": 11,
+        "b": 4,
+        "lb": 6,
+        "nb": 3,
+        "total": 24
+      },
+      "total": {
+        "overs": "20.0",
+        "wickets": 8,
+        "runs": 124,
+        "crr": 6.2
+      },
+      "fall_of_wickets": "43-1 (Ibrahim Schinwari, 8.3 ov), 44-2 (Shafiq Sadik, 8.4 ov), 48-3 (Fairdoon Rostamkhil, 9.3 ov), 88-4 (Zayan Ahmed, 15.3 ov), 90-5 (Rostam Wafa, 16 ov), 112-6 (Abhikbrata Sarkar, 18.4 ov), 114-7 (Amin Ahmadzai, 19 ov), 119-8 (Salman K, 19.3 ov) No",
+      "bowling": [
+        {
+          "no": 1,
+          "name": "Akbar Khan Nasiri",
+          "overs": "1",
+          "maidens": 0,
+          "runs": 9,
+          "wickets": 0,
+          "dots": 3,
+          "fours": 0,
+          "sixes": 1,
+          "wides": 1,
+          "noballs": 0,
+          "eco": 9.0
+        },
+        {
+          "no": 2,
+          "name": "Attaullah Ibrahimkhel (c)",
+          "overs": "4",
+          "maidens": 0,
+          "runs": 17,
+          "wickets": 1,
+          "dots": 13,
+          "fours": 1,
+          "sixes": 0,
+          "wides": 0,
+          "noballs": 0,
+          "eco": 4.25
+        },
+        {
+          "no": 3,
+          "name": "Nasrat Zaheri",
+          "overs": "4",
+          "maidens": 0,
+          "runs": 21,
+          "wickets": 2,
+          "dots": 13,
+          "fours": 2,
+          "sixes": 0,
+          "wides": 1,
+          "noballs": 2,
+          "eco": 5.25
+        },
+        {
+          "no": 4,
+          "name": "Ahmadzai Samiullah",
+          "overs": "4",
+          "maidens": 0,
+          "runs": 32,
+          "wickets": 1,
+          "dots": 8,
+          "fours": 3,
+          "sixes": 0,
+          "wides": 2,
+          "noballs": 1,
+          "eco": 8.0
+        },
+        {
+          "no": 5,
+          "name": "Farooqshah Yousafzai",
+          "overs": "3",
+          "maidens": 0,
+          "runs": 24,
+          "wickets": 1,
+          "dots": 6,
+          "fours": 1,
+          "sixes": 1,
+          "wides": 4,
+          "noballs": 0,
+          "eco": 8.0
+        },
+        {
+          "no": 6,
+          "name": "Tawhidullah Babar",
+          "overs": "4",
+          "maidens": 1,
+          "runs": 11,
+          "wickets": 2,
+          "dots": 17,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 2,
+          "noballs": 0,
+          "eco": 2.75
+        }
+      ],
+      "innings": "1st"
+    },
+    {
+      "team": "Solothurn CC",
+      "score": "129/2",
+      "overs": "15.5",
+      "batting": [
+        {
+          "no": 1,
+          "name": "Salim Ibrahimi",
+          "hand": "RHB",
+          "status": "c Ibrahim Schinwari b Shafiq Sadik",
+          "runs": 32,
+          "balls": 38,
+          "minutes": 68,
+          "fours": 4,
+          "sixes": 1,
+          "sr": 84.21
+        },
+        {
+          "no": 2,
+          "name": "Samir Husainkhell",
+          "hand": "RHB",
+          "status": "c Abhikbrata Sarkar b Zayan Ahmed",
+          "runs": 8,
+          "balls": 9,
+          "minutes": 21,
+          "fours": 1,
+          "sixes": 0,
+          "sr": 88.89
+        },
+        {
+          "no": 3,
+          "name": "Nasrat Zaheri",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 76,
+          "balls": 43,
+          "minutes": 60,
+          "fours": 5,
+          "sixes": 7,
+          "sr": 176.74
+        },
+        {
+          "no": 4,
+          "name": "Attaullah Ibrahimkhel (c)",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 4,
+          "balls": 7,
+          "minutes": 13,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 57.14
+        }
+      ],
+      "extras": {
+        "wd": 6,
+        "b": 1,
+        "nb": 2,
+        "total": 9
+      },
+      "total": {
+        "overs": "15.5",
+        "wickets": 2,
+        "runs": 129,
+        "crr": 8.15
+      },
+      "fall_of_wickets": "16-1 (Samir Husainkhell, 3.3 ov), 91-2 (Salim Ibrahimi, 13 ov) No",
+      "bowling": [
+        {
+          "no": 1,
+          "name": "Nihanth Parcha",
+          "overs": "4",
+          "maidens": 0,
+          "runs": 32,
+          "wickets": 0,
+          "dots": 13,
+          "fours": 4,
+          "sixes": 1,
+          "wides": 1,
+          "noballs": 1,
+          "eco": 8.0
+        },
+        {
+          "no": 2,
+          "name": "Zayan Ahmed",
+          "overs": "3.5",
+          "maidens": 0,
+          "runs": 22,
+          "wickets": 1,
+          "dots": 15,
+          "fours": 0,
+          "sixes": 2,
+          "wides": 2,
+          "noballs": 0,
+          "eco": 5.74
+        },
+        {
+          "no": 3,
+          "name": "Salman K",
+          "overs": "3",
+          "maidens": 0,
+          "runs": 30,
+          "wickets": 0,
+          "dots": 9,
+          "fours": 2,
+          "sixes": 3,
+          "wides": 0,
+          "noballs": 0,
+          "eco": 10.0
+        },
+        {
+          "no": 4,
+          "name": "Abhikbrata Sarkar",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 14,
+          "wickets": 0,
+          "dots": 6,
+          "fours": 1,
+          "sixes": 0,
+          "wides": 3,
+          "noballs": 1,
+          "eco": 7.0
+        },
+        {
+          "no": 5,
+          "name": "Fairdoon Rostamkhil (c)",
+          "overs": "1",
+          "maidens": 0,
+          "runs": 15,
+          "wickets": 0,
+          "dots": 2,
+          "fours": 2,
+          "sixes": 1,
+          "wides": 0,
+          "noballs": 0,
+          "eco": 15.0
+        },
+        {
+          "no": 6,
+          "name": "Shafiq Sadik",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 15,
+          "wickets": 1,
+          "dots": 5,
+          "fours": 1,
+          "sixes": 1,
+          "wides": 0,
+          "noballs": 0,
+          "eco": 7.5
+        }
+      ],
+      "innings": "2nd"
+    }
+  ]
+}

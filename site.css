@@ -1,0 +1,98 @@
+:root {
+  --cs-red:    #CC0000;
+  --cs-white:  #ffffff;
+  --cs-dark:   #222222;
+  --cs-muted:  #666666;
+  --cs-teal:   #00b5ad;
+  --cs-bg:     #f4f4f4;
+  --cs-border: #eeeeee;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; background: var(--cs-bg); color: var(--cs-dark); line-height: 1.6; }
+a { color: var(--cs-red); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Header */
+.site-header { background: var(--cs-red); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,.2); }
+.site-header .inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; height: 60px; }
+.site-logo { color: var(--cs-white); font-size: 1.2rem; font-weight: 700; letter-spacing: 0.02em; }
+.site-logo:hover { text-decoration: none; color: var(--cs-white); }
+.site-nav { display: flex; gap: 4px; }
+.site-nav a { color: var(--cs-white); padding: 6px 14px; border-radius: 4px; font-size: 0.9rem; font-weight: 500; }
+.site-nav a:hover, .site-nav a.active { background: rgba(255,255,255,.15); text-decoration: none; }
+.hamburger { display: none; background: none; border: none; cursor: pointer; padding: 6px; color: var(--cs-white); font-size: 1.5rem; line-height: 1; }
+
+@media (max-width: 767px) {
+  .hamburger { display: block; }
+  .site-nav { display: none; position: absolute; top: 60px; left: 0; right: 0; background: var(--cs-red); flex-direction: column; padding: 8px 20px 16px; gap: 4px; box-shadow: 0 4px 8px rgba(0,0,0,.2); }
+  .nav-open .site-nav { display: flex; }
+}
+
+/* Layout */
+.page-content { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
+
+/* Hero */
+.hero { background: var(--cs-red); color: var(--cs-white); padding: 80px 20px; text-align: center; }
+.hero h1 { font-size: 2.4rem; font-weight: 700; margin-bottom: 16px; }
+.hero p { font-size: 1.1rem; max-width: 640px; margin: 0 auto 32px; opacity: 0.9; }
+.btn { display: inline-block; background: var(--cs-white); color: var(--cs-red); padding: 12px 28px; border-radius: 4px; font-weight: 700; font-size: 1rem; }
+.btn:hover { background: #f0f0f0; text-decoration: none; color: var(--cs-red); }
+
+/* Cards */
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; margin: 40px 0; }
+.card { background: var(--cs-white); border: 1px solid var(--cs-border); border-radius: 8px; padding: 28px 24px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 1px 4px rgba(0,0,0,.06); }
+.card h3 { font-size: 1.1rem; }
+.card p { color: var(--cs-muted); font-size: 0.9rem; flex: 1; }
+.card a { color: var(--cs-red); font-weight: 600; font-size: 0.9rem; }
+.card-icon { font-size: 2rem; }
+
+/* Links bar */
+.links-bar { background: var(--cs-white); border-top: 1px solid var(--cs-border); border-bottom: 1px solid var(--cs-border); padding: 16px 20px; }
+.links-bar .inner { max-width: 1100px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 24px; }
+.links-bar a { color: var(--cs-muted); font-size: 0.85rem; }
+.links-bar a:hover { color: var(--cs-red); text-decoration: none; }
+
+/* Page heading */
+.page-heading { margin-bottom: 32px; }
+.page-heading h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 8px; }
+.page-heading p { color: var(--cs-muted); font-size: 0.95rem; }
+
+/* Stats wrapper */
+.stats-wrapper { min-height: 400px; }
+cricket-stats { display: block; }
+
+/* Member grid */
+.region-section { margin-bottom: 40px; }
+.region-section h2 { font-size: 1rem; font-weight: 700; color: var(--cs-red); border-bottom: 2px solid var(--cs-red); padding-bottom: 8px; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 0.05em; }
+.club-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+.club-card { background: var(--cs-white); border: 1px solid var(--cs-border); border-radius: 6px; padding: 12px 16px; font-size: 0.9rem; font-weight: 500; display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.club-card a { color: var(--cs-red); font-size: 0.8rem; white-space: nowrap; }
+
+/* Contact */
+.contact-block { background: var(--cs-white); border: 1px solid var(--cs-border); border-radius: 8px; padding: 32px; max-width: 600px; margin-bottom: 32px; }
+.contact-block h2 { font-size: 1.2rem; margin-bottom: 16px; }
+.contact-email { font-size: 1.1rem; font-weight: 600; color: var(--cs-red); }
+.contact-note { margin-top: 12px; color: var(--cs-muted); font-size: 0.9rem; }
+.quick-links { background: var(--cs-white); border: 1px solid var(--cs-border); border-radius: 8px; padding: 24px 32px; max-width: 600px; margin-bottom: 24px; }
+.quick-links h3 { font-size: 1rem; margin-bottom: 12px; }
+.quick-links ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.affiliation-note { max-width: 600px; padding: 16px 20px; background: var(--cs-white); border: 1px solid var(--cs-border); border-radius: 8px; font-size: 0.85rem; color: var(--cs-muted); }
+
+/* Footer */
+.site-footer { background: var(--cs-dark); color: rgba(255,255,255,.7); padding: 40px 20px 24px; margin-top: 60px; }
+.site-footer .inner { max-width: 1100px; margin: 0 auto; }
+.footer-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 32px; margin-bottom: 32px; }
+.footer-col h4 { color: var(--cs-white); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 12px; }
+.footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+.footer-col li a { color: rgba(255,255,255,.6); font-size: 0.85rem; }
+.footer-col li a:hover { color: var(--cs-white); text-decoration: none; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,.1); padding-top: 20px; font-size: 0.8rem; color: rgba(255,255,255,.4); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+
+@media (max-width: 767px) {
+  .hero h1 { font-size: 1.7rem; }
+  .hero p { font-size: 1rem; }
+  .page-content { padding: 24px 16px; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .footer-bottom { flex-direction: column; }
+}

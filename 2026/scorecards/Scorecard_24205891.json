@@ -1,0 +1,280 @@
+{
+  "match": {
+    "tournament": "CRICKET SWITZERLAND WOMEN T10 LEAGUE 2026 (CSWL",
+    "date": "2026-05-09",
+    "time": "12:06 PM UTC",
+    "ground": "Birsfelden, Basel",
+    "team_1st": "CS Girls A1 Stars",
+    "score_1st": "62/5 (10.0 Ov)",
+    "team_2nd": "Embrach Thunder",
+    "score_2nd": "64/0 (8.3 Ov)",
+    "result": "Embrach Thunder won by 9 wickets"
+  },
+  "innings": [
+    {
+      "team": "CS Girls A1 Stars",
+      "score": "62/5",
+      "overs": "10.0",
+      "batting": [
+        {
+          "no": 1,
+          "name": "Naina Metty Saju (c)",
+          "hand": "RHB",
+          "status": "b Shamanthy kanesharatnam",
+          "runs": 12,
+          "balls": 23,
+          "minutes": 33,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 52.17
+        },
+        {
+          "no": 2,
+          "name": "Anusha Dasgupta",
+          "hand": "RHB",
+          "status": "run out Shamanthy kanesharatnam / Vidya Gorantla",
+          "runs": 7,
+          "balls": 19,
+          "minutes": 25,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 36.84
+        },
+        {
+          "no": 3,
+          "name": "Sreya Sreekumar",
+          "hand": "RHB",
+          "status": "b DITYA TAMMINENI",
+          "runs": 0,
+          "balls": 4,
+          "minutes": 3,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        },
+        {
+          "no": 4,
+          "name": "Arohi Jha (wk)",
+          "hand": "RHB",
+          "status": "run out Vidya Gorantla",
+          "runs": 2,
+          "balls": 2,
+          "minutes": 5,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 100.0
+        },
+        {
+          "no": 5,
+          "name": "Nadhika Ramesh",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 0,
+          "balls": 2,
+          "minutes": 6,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        },
+        {
+          "no": 6,
+          "name": "Sai Samveda Kottakota",
+          "hand": "RHB",
+          "status": "b Hasini Ramayanam",
+          "runs": 0,
+          "balls": 1,
+          "minutes": 1,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        },
+        {
+          "no": 7,
+          "name": "Swathi Ravula",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 0,
+          "balls": 1,
+          "minutes": 2,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        }
+      ],
+      "extras": {
+        "nb": 19,
+        "wd": 21,
+        "lb": 1,
+        "total": 41
+      },
+      "total": {
+        "overs": "10.0",
+        "wickets": 5,
+        "runs": 62,
+        "crr": 6.2
+      },
+      "fall_of_wickets": "44-1 (Naina Metty Saju, 7.2 ov), 55-2 (Sreya Sreekumar, 8.4 ov), 100-3 (Anusha Dasgupta, 9.2 ov), 101-4 (Arohi Jha, 9.4 ov), 102-5 (Sai Samveda Kottakota, 9.5 ov) No",
+      "bowling": [
+        {
+          "no": 1,
+          "name": "Hasini Ramayanam (c)",
+          "overs": "3",
+          "maidens": 0,
+          "runs": 15,
+          "wickets": 1,
+          "dots": 13,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 4,
+          "noballs": 2,
+          "eco": 5.0
+        },
+        {
+          "no": 2,
+          "name": "DITYA TAMMINENI",
+          "overs": "3",
+          "maidens": 0,
+          "runs": 21,
+          "wickets": 1,
+          "dots": 14,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 5,
+          "noballs": 3,
+          "eco": 7.0
+        },
+        {
+          "no": 3,
+          "name": "Shamanthy kanesharatnam",
+          "overs": "3",
+          "maidens": 0,
+          "runs": 13,
+          "wickets": 1,
+          "dots": 12,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 1,
+          "noballs": 2,
+          "eco": 4.33
+        },
+        {
+          "no": 4,
+          "name": "Shobana SRIKANTHAN",
+          "overs": "1",
+          "maidens": 0,
+          "runs": 12,
+          "wickets": 0,
+          "dots": 5,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 2,
+          "noballs": 3,
+          "eco": 12.0
+        }
+      ],
+      "innings": "1st"
+    },
+    {
+      "team": "Embrach Thunder",
+      "score": "64/0",
+      "overs": "8.3",
+      "batting": [
+        {
+          "no": 1,
+          "name": "Shamanthy kanesharatnam",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 18,
+          "balls": 21,
+          "minutes": 34,
+          "fours": 2,
+          "sixes": 0,
+          "sr": 85.71
+        },
+        {
+          "no": 2,
+          "name": "Shobana SRIKANTHAN",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 8,
+          "balls": 20,
+          "minutes": 34,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 40.0
+        }
+      ],
+      "extras": {
+        "wd": 22,
+        "nb": 16,
+        "total": 38
+      },
+      "total": {
+        "overs": "8.3",
+        "wickets": 0,
+        "runs": 64,
+        "crr": 7.53
+      },
+      "fall_of_wickets": "No",
+      "bowling": [
+        {
+          "no": 1,
+          "name": "Sreya Sreekumar",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 14,
+          "wickets": 0,
+          "dots": 5,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 5,
+          "noballs": 0,
+          "eco": 7.0
+        },
+        {
+          "no": 2,
+          "name": "Arohi Jha",
+          "overs": "3",
+          "maidens": 0,
+          "runs": 29,
+          "wickets": 0,
+          "dots": 5,
+          "fours": 2,
+          "sixes": 0,
+          "wides": 2,
+          "noballs": 6,
+          "eco": 9.67
+        },
+        {
+          "no": 3,
+          "name": "Naina Metty Saju (c)",
+          "overs": "2.3",
+          "maidens": 0,
+          "runs": 15,
+          "wickets": 0,
+          "dots": 7,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 3,
+          "noballs": 1,
+          "eco": 6.0
+        },
+        {
+          "no": 4,
+          "name": "Anusha Dasgupta",
+          "overs": "1",
+          "maidens": 0,
+          "runs": 6,
+          "wickets": 0,
+          "dots": 1,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 0,
+          "noballs": 1,
+          "eco": 6.0
+        }
+      ],
+      "innings": "2nd"
+    }
+  ]
+}

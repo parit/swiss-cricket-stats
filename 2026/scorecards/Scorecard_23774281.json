@@ -1,0 +1,406 @@
+{
+  "match": {
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-03",
+    "time": "10:15 AM UTC",
+    "ground": "Bout-du-monde, Geneva",
+    "team_1st": "Geneva International CC-2",
+    "score_1st": "88/10 (15.4 Ov)",
+    "team_2nd": "Geneva XI Stars",
+    "score_2nd": "90/3 (6.5 Ov)",
+    "result": "Geneva XI Stars won by 7 wickets"
+  },
+  "innings": [
+    {
+      "team": "Geneva International CC-2",
+      "score": "88/10",
+      "overs": "15.4",
+      "batting": [
+        {
+          "no": 1,
+          "name": "Mohsin Mushtaq (wk)",
+          "hand": "RHB",
+          "status": "c Jawad ali nasim b Saida Gol Rayhan",
+          "runs": 11,
+          "balls": 5,
+          "minutes": 18,
+          "fours": 1,
+          "sixes": 1,
+          "sr": 220.0
+        },
+        {
+          "no": 2,
+          "name": "Amjad Riaz",
+          "hand": "RHB",
+          "status": "c Asad Ali shah b Saida Gol Rayhan",
+          "runs": 5,
+          "balls": 6,
+          "minutes": 14,
+          "fours": 1,
+          "sixes": 0,
+          "sr": 83.33
+        },
+        {
+          "no": 3,
+          "name": "Syed Shehzad Ahmad (c)",
+          "hand": "RHB",
+          "status": "b Asad Ali shah",
+          "runs": 5,
+          "balls": 12,
+          "minutes": 16,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 41.67
+        },
+        {
+          "no": 4,
+          "name": "Zahid Mahmood",
+          "hand": "RHB",
+          "status": "b Ahsan Khan",
+          "runs": 27,
+          "balls": 23,
+          "minutes": 38,
+          "fours": 4,
+          "sixes": 0,
+          "sr": 117.39
+        },
+        {
+          "no": 5,
+          "name": "Saood Pervez",
+          "hand": "RHB",
+          "status": "lbw b Asad Ali shah",
+          "runs": 0,
+          "balls": 4,
+          "minutes": 3,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        },
+        {
+          "no": 6,
+          "name": "Pema Rinchen",
+          "hand": "RHB",
+          "status": "c&b Asad Ali shah",
+          "runs": 1,
+          "balls": 4,
+          "minutes": 5,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 25.0
+        },
+        {
+          "no": 7,
+          "name": "Quraishi Delawar",
+          "hand": "RHB",
+          "status": "c Zubair Khan b Javaid Khan",
+          "runs": 5,
+          "balls": 10,
+          "minutes": 9,
+          "fours": 1,
+          "sixes": 0,
+          "sr": 50.0
+        },
+        {
+          "no": 8,
+          "name": "Malakzada Sharif",
+          "hand": "RHB",
+          "status": "c Abdul waheed Zazai b Javaid Khan",
+          "runs": 0,
+          "balls": 2,
+          "minutes": 1,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        },
+        {
+          "no": 9,
+          "name": "Lakshya Arora",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 19,
+          "balls": 25,
+          "minutes": 20,
+          "fours": 2,
+          "sixes": 0,
+          "sr": 76.0
+        },
+        {
+          "no": 10,
+          "name": "Safi Fahimullah GICC",
+          "hand": "RHB",
+          "status": "c Saida Gol Rayhan b Ahsan Khan",
+          "runs": 3,
+          "balls": 4,
+          "minutes": 10,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 75.0
+        },
+        {
+          "no": 11,
+          "name": "Abdul Sattar (SM)",
+          "hand": "RHB",
+          "status": "run out Abdul waheed Zazai",
+          "runs": 0,
+          "balls": 0,
+          "minutes": 7,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        }
+      ],
+      "extras": {
+        "wd": 11,
+        "nb": 1,
+        "total": 12
+      },
+      "total": {
+        "overs": "15.4",
+        "wickets": 10,
+        "runs": 88,
+        "crr": 5.62
+      },
+      "fall_of_wickets": "10-1 (Amjad Riaz, 1.2 ov), 17-2 (Mohsin Mushtaq, 2 ov), 34-3 (Syed Shehzad Ahmad, 5.2 ov), 34-4 (Saood Pervez, 6 ov), 42-5 (Pema Rinchen, 7.5 ov), 58-6 (Quraishi Delawar, 10.3 ov), 58-7 (Malakzada Sharif, 10.5 ov), 59-8 (Zahid Mahmood, 11.1 ov), 73-9 (Safi Fahimullah GICC, 14 ov), 88-10 (Abdul Sattar (SM), 15.4 ov) No",
+      "bowling": [
+        {
+          "no": 1,
+          "name": "Shafiullah",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 13,
+          "wickets": 0,
+          "dots": 5,
+          "fours": 2,
+          "sixes": 0,
+          "wides": 0,
+          "noballs": 0,
+          "eco": 6.5
+        },
+        {
+          "no": 2,
+          "name": "Saida Gol Rayhan",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 17,
+          "wickets": 2,
+          "dots": 6,
+          "fours": 2,
+          "sixes": 1,
+          "wides": 0,
+          "noballs": 0,
+          "eco": 8.5
+        },
+        {
+          "no": 3,
+          "name": "Yahya Babar",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 7,
+          "wickets": 0,
+          "dots": 8,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 2,
+          "noballs": 0,
+          "eco": 3.5
+        },
+        {
+          "no": 4,
+          "name": "Asad Ali shah",
+          "overs": "3",
+          "maidens": 1,
+          "runs": 6,
+          "wickets": 3,
+          "dots": 15,
+          "fours": 1,
+          "sixes": 0,
+          "wides": 0,
+          "noballs": 0,
+          "eco": 2.0
+        },
+        {
+          "no": 5,
+          "name": "Javaid Khan",
+          "overs": "3",
+          "maidens": 0,
+          "runs": 22,
+          "wickets": 2,
+          "dots": 9,
+          "fours": 3,
+          "sixes": 0,
+          "wides": 3,
+          "noballs": 0,
+          "eco": 7.33
+        },
+        {
+          "no": 6,
+          "name": "Ahsan Khan",
+          "overs": "2.4",
+          "maidens": 0,
+          "runs": 16,
+          "wickets": 2,
+          "dots": 10,
+          "fours": 1,
+          "sixes": 0,
+          "wides": 3,
+          "noballs": 1,
+          "eco": 6.0
+        },
+        {
+          "no": 7,
+          "name": "Zubair Khan",
+          "overs": "1",
+          "maidens": 0,
+          "runs": 7,
+          "wickets": 0,
+          "dots": 3,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 1,
+          "noballs": 0,
+          "eco": 7.0
+        }
+      ],
+      "innings": "1st"
+    },
+    {
+      "team": "Geneva XI Stars",
+      "score": "90/3",
+      "overs": "6.5",
+      "batting": [
+        {
+          "no": 1,
+          "name": "Zubair Khan",
+          "hand": "RHB",
+          "status": "b Safi Fahimullah GICC",
+          "runs": 34,
+          "balls": 13,
+          "minutes": 12,
+          "fours": 2,
+          "sixes": 4,
+          "sr": 261.54
+        },
+        {
+          "no": 2,
+          "name": "Jawad ali nasim",
+          "hand": "RHB",
+          "status": "c Pema Rinchen b Safi Fahimullah GICC",
+          "runs": 8,
+          "balls": 11,
+          "minutes": 21,
+          "fours": 1,
+          "sixes": 0,
+          "sr": 72.73
+        },
+        {
+          "no": 3,
+          "name": "Naeem Muhammad (c)",
+          "hand": "RHB",
+          "status": "c Syed Shehzad Ahmad b Quraishi Delawar",
+          "runs": 0,
+          "balls": 3,
+          "minutes": 4,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        },
+        {
+          "no": 4,
+          "name": "Shahjehan Homayun Sherzai",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 12,
+          "balls": 6,
+          "minutes": 14,
+          "fours": 3,
+          "sixes": 0,
+          "sr": 200.0
+        },
+        {
+          "no": 5,
+          "name": "Saida Gol Rayhan",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 16,
+          "balls": 9,
+          "minutes": 10,
+          "fours": 2,
+          "sixes": 1,
+          "sr": 177.78
+        }
+      ],
+      "extras": {
+        "wd": 15,
+        "nb": 1,
+        "b": 4,
+        "total": 20
+      },
+      "total": {
+        "overs": "6.5",
+        "wickets": 3,
+        "runs": 90,
+        "crr": 13.17
+      },
+      "fall_of_wickets": "43-1 (Zubair Khan, 3 ov), 46-2 (Naeem Muhammad, 3.5 ov), 46-3 (Jawad ali nasim, 4.4 ov) No",
+      "bowling": [
+        {
+          "no": 1,
+          "name": "Abdul Sattar (SM)",
+          "overs": "1",
+          "maidens": 0,
+          "runs": 23,
+          "wickets": 0,
+          "dots": 1,
+          "fours": 2,
+          "sixes": 2,
+          "wides": 1,
+          "noballs": 0,
+          "eco": 23.0
+        },
+        {
+          "no": 2,
+          "name": "Lakshya Arora",
+          "overs": "1",
+          "maidens": 0,
+          "runs": 17,
+          "wickets": 0,
+          "dots": 2,
+          "fours": 1,
+          "sixes": 2,
+          "wides": 0,
+          "noballs": 0,
+          "eco": 17.0
+        },
+        {
+          "no": 3,
+          "name": "Safi Fahimullah GICC",
+          "overs": "2.5",
+          "maidens": 0,
+          "runs": 25,
+          "wickets": 2,
+          "dots": 9,
+          "fours": 3,
+          "sixes": 1,
+          "wides": 2,
+          "noballs": 0,
+          "eco": 8.82
+        },
+        {
+          "no": 4,
+          "name": "Quraishi Delawar",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 21,
+          "wickets": 1,
+          "dots": 8,
+          "fours": 2,
+          "sixes": 0,
+          "wides": 5,
+          "noballs": 1,
+          "eco": 10.5
+        }
+      ],
+      "innings": "2nd"
+    }
+  ]
+}

@@ -1,0 +1,430 @@
+{
+  "match": {
+    "tournament": "CRICKETER PRO T20 COMPETITION (DIVISION 2)-2026",
+    "date": "2026-05-10",
+    "time": "12:49 PM UTC",
+    "ground": "Hedingen, Zurich",
+    "team_1st": "Solothurn CC",
+    "score_1st": "153/10 (17.5 Ov)",
+    "team_2nd": "Zug Cricket Club",
+    "score_2nd": "56/5 (10.0 Ov)",
+    "result": "Solothurn CC won by 30 runs DLS method \u2014 match reduced to 10.0 o"
+  },
+  "innings": [
+    {
+      "team": "Solothurn CC",
+      "score": "153/10",
+      "overs": "17.5",
+      "batting": [
+        {
+          "no": 1,
+          "name": "Salim Ibrahimi",
+          "hand": "RHB",
+          "status": "c Shan Srinivasan b Thangavadivel Nareshkuma",
+          "runs": 20,
+          "balls": 16,
+          "minutes": 23,
+          "fours": 3,
+          "sixes": 0,
+          "sr": 125.0
+        },
+        {
+          "no": 2,
+          "name": "Samir Husainkhell (wk)",
+          "hand": "RHB",
+          "status": "run out Mohamed Irshad Abdul Samad / \u2020 Lasanga Gayan Mendis Hettihandi Kaluhewa",
+          "runs": 1,
+          "balls": 1,
+          "minutes": 15,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 100.0
+        },
+        {
+          "no": 3,
+          "name": "Nasrat Zaheri",
+          "hand": "RHB",
+          "status": "c \u2020Lasanga Gayan Mendis Hettihandi Kaluhewa b Shan Srinivasan",
+          "runs": 79,
+          "balls": 44,
+          "minutes": 57,
+          "fours": 4,
+          "sixes": 8,
+          "sr": 179.55
+        },
+        {
+          "no": 4,
+          "name": "Attaullah Ibrahimkhel (c)",
+          "hand": "RHB",
+          "status": "c Thangavadivel Nareshkuma b Nilan Walgamuwage",
+          "runs": 9,
+          "balls": 23,
+          "minutes": 22,
+          "fours": 0,
+          "sixes": 1,
+          "sr": 39.13
+        },
+        {
+          "no": 5,
+          "name": "Aminullah Safi",
+          "hand": "RHB",
+          "status": "b Nirojan Manikkavasakar",
+          "runs": 14,
+          "balls": 6,
+          "minutes": 8,
+          "fours": 0,
+          "sixes": 2,
+          "sr": 233.33
+        },
+        {
+          "no": 6,
+          "name": "Wahidullah Sartoor",
+          "hand": "RHB",
+          "status": "lbw b Nirojan Manikkavasakar",
+          "runs": 0,
+          "balls": 3,
+          "minutes": 2,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        },
+        {
+          "no": 7,
+          "name": "Ahmadzai Samiullah",
+          "hand": "RHB",
+          "status": "c Lasanga Gayan Mendis Hettihandi Kaluhewa b Nirojan Manikkavasakar",
+          "runs": 16,
+          "balls": 14,
+          "minutes": 23,
+          "fours": 0,
+          "sixes": 1,
+          "sr": 114.29
+        },
+        {
+          "no": 8,
+          "name": "Tawhidullah Babar",
+          "hand": "RHB",
+          "status": "c Nirojan Manikkavasakar b Amal Fonseka",
+          "runs": 1,
+          "balls": 3,
+          "minutes": 4,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 33.33
+        },
+        {
+          "no": 9,
+          "name": "Farooqshah Yousafzai",
+          "hand": "RHB",
+          "status": "run out Nirojan Manikkavasakar",
+          "runs": 0,
+          "balls": 0,
+          "minutes": 1,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        },
+        {
+          "no": 10,
+          "name": "Hamza Schinwari",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 0,
+          "balls": 1,
+          "minutes": 4,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        },
+        {
+          "no": 11,
+          "name": "Malik Muhammad",
+          "hand": "RHB",
+          "status": "run out Chamith Karannagodage / \u2020 Lasanga Gayan Mendis Hettihandi Kaluhewa",
+          "runs": 0,
+          "balls": 1,
+          "minutes": 2,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        }
+      ],
+      "extras": {
+        "wd": 7,
+        "nb": 5,
+        "lb": 1,
+        "total": 13
+      },
+      "total": {
+        "overs": "17.5",
+        "wickets": 10,
+        "runs": 153,
+        "crr": 8.58
+      },
+      "fall_of_wickets": "18-1 (Samir Husainkhell, 2 ov), 34-2 (Salim Ibrahimi, 4 ov), 75-3 (Attaullah Ibrahimkhel, 9.5 ov), 95-4 (Aminullah Safi, 11.2 ov), 95-5 (Wahidullah Sartoor, 11.5 ov), 141-6 (Nasrat Zaheri, 16 ov), 150-7 (Tawhidullah Babar, 17 ov), 150-8 (Farooqshah Yousafzai, 17.1 ov), 152-9 (Ahmadzai Samiullah, 17.3 ov), 153-10 (Malik Muhammad, 17.5 ov) No",
+      "bowling": [
+        {
+          "no": 1,
+          "name": "Mohamed Irshad Abdul Samad",
+          "overs": "3",
+          "maidens": 0,
+          "runs": 26,
+          "wickets": 0,
+          "dots": 3,
+          "fours": 3,
+          "sixes": 0,
+          "wides": 0,
+          "noballs": 0,
+          "eco": 8.67
+        },
+        {
+          "no": 2,
+          "name": "Nirojan Manikkavasakar",
+          "overs": "2.5",
+          "maidens": 0,
+          "runs": 10,
+          "wickets": 3,
+          "dots": 13,
+          "fours": 1,
+          "sixes": 0,
+          "wides": 0,
+          "noballs": 2,
+          "eco": 3.53
+        },
+        {
+          "no": 3,
+          "name": "Thangavadivel Nareshkuma",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 25,
+          "wickets": 1,
+          "dots": 6,
+          "fours": 2,
+          "sixes": 2,
+          "wides": 1,
+          "noballs": 1,
+          "eco": 12.5
+        },
+        {
+          "no": 4,
+          "name": "Shan Srinivasan",
+          "overs": "4",
+          "maidens": 0,
+          "runs": 13,
+          "wickets": 1,
+          "dots": 17,
+          "fours": 0,
+          "sixes": 0,
+          "wides": 3,
+          "noballs": 2,
+          "eco": 3.25
+        },
+        {
+          "no": 5,
+          "name": "Amal Fonseka",
+          "overs": "3",
+          "maidens": 0,
+          "runs": 32,
+          "wickets": 1,
+          "dots": 8,
+          "fours": 0,
+          "sixes": 4,
+          "wides": 2,
+          "noballs": 0,
+          "eco": 10.67
+        },
+        {
+          "no": 6,
+          "name": "Nilan Walgamuwage",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 28,
+          "wickets": 1,
+          "dots": 4,
+          "fours": 0,
+          "sixes": 4,
+          "wides": 0,
+          "noballs": 0,
+          "eco": 14.0
+        },
+        {
+          "no": 7,
+          "name": "Chamith Karannagodage (c)",
+          "overs": "1",
+          "maidens": 0,
+          "runs": 18,
+          "wickets": 0,
+          "dots": 2,
+          "fours": 1,
+          "sixes": 2,
+          "wides": 0,
+          "noballs": 0,
+          "eco": 18.0
+        }
+      ],
+      "innings": "1st"
+    },
+    {
+      "team": "Zug Cricket Club",
+      "score": "56/5",
+      "overs": "10.0",
+      "batting": [
+        {
+          "no": 1,
+          "name": "Chamith Karannagodage (c)",
+          "hand": "RHB",
+          "status": "c Farooqshah Yousafzai b Nasrat Zaheri",
+          "runs": 7,
+          "balls": 11,
+          "minutes": 17,
+          "fours": 1,
+          "sixes": 0,
+          "sr": 63.64
+        },
+        {
+          "no": 2,
+          "name": "Lasanga Gayan Mendis Hettihandi Kaluhewa (wk)",
+          "hand": "RHB",
+          "status": "b Ahmadzai Samiullah",
+          "runs": 16,
+          "balls": 14,
+          "minutes": 35,
+          "fours": 3,
+          "sixes": 0,
+          "sr": 114.29
+        },
+        {
+          "no": 3,
+          "name": "Akhil",
+          "hand": "RHB",
+          "status": "c Hamza Schinwari b Nasrat Zaheri",
+          "runs": 0,
+          "balls": 1,
+          "minutes": 1,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 0.0
+        },
+        {
+          "no": 4,
+          "name": "Nilan Walgamuwage",
+          "hand": "RHB",
+          "status": "c Tawhidullah Babar b Farooqshah Yousafzai",
+          "runs": 6,
+          "balls": 10,
+          "minutes": 10,
+          "fours": 1,
+          "sixes": 0,
+          "sr": 60.0
+        },
+        {
+          "no": 5,
+          "name": "Amal Fonseka",
+          "hand": "LHB",
+          "status": "not out",
+          "runs": 9,
+          "balls": 17,
+          "minutes": 42,
+          "fours": 1,
+          "sixes": 0,
+          "sr": 52.94
+        },
+        {
+          "no": 6,
+          "name": "Nirojan Manikkavasakar",
+          "hand": "RHB",
+          "status": "run out Tawhidullah Babar",
+          "runs": 4,
+          "balls": 5,
+          "minutes": 8,
+          "fours": 1,
+          "sixes": 0,
+          "sr": 80.0
+        },
+        {
+          "no": 7,
+          "name": "Gautham Baskaran",
+          "hand": "RHB",
+          "status": "not out",
+          "runs": 3,
+          "balls": 3,
+          "minutes": 27,
+          "fours": 0,
+          "sixes": 0,
+          "sr": 100.0
+        }
+      ],
+      "extras": {
+        "wd": 10,
+        "nb": 1,
+        "total": 11
+      },
+      "total": {
+        "overs": "10.0",
+        "wickets": 5,
+        "runs": 56,
+        "crr": 5.6
+      },
+      "fall_of_wickets": "24-1 (Chamith Karannagodage, 3.1 ov), 24-2 (Akhil, 3.2 ov), 32-3 (Nilan Walgamuwage, 5.4 ov), 40-4 (Lasanga Gayan Mendis Hettihandi Kaluhewa, 6.5 ov), 47-5 (Nirojan Manikkavasakar, 8.5 ov) No",
+      "bowling": [
+        {
+          "no": 1,
+          "name": "Attaullah Ibrahimkhel (c)",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 14,
+          "wickets": 0,
+          "dots": 7,
+          "fours": 2,
+          "sixes": 0,
+          "wides": 2,
+          "noballs": 0,
+          "eco": 7.0
+        },
+        {
+          "no": 2,
+          "name": "Nasrat Zaheri",
+          "overs": "2",
+          "maidens": 0,
+          "runs": 12,
+          "wickets": 2,
+          "dots": 8,
+          "fours": 2,
+          "sixes": 0,
+          "wides": 1,
+          "noballs": 0,
+          "eco": 6.0
+        },
+        {
+          "no": 3,
+          "name": "Ahmadzai Samiullah",
+          "overs": "3",
+          "maidens": 0,
+          "runs": 12,
+          "wickets": 1,
+          "dots": 13,
+          "fours": 1,
+          "sixes": 0,
+          "wides": 4,
+          "noballs": 0,
+          "eco": 4.0
+        },
+        {
+          "no": 4,
+          "name": "Farooqshah Yousafzai",
+          "overs": "3",
+          "maidens": 0,
+          "runs": 18,
+          "wickets": 1,
+          "dots": 11,
+          "fours": 2,
+          "sixes": 0,
+          "wides": 3,
+          "noballs": 1,
+          "eco": 6.0
+        }
+      ],
+      "innings": "2nd"
+    }
+  ]
+}
