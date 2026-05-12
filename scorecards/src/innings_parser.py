@@ -47,7 +47,6 @@ def parse_innings(pdf_path: str) -> list[dict]:
                     "team": m.group(1).strip(),
                     "score": m.group(2),
                     "overs": m.group(3),
-                    "innings": m.group(4),
                     "batting": [],
                     "extras": {},
                     "total": {},
@@ -185,6 +184,8 @@ def parse_innings(pdf_path: str) -> list[dict]:
             i += 1
 
         if innings:
+            _ordinals = ["1st", "2nd", "3rd", "4th"]
+            innings["innings"] = _ordinals[len(innings_list)] if len(innings_list) < 4 else f"{len(innings_list)+1}th"
             innings_list.append(innings)
 
     return innings_list
