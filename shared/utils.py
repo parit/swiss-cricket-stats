@@ -7,7 +7,7 @@ _NOISE = re.compile(r"\b(competitions|cup)\b", re.IGNORECASE)
 _CORRECTIONS_PATH = Path(__file__).parent / "corrections.json"
 _VENUES_PATH = Path(__file__).parent.parent / "data" / "venues.tsv"
 _corrections: dict[str, str] | None = None
-_venues: dict[str, tuple[str, str]] | None = None  # lower_name → (ground, city)
+_venues: dict[str, tuple[str, str, str]] | None = None  # lower_name → (ground, city, map_url)
 
 
 def _load_corrections() -> dict[str, str]:
@@ -23,7 +23,7 @@ def apply_corrections(text: str) -> str:
     return text
 
 
-def _load_venues() -> dict[str, tuple[str, str]]:
+def _load_venues() -> dict[str, tuple[str, str, str]]:
     global _venues
     if _venues is None:
         _venues = {}
@@ -31,9 +31,20 @@ def _load_venues() -> dict[str, tuple[str, str]]:
             for line in _VENUES_PATH.read_text().splitlines()[1:]:
                 parts = line.split('\t')
                 if len(parts) >= 2 and parts[0].strip():
-                    ground, city = parts[0].strip(), parts[1].strip()
-                    _venues[ground.lower()] = (ground, city)
+                    ground   = parts[0].strip()
+                    city     = parts[1].strip()
+                    map_url  = parts[2].strip() if len(parts) >= 3 else ''
+                    _venues[ground.lower()] = (ground, city, map_url)
     return _venues
+
+
+def venue_map_urls() -> dict[str, str]:
+    """Return mapping of canonical 'Ground, City' → Google Maps URL for venues that have one."""
+    return {
+        f"{g}, {c}": url
+        for g, c, url in _load_venues().values()
+        if url
+    }
 
 
 def normalize_ground(raw: str) -> str:

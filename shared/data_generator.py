@@ -9,7 +9,7 @@ ROOT = Path(__file__).parent.parent
 import sys
 sys.path.insert(0, str(ROOT / "shared"))
 from utils import (normalize_tournament, normalize_pt_team, title_to_folder,
-                   load_team_ids, load_tournament_abbreviations)
+                   load_team_ids, load_tournament_abbreviations, venue_map_urls)
 
 _ABBREV_PATH = ROOT / "data" / "tournament_abbreviations.tsv"
 _TEAMS_TSV   = ROOT / "data" / "teams.tsv"
@@ -87,6 +87,7 @@ def generate_data_json(pt_manifest: list, sc_manifest: dict, out_dir: str) -> st
         "generated":   str(date.today()),
         "tournaments": tournaments,
         "teams":       teams,
+        "venues":      venue_map_urls(),
     }
 
     out_path = Path(out_dir) / "data.json"

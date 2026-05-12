@@ -62,6 +62,8 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
 .cs-team-btn:hover { color: var(--cs-accent); border-bottom-color: var(--cs-accent); }
 .cs-venue-btn { background: none; border: none; padding: 0; cursor: pointer; color: inherit; font-size: inherit; font-family: inherit; border-bottom: 1px dotted var(--cs-muted); text-align: left; }
 .cs-venue-btn:hover { color: var(--cs-accent); border-bottom-color: var(--cs-accent); }
+.cs-map-link { font-size: 0.75rem; font-weight: 400; color: var(--cs-accent); text-decoration: none; margin-left: 10px; vertical-align: middle; white-space: nowrap; }
+.cs-map-link:hover { text-decoration: underline; }
 
 .tourn-pill { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.72rem; font-weight: 600; color: #fff; white-space: nowrap; letter-spacing: 0.02em; border: none; cursor: pointer; font-family: inherit; }
 .tourn-pill:hover { opacity: 0.85; }
@@ -430,11 +432,15 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
 
       const backBtn = this._backBtn();
       const sc = this._renderSC(allPast, allUpcoming, true);
+      const mapUrl = this._data.venues?.[name];
+      const mapLink = mapUrl
+        ? ` <a class="cs-map-link" href="${mapUrl}" target="_blank" rel="noopener">&#x1F4CD; Map</a>`
+        : '';
 
       return `
     <div class="view-header">
       ${backBtn}
-      <h2>${name}</h2>
+      <h2>${name}${mapLink}</h2>
     </div>
     <div class="view-tabs">
       <div class="tabs"><button class="tab-btn active" data-tab="sc">Matches</button></div>
@@ -578,7 +584,8 @@ td.neg { color: var(--cs-neg); font-weight: bold; }
 
     _venueBtn(name) {
       if (!name) return '';
-      return `<button class="cs-venue-btn" data-cs-venue="${name}">${name}</button>`;
+      const label = name.split(',')[0].trim();
+      return `<button class="cs-venue-btn" data-cs-venue="${name}">${label}</button>`;
     }
 
     _fmtDate(str) {
